@@ -1,5 +1,7 @@
 Autor = Reimchen
 
+<img src="https://www.tacticalteam.de/sites/default/files/logo4.png">
+
 Die Mission wurde überwiegend von Reimchen entwickelt und erbaut.
 Den nutzen dieser Mission ist dem [TTT - Tactical Training Team](http://tacticalteam.de) primär vorbestimmt.
 
