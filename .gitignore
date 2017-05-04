@@ -27,3 +27,12 @@
 *.exe
 *.out
 *.app
+
+
+# Packed mission files
+*.pbo
+*.ogg
+# Image files
+*.jpg
+*.png
+*.paa
