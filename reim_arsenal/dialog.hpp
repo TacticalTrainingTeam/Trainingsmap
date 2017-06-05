@@ -95,21 +95,21 @@ class reim_arsenal {
 			w = 0.082496 * safezoneW;
 			h = 0.351926 * safezoneH;
 		};
-		class reim_combo_1: ReimRscCombo
+		class reim_combo_1: ReimRscListBox
 		{
 			idc = LISTBOX_SIDE_ID;
 			x = 0.324696 * safezoneW + safezoneX;
 			y = 0.379025 * safezoneH + safezoneY;
 			w = 0.082496 * safezoneW;
-			h = 0.0219954 * safezoneH;
+			h = 0.351926 * safezoneH;
 		};
-		class reim_combo_2: ReimRscCombo
+		class reim_combo_2: ReimRscListBox
 		{
 			idc = LISTBOX_FACTION_ID;
 			x = 0.458752 * safezoneW + safezoneX;
 			y = 0.379025 * safezoneH + safezoneY;
 			w = 0.082496 * safezoneW;
-			h = 0.0219954 * safezoneH;
+			h = 0.351926 * safezoneH;
 		};
 		class reim_text_3: ReimRscText
 		{
