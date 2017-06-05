@@ -2,9 +2,10 @@
 	author = Reimchen
 	description = n.a.
 */
+#include "const.hpp"
 
 class reim_arsenal {
-	idd = 5100;
+	idd = DIALOG_ARSENAL_ID;
 	movingenable = false;
 	onload = "[] spawn {execVM 'reim_arsenal\r_init.sqf';};";
 	
@@ -88,7 +89,7 @@ class reim_arsenal {
 		};
 		class reim_list_2: ReimRscListBox
 		{
-			idc = 5109;
+			idc = LISTBOX_CLASS_ID;
 			x = 0.592808 * safezoneW + safezoneX;
 			y = 0.379026 * safezoneH + safezoneY;
 			w = 0.082496 * safezoneW;
@@ -96,7 +97,7 @@ class reim_arsenal {
 		};
 		class reim_combo_1: ReimRscCombo
 		{
-			idc = 5110;
+			idc = LISTBOX_SIDE_ID;
 			x = 0.324696 * safezoneW + safezoneX;
 			y = 0.379025 * safezoneH + safezoneY;
 			w = 0.082496 * safezoneW;
@@ -104,7 +105,7 @@ class reim_arsenal {
 		};
 		class reim_combo_2: ReimRscCombo
 		{
-			idc = 5111;
+			idc = LISTBOX_FACTION_ID;
 			x = 0.458752 * safezoneW + safezoneX;
 			y = 0.379025 * safezoneH + safezoneY;
 			w = 0.082496 * safezoneW;

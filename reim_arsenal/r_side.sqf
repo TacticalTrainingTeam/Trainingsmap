@@ -2,22 +2,15 @@
 	author = Reimchen
 	description = Fraktionen hinzufügen
 */
+#include "const.hpp"
 
-_selectedIndex = lbCurSel 5110;
-_combo = (findDisplay 5100) displayCtrl 5111;
-
-if (_selectedIndex == 0) exitWith {
-	reim_arsenal_blu = true;
-	reim_arsenal_rus = false;
-	lbClear 5111;
-	lbClear 5109;
-	_combo lbAdd "TTT-BW";
-	_combo lbAdd "TTT-US";
-};
-if (_selectedIndex == 1) exitWith {
-	reim_arsenal_rus = true;
-	reim_arsenal_blu = false;
-	lbClear 5111;
-	lbClear 5109;
-	_combo lbAdd "TTT-RUS";
-};
+private _selectedIndex = lbCurSel LISTBOX_SIDE_ID;
+private _combo = (findDisplay DIALOG_ARSENAL_ID) displayCtrl LISTBOX_FACTION_ID;
+// save selection
+missionNamespace setVariable [SIDE_VAR, SIDE_ARRAY select _selectedIndex];
+// add factions
+lbClear LISTBOX_FACTION_ID;
+lbClear LISTBOX_CLASS_ID;
+{
+    _combo lbAdd _x;
+} forEach (FACTION_ARRAY select _selectedIndex);

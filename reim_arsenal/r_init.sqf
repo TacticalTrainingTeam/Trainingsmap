@@ -2,12 +2,16 @@
 	author = Reimchen
 	description = Seiten hinzufügen
 */
+#include "const.hpp"
 
 disableSerialization;
 
-_display = findDisplay 5100;
-
-_combo = _display displayCtrl 5110;
-
+private _display = findDisplay DIALOG_ARSENAL_ID;
+// add sides
+private _combo = _display displayCtrl LISTBOX_SIDE_ID;
 _combo lbAdd "BLUFOR";
-//_combo lbAdd "OPFOR";
+/*
+{
+    _combo lbAdd str _x;
+} forEach SIDE_ARRAY
+*/
