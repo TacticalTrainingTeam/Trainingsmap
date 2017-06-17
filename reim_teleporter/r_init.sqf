@@ -22,3 +22,6 @@ _listBox lbAdd "TTT-Spawner Luft";
 _listBox lbAdd "Uebungsplatz";
 
 _listBox lbSetColor [0, [1,1,1,1]];
+
+// add event handler for double click
+_listBox ctrlSetEventHandler ["LBDblClick", "[] spawn {execVM 'reim_teleporter\r_action.sqf';};"];
