@@ -67,6 +67,11 @@ private _actionPlaceholder =
 // Spawn Meldung
 [] spawn {
 	if (hasInterface) then {
-        hintsilent "Bist du zum ersten mal hier und brauchst Hilfe? Dann gehe zum Laptop, der vor dir auf den Tisch steht und starte das Tutorial mithilfe des Mausrad.";
+        if !(395180 in (getDLCs 1)) then {
+            hint parseText "<t size=2 color='#FF0000'>APEX nicht vorhanden!</t><br/>Willkommen auf der Trainingsmap des Tactical Training Team. Um bei uns mitzuspielen benötigst du APEX.<br/><br/>Für weitere Information besuche unsere Homepage: www.tacitalteam.de.";
+            playSound3D ["A3\Sounds_F\sfx\alarm.wss", player];
+        } else {
+            hintsilent "Bist du zum ersten mal hier und brauchst Hilfe? Dann gehe zum Laptop, der vor dir auf den Tisch steht und starte das Tutorial mithilfe des Mausrad.";
+        }
     };
 };
