@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={14196.495,44.598259,16242.8};
-		dir[]={0,-0.70710677,0.70710683};
-		up[]={0,0.70710677,0.70710671};
-		aside[]={0.99999994,0,-0};
+		pos[]={14146.543,43.223511,16316.108};
+		dir[]={0.58673871,-0.57705224,-0.5681138};
+		up[]={0.41456541,0.81670666,-0.4014059};
+		aside[]={-0.69561327,4.5343768e-008,-0.71841866};
 	};
 };
 binarizationWanted=0;
@@ -519,7 +519,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category2
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -750,7 +750,7 @@ class CustomAttributes
 		};
 		nAttributes=11;
 	};
-	class Category1
+	class Category3
 	{
 		name="Scenario";
 		class Attribute0
@@ -777,6 +777,7 @@ class CustomAttributes
 };
 class Mission
 {
+	appId=395180;
 	class Intel
 	{
 		resistanceWest=0;
@@ -2716,7 +2717,6 @@ class Mission
 				angles[]={0,2.9829373,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -2724,7 +2724,7 @@ class Mission
 			};
 			id=164;
 			type="Land_Bandage_F";
-			atlOffset=0.0024585724;
+			atlOffset=0.71010971;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2860,7 +2860,6 @@ class Mission
 				angles[]={0,2.9191453,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -2868,7 +2867,7 @@ class Mission
 			};
 			id=168;
 			type="Land_Bandage_F";
-			atlOffset=0.0024585724;
+			atlOffset=0.71010971;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -2902,7 +2901,6 @@ class Mission
 				angles[]={0,3.4547477,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -2910,7 +2908,7 @@ class Mission
 			};
 			id=169;
 			type="Land_Bandage_F";
-			atlOffset=0.0024585724;
+			atlOffset=0.71010971;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3005,6 +3003,7 @@ class Mission
 				angles[]={0,3.9783742,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -3012,7 +3011,7 @@ class Mission
 			};
 			id=172;
 			type="Land_Bandage_F";
-			atlOffset=0.043905258;
+			atlOffset=0.022001266;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3087,6 +3086,7 @@ class Mission
 				angles[]={0,3.280828,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -3094,7 +3094,7 @@ class Mission
 			};
 			id=174;
 			type="Land_Bandage_F";
-			atlOffset=0.043905258;
+			atlOffset=0.022001266;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3128,7 +3128,6 @@ class Mission
 				angles[]={0,2.2853911,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -3136,7 +3135,7 @@ class Mission
 			};
 			id=175;
 			type="Land_Bandage_F";
-			atlOffset=0.0024585724;
+			atlOffset=0.71010971;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3170,7 +3169,6 @@ class Mission
 				angles[]={0,2.2215991,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -3178,7 +3176,7 @@ class Mission
 			};
 			id=176;
 			type="Land_Bandage_F";
-			atlOffset=0.0024585724;
+			atlOffset=0.71010971;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -3212,7 +3210,6 @@ class Mission
 				angles[]={0,2.7572014,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				createAsSimpleObject=1;
@@ -3220,7 +3217,7 @@ class Mission
 			};
 			id=177;
 			type="Land_Bandage_F";
-			atlOffset=0.0024585724;
+			atlOffset=0.71010971;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15658,6 +15655,7 @@ class Mission
 			};
 			id=944;
 			type="O_APC_Wheeled_02_rcws_F";
+			atlOffset=0.0019283295;
 			class CustomAttributes
 			{
 				class Attribute0
