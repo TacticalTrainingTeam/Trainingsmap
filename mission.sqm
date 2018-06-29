@@ -817,7 +817,7 @@ class Mission
 				name="flag_sammelplatz";
 			};
 			id=11;
-			type="TTT_Flagge_Logo";
+			type="TTT_Flag_Logo";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -876,7 +876,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=15;
-			type="TTT_Notizschild_Gelb";
+			type="TTT_Sign_Small_Yellow";
 			atlOffset=5.9127808e-005;
 			class CustomAttributes
 			{
@@ -936,7 +936,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=16;
-			type="TTT_Notizschild_Grau";
+			type="TTT_Sign_Small_Grey";
 			atlOffset=0.00011253357;
 			class CustomAttributes
 			{
@@ -996,7 +996,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=17;
-			type="TTT_Notizschild_Gold";
+			type="TTT_Sign_Small_Gold";
 			atlOffset=8.7738037e-005;
 			class CustomAttributes
 			{
@@ -1056,7 +1056,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=18;
-			type="TTT_Notizschild_Gruen";
+			type="TTT_Sign_Small_Green";
 			atlOffset=8.7738037e-005;
 			class CustomAttributes
 			{
@@ -1116,7 +1116,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=19;
-			type="TTT_Notizschild_Braun";
+			type="TTT_Sign_Small_Brown";
 			atlOffset=8.7738037e-005;
 			class CustomAttributes
 			{
@@ -1176,7 +1176,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=20;
-			type="TTT_Notizschild_Schwarz";
+			type="TTT_Sign_Small_Black";
 			atlOffset=0.0011310577;
 			class CustomAttributes
 			{
@@ -1236,7 +1236,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=21;
-			type="TTT_Notizschild_Blau";
+			type="TTT_Sign_Small_Blue";
 			atlOffset=0.0025463104;
 			class CustomAttributes
 			{
@@ -1296,7 +1296,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=22;
-			type="TTT_Notizschild_Rot";
+			type="TTT_Sign_Small_Red";
 			atlOffset=0.0041751862;
 			class CustomAttributes
 			{
@@ -1356,7 +1356,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=23;
-			type="TTT_Notizschild_Violett";
+			type="TTT_Sign_Small_Violet";
 			atlOffset=-7.6293945e-005;
 			class CustomAttributes
 			{
@@ -1416,7 +1416,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=24;
-			type="TTT_Notizschild_Weiss";
+			type="TTT_Sign_Small_White";
 			atlOffset=7.6293945e-005;
 			class CustomAttributes
 			{
@@ -1476,7 +1476,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=25;
-			type="TTT_Notizschild_Platin";
+			type="TTT_Sign_Small_Platinum";
 			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
@@ -1536,7 +1536,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=26;
-			type="TTT_Notizschild_Silber";
+			type="TTT_Sign_Small_Silver";
 			atlOffset=7.8201294e-005;
 			class CustomAttributes
 			{
@@ -1596,7 +1596,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=27;
-			type="TTT_Notizschild_Bronze";
+			type="TTT_Sign_Small_Bronze";
 			atlOffset=7.8201294e-005;
 			class CustomAttributes
 			{
@@ -11710,7 +11710,7 @@ class Mission
 				name="flag_showcase_oben";
 			};
 			id=701;
-			type="TTT_Flagge_Logo";
+			type="TTT_Flag_Logo";
 			atlOffset=0.011001587;
 			class CustomAttributes
 			{
@@ -11770,7 +11770,7 @@ class Mission
 				name="flag_showcase_unten";
 			};
 			id=702;
-			type="TTT_Flagge_Logo";
+			type="TTT_Flag_Logo";
 			atlOffset=-0.0029997826;
 			class CustomAttributes
 			{
@@ -12828,7 +12828,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=810;
-			type="TTT_Tafel_6_Stack";
+			type="TTT_Panel_Stack_6";
 			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
@@ -12888,7 +12888,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=811;
-			type="TTT_Tafel_6_Kolonne";
+			type="TTT_Panel_Column_6";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12947,7 +12947,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=812;
-			type="TTT_Tafel_6_Kette";
+			type="TTT_Panel_Cain_6";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13006,7 +13006,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=813;
-			type="TTT_Tafel_6_360Sicherung";
+			type="TTT_Panel_Protection_360_6";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13065,7 +13065,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=814;
-			type="TTT_Tafel_6_180Sicherung";
+			type="TTT_Panel_Protection_180_6";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13124,7 +13124,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=815;
-			type="TTT_Tafel_4_180Sicherung";
+			type="TTT_Panel_Protection_180_4";
 			atlOffset=-1.9073486e-006;
 			class CustomAttributes
 			{
@@ -13184,7 +13184,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=816;
-			type="TTT_Tafel_4_360Sicherung";
+			type="TTT_Panel_Protection_360_4";
 			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
@@ -13244,7 +13244,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=817;
-			type="TTT_Tafel_4_Kolonne";
+			type="TTT_Panel_Column_4";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -13303,7 +13303,7 @@ class Mission
 				disableSimulation=1;
 			};
 			id=818;
-			type="TTT_Tafel_Zug_Kolonne";
+			type="TTT_Panel_Column_Zug";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -24506,7 +24506,7 @@ class Mission
 				name="flag_uebungsplatz";
 			};
 			id=1539;
-			type="TTT_Flagge_Logo";
+			type="TTT_Flag_Logo";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -25745,7 +25745,7 @@ class Mission
 				name="flag_medizinischerbereich";
 			};
 			id=1682;
-			type="TTT_Flagge_Weiss";
+			type="TTT_Flag_White";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -28928,7 +28928,7 @@ class Mission
 				fuel=0;
 			};
 			id=1907;
-			type="TTT_Oplfahrzeug_Us_Desert";
+			type="TTT_LUV_COM_US_Desert";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -29635,7 +29635,7 @@ class Mission
 				name="flag_ttt_boden";
 			};
 			id=1922;
-			type="TTT_Flagge_Logo";
+			type="TTT_Flag_Logo";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -29693,7 +29693,7 @@ class Mission
 				name="flag_ttt_luft";
 			};
 			id=1923;
-			type="TTT_Flagge_Logo";
+			type="TTT_Flag_Logo";
 			atlOffset=0.0020008087;
 			class CustomAttributes
 			{
@@ -32076,7 +32076,7 @@ class Mission
 						name="ai_c_1";
 					};
 					id=787;
-					type="TTT_Blau1_Bw_Flecktarn";
+					type="TTT_Blue_1_BW_Flecktarn";
 					atlOffset=0.084344864;
 					class CustomAttributes
 					{
@@ -32194,7 +32194,7 @@ class Mission
 						name="ai_c_2";
 					};
 					id=790;
-					type="TTT_Blau1_Bw_Tropentarn";
+					type="TTT_Blue_1_BW_Tropentarn";
 					atlOffset=0.077163696;
 					class CustomAttributes
 					{
@@ -36119,7 +36119,7 @@ class Mission
 				name="flag_cqb";
 			};
 			id=2247;
-			type="TTT_Flagge_Logo";
+			type="TTT_Flag_Logo";
 			atlOffset=-0.0090007782;
 			class CustomAttributes
 			{
@@ -39464,7 +39464,7 @@ class Mission
 				name="flag_moerserplatz";
 			};
 			id=2340;
-			type="TTT_Flagge_Logo";
+			type="TTT_Flag_Logo";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -39523,7 +39523,7 @@ class Mission
 				name="flag_panzerplatz";
 			};
 			id=2341;
-			type="TTT_Flagge_Bronze";
+			type="TTT_Flag_Bronze";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -39582,7 +39582,7 @@ class Mission
 				name="flag_pionierplatz";
 			};
 			id=2342;
-			type="TTT_Flagge_Blau";
+			type="TTT_Flag_Blue";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -39641,7 +39641,7 @@ class Mission
 				name="flag_luftfahrgelaende";
 			};
 			id=2343;
-			type="TTT_Flagge_Platin";
+			type="TTT_Flag_Platinum";
 			class CustomAttributes
 			{
 				class Attribute0
@@ -54274,7 +54274,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4020;
-					type="TTT_Gruen1_Bw_Flecktarn";
+					type="TTT_Green_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -54336,7 +54336,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4021;
-					type="TTT_Gruen2_Bw_Flecktarn";
+					type="TTT_Green_2_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -54398,7 +54398,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4022;
-					type="TTT_Gruen3_Bw_Flecktarn";
+					type="TTT_Green_3_BW_Flecktarn";
 					atlOffset=0.00061416626;
 					class CustomAttributes
 					{
@@ -54474,7 +54474,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4024;
-					type="TTT_Schwarz1_Bw_Flecktarn";
+					type="TTT_Black_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -54536,7 +54536,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4025;
-					type="TTT_Schwarz2_Bw_Flecktarn";
+					type="TTT_Black_2_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -54598,7 +54598,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4026;
-					type="TTT_Schwarz3_Bw_Flecktarn";
+					type="TTT_Black_3_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -54659,7 +54659,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4027;
-					type="TTT_Schwarz4_Bw_Flecktarn";
+					type="TTT_Black_4_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -54721,7 +54721,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4028;
-					type="TTT_Schwarz5_Bw_Flecktarn";
+					type="TTT_Black_5_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -54782,7 +54782,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4029;
-					type="TTT_Schwarz6_Bw_Flecktarn";
+					type="TTT_Black_6_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -54857,7 +54857,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4031;
-					type="TTT_Blau1_Bw_Flecktarn";
+					type="TTT_Blue_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -54919,7 +54919,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4032;
-					type="TTT_Blau2_Bw_Flecktarn";
+					type="TTT_Blue_2_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -54981,7 +54981,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4033;
-					type="TTT_Blau3_Bw_Flecktarn";
+					type="TTT_Blue_3_BW_Flecktarn";
 					atlOffset=3.8146973e-006;
 					class CustomAttributes
 					{
@@ -55043,7 +55043,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4034;
-					type="TTT_Blau4_Bw_Flecktarn";
+					type="TTT_Blue_4_BW_Flecktarn";
 					atlOffset=0.0061759949;
 					class CustomAttributes
 					{
@@ -55106,7 +55106,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4035;
-					type="TTT_Blau5_Bw_Flecktarn";
+					type="TTT_Blue_5_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55167,7 +55167,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4036;
-					type="TTT_Blau6_Bw_Flecktarn";
+					type="TTT_Blue_6_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55242,7 +55242,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4038;
-					type="TTT_Rot1_Bw_Flecktarn";
+					type="TTT_Red_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55304,7 +55304,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4039;
-					type="TTT_Rot2_Bw_Flecktarn";
+					type="TTT_Red_2_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55366,7 +55366,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4040;
-					type="TTT_Rot3_Bw_Flecktarn";
+					type="TTT_Red_3_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55427,7 +55427,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4041;
-					type="TTT_Rot4_Bw_Flecktarn";
+					type="TTT_Red_4_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55489,7 +55489,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4042;
-					type="TTT_Rot5_Bw_Flecktarn";
+					type="TTT_Red_5_BW_Flecktarn";
 					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
@@ -55551,7 +55551,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4043;
-					type="TTT_Rot6_Bw_Flecktarn";
+					type="TTT_Red_6_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55626,7 +55626,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4045;
-					type="TTT_Braun1_Bw_Flecktarn";
+					type="TTT_Brown_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55688,7 +55688,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4046;
-					type="TTT_Braun2_Bw_Flecktarn";
+					type="TTT_Brown_2_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55750,7 +55750,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4047;
-					type="TTT_Braun3_Bw_Flecktarn";
+					type="TTT_Brown_3_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55825,7 +55825,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4049;
-					type="TTT_Violett1_Bw_Flecktarn";
+					type="TTT_Violet_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55906,7 +55906,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4050;
-					type="TTT_Violett2_Bw_Flecktarn";
+					type="TTT_Violet_2_BW_Flecktarn";
 					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
@@ -55969,7 +55969,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4051;
-					type="TTT_Violett3_Bw_Flecktarn";
+					type="TTT_Violet_3_BW_Flecktarn";
 					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
@@ -56031,7 +56031,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4052;
-					type="TTT_Violett4_Bw_Flecktarn";
+					type="TTT_Violet_4_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56093,7 +56093,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4053;
-					type="TTT_Violett5_Bw_Flecktarn";
+					type="TTT_Violet_5_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56154,7 +56154,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4054;
-					type="TTT_Violett6_Bw_Flecktarn";
+					type="TTT_Violet_6_BW_Flecktarn";
 					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
@@ -56230,7 +56230,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4056;
-					type="TTT_Gold1_Bw_Flecktarn";
+					type="TTT_Gold_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56292,7 +56292,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4057;
-					type="TTT_Gold2_Bw_Flecktarn";
+					type="TTT_Gold_2_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56354,7 +56354,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4058;
-					type="TTT_Gold3_Bw_Flecktarn";
+					type="TTT_Gold_3_BW_Flecktarn";
 					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
@@ -56416,7 +56416,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4059;
-					type="TTT_Gold4_Bw_Flecktarn";
+					type="TTT_Gold_4_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56478,7 +56478,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4060;
-					type="TTT_Gold5_Bw_Flecktarn";
+					type="TTT_Gold_5_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56539,7 +56539,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4061;
-					type="TTT_Gold6_Bw_Flecktarn";
+					type="TTT_Gold_6_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56614,7 +56614,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4063;
-					type="TTT_Grau1_Bw_Flecktarn";
+					type="TTT_Grey_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56676,7 +56676,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4064;
-					type="TTT_Grau2_Bw_Flecktarn";
+					type="TTT_Grey_2_BW_Flecktarn";
 					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
@@ -56739,7 +56739,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4065;
-					type="TTT_Grau3_Bw_Flecktarn";
+					type="TTT_Grey_3_BW_Flecktarn";
 					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
@@ -56801,7 +56801,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4066;
-					type="TTT_Grau4_Bw_Flecktarn";
+					type="TTT_Grey_4_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56863,7 +56863,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4067;
-					type="TTT_Grau5_Bw_Flecktarn";
+					type="TTT_Grey_5_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56924,7 +56924,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4068;
-					type="TTT_Grau6_Bw_Flecktarn";
+					type="TTT_Grey_6_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57000,7 +57000,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4070;
-					type="TTT_Gelb1_Bw_Flecktarn";
+					type="TTT_Yellow_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57081,7 +57081,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4071;
-					type="TTT_Gelb2_Bw_Flecktarn";
+					type="TTT_Yellow_2_BW_Flecktarn";
 					atlOffset=3.8146973e-006;
 					class CustomAttributes
 					{
@@ -57144,7 +57144,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4072;
-					type="TTT_Gelb3_Bw_Flecktarn";
+					type="TTT_Yellow_3_BW_Flecktarn";
 					atlOffset=0.0025024414;
 					class CustomAttributes
 					{
@@ -57220,7 +57220,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4074;
-					type="TTT_Weiss1_Bw_Flecktarn";
+					type="TTT_White_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57282,7 +57282,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4075;
-					type="TTT_Weiss2_Bw_Flecktarn";
+					type="TTT_White_2_BW_Flecktarn";
 					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
@@ -57345,7 +57345,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4076;
-					type="TTT_Weiss3_Bw_Flecktarn";
+					type="TTT_White_3_BW_Flecktarn";
 					atlOffset=1.9073486e-006;
 					class CustomAttributes
 					{
@@ -57407,7 +57407,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4077;
-					type="TTT_Weiss4_Bw_Flecktarn";
+					type="TTT_White_4_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57482,7 +57482,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4079;
-					type="TTT_Platin1_Bw_Flecktarn";
+					type="TTT_Platinum_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57544,7 +57544,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4080;
-					type="TTT_Platin2_Bw_Flecktarn";
+					type="TTT_Platinum_2_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57619,7 +57619,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4082;
-					type="TTT_Silber1_Bw_Flecktarn";
+					type="TTT_Silver_1_BW_Flecktarn";
 					atlOffset=0.00037956238;
 					class CustomAttributes
 					{
@@ -57682,7 +57682,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4083;
-					type="TTT_Silber2_Bw_Flecktarn";
+					type="TTT_Silver_2_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57744,7 +57744,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4084;
-					type="TTT_Silber3_Bw_Flecktarn";
+					type="TTT_Silver_3_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57805,7 +57805,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4085;
-					type="TTT_Silber4_Bw_Flecktarn";
+					type="TTT_Silver_4_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57867,7 +57867,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4086;
-					type="TTT_Silber5_Bw_Flecktarn";
+					type="TTT_Silver_5_BW_Flecktarn";
 					atlOffset=-1.9073486e-006;
 					class CustomAttributes
 					{
@@ -57929,7 +57929,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4087;
-					type="TTT_Silber6_Bw_Flecktarn";
+					type="TTT_Silver_6_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58005,7 +58005,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4089;
-					type="TTT_Bronze1_Bw_Flecktarn";
+					type="TTT_Bronze_1_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58067,7 +58067,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4090;
-					type="TTT_Bronze2_Bw_Flecktarn";
+					type="TTT_Bronze_2_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58129,7 +58129,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4091;
-					type="TTT_Bronze3_Bw_Flecktarn";
+					type="TTT_Bronze_3_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58190,7 +58190,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4092;
-					type="TTT_Bronze4_Bw_Flecktarn";
+					type="TTT_Bronze_4_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58252,7 +58252,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4093;
-					type="TTT_Bronze5_Bw_Flecktarn";
+					type="TTT_Bronze_5_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58313,7 +58313,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4094;
-					type="TTT_Bronze6_Bw_Flecktarn";
+					type="TTT_Bronze_6_BW_Flecktarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58387,7 +58387,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4096;
-					type="TTT_Gelb1_Bw_Tropentarn";
+					type="TTT_Yellow_1_BW_Tropentarn";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58467,7 +58467,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4097;
-					type="TTT_Gelb1_Bw_Tropentarn";
+					type="TTT_Yellow_1_BW_Tropentarn";
 					atlOffset=0.001203537;
 					class CustomAttributes
 					{
@@ -58548,7 +58548,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4098;
-					type="TTT_Gelb1_Bw_Tropentarn";
+					type="TTT_Yellow_1_BW_Tropentarn";
 					atlOffset=0.001789093;
 					class CustomAttributes
 					{
@@ -58629,7 +58629,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4099;
-					type="TTT_Gelb1_Bw_Tropentarn";
+					type="TTT_Yellow_1_BW_Tropentarn";
 					atlOffset=0.0015449524;
 					class CustomAttributes
 					{
@@ -58710,7 +58710,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4100;
-					type="TTT_Gelb1_Bw_Tropentarn";
+					type="TTT_Yellow_1_BW_Tropentarn";
 					atlOffset=0.0052509308;
 					class CustomAttributes
 					{
@@ -58791,7 +58791,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4101;
-					type="TTT_Gelb1_Bw_Tropentarn";
+					type="TTT_Yellow_1_BW_Tropentarn";
 					atlOffset=0.0061340332;
 					class CustomAttributes
 					{
@@ -58872,7 +58872,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4102;
-					type="TTT_Gelb1_Bw_Tropentarn";
+					type="TTT_Yellow_1_BW_Tropentarn";
 					atlOffset=0.017940521;
 					class CustomAttributes
 					{
@@ -58953,7 +58953,7 @@ class Mission
 						isPlayable=1;
 					};
 					id=4103;
-					type="TTT_Gelb1_Bw_Tropentarn";
+					type="TTT_Yellow_1_BW_Tropentarn";
 					atlOffset=0.027267456;
 					class CustomAttributes
 					{
