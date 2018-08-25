@@ -34,7 +34,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "BWA3_optic_ZO4x30";
                 // special
                 player addItem "BWA3_optic_NSA80";
-                player addBackpack "TTT_Backpack_Soldier_AT_BW_Flecktarn";
+                ////player addBackpack "TTT_Backpack_Soldier_AT_BW_Flecktarn";
                 [player, "BWA3_Pzf3", 1] call BIS_fnc_addWeapon;
                 player addWeapon "Binocular";
                 // handgun
@@ -50,7 +50,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "rhsusf_acc_anpeq15";
                 player addPrimaryWeaponItem "rhsusf_acc_ACOG3_USMC";
                 // special
-                player addBackpack "TTT_Backpack_Soldier_AT_US_Desert";
+                ////player addBackpack "TTT_Backpack_Soldier_AT_US_Desert";
                 [player, "rhs_weap_M136", 1] call BIS_fnc_addWeapon;
                 player addWeapon "ACE_Yardage450";
                 // handgun
@@ -70,7 +70,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "BWA3_optic_ZO4x30";
                 // special
                 player addItem "ACE_microDAGR";
-                player addBackpack "TTT_Backpack_Operator_Radio_BW_Flecktarn";
+                //player addBackpack "TTT_Backpack_Operator_Radio_BW_Flecktarn";
                 player addItemToBackpack "Laserbatteries";
                 player addWeapon "Laserdesignator";
                 // handgun
@@ -87,7 +87,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "rhsusf_acc_ACOG3";
                 // special
                 player addItem "ACE_microDAGR";
-                player addBackpack "TTT_Backpack_Operator_Radio_US_Desert";
+                //player addBackpack "TTT_Backpack_Operator_Radio_US_Desert";
                 player addItemToBackpack "Laserbatteries";
                 player addWeapon "Laserdesignator";
                 // handung
@@ -106,7 +106,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "BWA3_acc_LLM01_irlaser";
                 player addPrimaryWeaponItem "BWA3_optic_ZO4x30";
                 // special
-                player addBackpack "TTT_Backpack_Medic_Combat_BW_Flecktarn";
+                //player addBackpack "TTT_Backpack_Medic_Combat_BW_Flecktarn";
                 player addWeapon "Binocular";
                 player setVariable ["ace_medical_medicClass", 1, true];
                 // handgun
@@ -122,7 +122,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "rhsusf_acc_anpeq15";
                 player addPrimaryWeaponItem "rhsusf_acc_ACOG3_USMC";
                 // special
-                player addBackpack "TTT_Backpack_Medic_Combat_US_Desert";
+                //player addBackpack "TTT_Backpack_Medic_Combat_US_Desert";
                 player addWeapon "Binocular";
                 player setVariable ["ace_medical_medicClass", 1, true];
                 // handgun
@@ -141,7 +141,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "BWA3_acc_LLM01_irlaser";
                 player addPrimaryWeaponItem "BWA3_optic_ZO4x30";
                 // special
-                player addBackpack "TTT_Backpack_Grenadier_Bw_Flecktarn";
+                //player addBackpack "TTT_Backpack_Grenadier_Bw_Flecktarn";
                 player addWeapon "Binocular";
                 // handgun
                 for "_i" from 1 to 2 do {player addItem "11Rnd_45ACP_Mag";};
@@ -156,7 +156,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "rhsusf_acc_anpeq15";
                 player addPrimaryWeaponItem "rhsusf_acc_ACOG3";
                 // special
-                player addBackpack "TTT_Backpack_Grenadier_Us_Desert";
+                //player addBackpack "TTT_Backpack_Grenadier_Us_Desert";
                 player addWeapon "Binocular";
                 // handgun
                 for "_i" from 1 to 2 do {player addItem "rhsusf_mag_7x45acp_MHP";};
@@ -168,7 +168,7 @@ switch (_selectedClass) do {
         switch (_faction) do {
             case FACTION_BW : {
                 // special
-                player addBackpack "TTT_Backpack_Soldier_BW_Flecktarn";
+                //player addBackpack "TTT_Backpack_Soldier_BW_Flecktarn";
                 player addWeapon "Binocular";
                 // primary
                 player addItem "BWA3_optic_NSV600";
@@ -183,7 +183,7 @@ switch (_selectedClass) do {
             };
             case FACTION_US : {
                 // special
-                player addBackpack "TTT_Backpack_Soldier_US_Desert";
+                //player addBackpack "TTT_Backpack_Soldier_US_Desert";
                 player addItem "rhsusf_200Rnd_556x45_soft_pouch";
                 player addWeapon "Binocular";
                 // primary
@@ -206,7 +206,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "BWA3_acc_LLM01_irlaser";
                 player addPrimaryWeaponItem "BWA3_optic_ZO4x30";
                 // special
-                player addBackpack "TTT_Backpack_Assistant_MG_BW_Flecktarn";
+                //player addBackpack "TTT_Backpack_Assistant_MG_BW_Flecktarn";
                 player addWeapon "ACE_Yardage450";
                 // handgun
                 for "_i" from 1 to 2 do {player addItem "11Rnd_45ACP_Mag";};
@@ -221,7 +221,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "rhsusf_acc_anpeq15";
                 player addPrimaryWeaponItem "rhsusf_acc_ACOG3_USMC";
                 // special
-                player addBackpack "TTT_Backpack_Assistant_MG_US_Desert";
+                //player addBackpack "TTT_Backpack_Assistant_MG_US_Desert";
                 player addWeapon "ACE_Yardage450";
                 // handgun
                 for "_i" from 1 to 2 do {player addItem "rhsusf_mag_7x45acp_MHP";};
@@ -233,7 +233,7 @@ switch (_selectedClass) do {
         switch (_faction) do {
             case FACTION_BW : {
                 // special
-                player addBackpack "TTT_Backpack_Soldier_MG_BW_Flecktarn";
+                //player addBackpack "TTT_Backpack_Soldier_MG_BW_Flecktarn";
                 player addWeapon "Binocular";
                 // primary
                 player addItem "BWA3_optic_NSV600";
@@ -249,7 +249,7 @@ switch (_selectedClass) do {
             case FACTION_US : {
                 // special
                 player addItem "rhsusf_100Rnd_762x51_m80a1epr";
-                player addBackpack "TTT_Backpack_Soldier_MG_US_Desert";
+                //player addBackpack "TTT_Backpack_Soldier_MG_US_Desert";
                 player addWeapon "Binocular";
                 // primary
                 player addItem "rhsusf_acc_eotech_552";
@@ -271,7 +271,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "BWA3_acc_LLM01_irlaser";
                 player addPrimaryWeaponItem "BWA3_optic_ZO4x30";
                 // special
-                player addBackpack "TTT_Backpack_Pioneer_BW_Flecktarn";
+                //player addBackpack "TTT_Backpack_Pioneer_BW_Flecktarn";
                 player addWeapon "Binocular";
                 player setVariable ["ACE_isEOD", true, true];
                 // handgun
@@ -287,7 +287,7 @@ switch (_selectedClass) do {
                 player addPrimaryWeaponItem "rhsusf_acc_anpeq15";
                 player addPrimaryWeaponItem "rhsusf_acc_ACOG3_USMC";
                 // special
-                player addBackpack "TTT_Backpack_Pioneer_US_Desert";
+                //player addBackpack "TTT_Backpack_Pioneer_US_Desert";
                 player addWeapon "Binocular";
                 player setVariable ["ACE_isEOD", true, true];
                 // handgun
@@ -307,7 +307,7 @@ switch (_selectedClass) do {
                 player addItem "ACE_Kestrel4500";
                 player addItem "ACE_ATragMX";
                 player addItem "ACE_RangeCard";
-                player addBackpack "TTT_Backpack_Soldier_BW_Flecktarn";
+                //player addBackpack "TTT_Backpack_Soldier_BW_Flecktarn";
                 player addWeapon "ACE_Vector";
                 // handgun
                 for "_i" from 1 to 2 do {player addItem "11Rnd_45ACP_Mag";};
@@ -323,7 +323,7 @@ switch (_selectedClass) do {
                 player addItem "ACE_Kestrel4500";
                 player addItem "ACE_ATragMX";
                 player addItem "ACE_RangeCard";
-                player addBackpack "TTT_Backpack_Soldier_US_Desert";
+                //player addBackpack "TTT_Backpack_Soldier_US_Desert";
                 player addWeapon "ACE_Vector";
                 // handgun
                 for "_i" from 1 to 2 do {player addItem "rhsusf_mag_7x45acp_MHP";};
@@ -348,7 +348,7 @@ switch (_selectedClass) do {
                 for "_i" from 1 to 3 do {player addItem "ACE_CableTie";};
                 player addItem "ACE_microDAGR";
                 player addItem "ACE_RangeCard";
-                player addBackpack "TTT_Backpack_Soldier_BW_Flecktarn";
+                //player addBackpack "TTT_Backpack_Soldier_BW_Flecktarn";
                 player addWeapon "ACE_Vector";
                 // handgun
                 for "_i" from 1 to 2 do {player addItem "11Rnd_45ACP_Mag";};
@@ -369,7 +369,7 @@ switch (_selectedClass) do {
                 for "_i" from 1 to 3 do {player addItem "ACE_CableTie";};
                 player addItem "ACE_microDAGR";
                 player addItem "ACE_RangeCard";
-                player addBackpack "TTT_Backpack_Soldier_US_Desert";
+                //player addBackpack "TTT_Backpack_Soldier_US_Desert";
                 player addWeapon "ACE_Vector";
                 // handgun
                 for "_i" from 1 to 2 do {player addItem "rhsusf_mag_7x45acp_MHP";};
@@ -389,7 +389,7 @@ switch (_selectedClass) do {
                 // special
                 for "_i" from 1 to 3 do {player addItem "ACE_CableTie";};
                 player addItem "ACE_microDAGR";
-                player addBackpack "TTT_Backpack_Teamleader_BW_Flecktarn";
+                //player addBackpack "TTT_Backpack_Teamleader_BW_Flecktarn";
                 player addWeapon "ACE_Yardage450";
                 // handgun
                 for "_i" from 1 to 2 do {player addItem "11Rnd_45ACP_Mag";};
@@ -406,7 +406,7 @@ switch (_selectedClass) do {
                 // special
                 for "_i" from 1 to 3 do {player addItem "ACE_CableTie";};
                 player addItem "ACE_microDAGR";
-                player addBackpack "TTT_Backpack_Teamleader_US_Desert";
+                //player addBackpack "TTT_Backpack_Teamleader_US_Desert";
                 player addWeapon "ACE_Yardage450";
                 // handgun
                 for "_i" from 1 to 2 do {player addItem "rhsusf_mag_7x45acp_MHP";};

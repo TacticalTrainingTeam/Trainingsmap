@@ -75,3 +75,21 @@ private _actionPlaceholder =
         }
     };
 };
+
+//
+laptopHangar_1 addAction ["180°Sicherung(4)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_4_180sicherung_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["360°Sicherung(4)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_4_360sicherung_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Keil(4)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_4_keil_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Kette(4)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_4_kette_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Kolonne(4)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_4_kolonne_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Stack(4)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_4_stack_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["180°Sicherung(6)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_6_180sicherung_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["360°Sicherung(6)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_6_360sicherung_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Kette(6)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_6_kette_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Kolonne(6)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_6_kolonne_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Stack(6)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_6_stack_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Keil(8)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_8_keil_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Kette(8)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_8_kette_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Kolonne(8)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_8_kolonne_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Zug Kolonne",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_zug_kolonne_co.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Zug Kolonne(Weit)",{boardHangar_1 setObjectTextureGlobal [0, "\ttt_a3\ttt_signs\data\ttt_tafel_weit_zug_kolonne_co.paa"];},[],1,false,true,"","",5];
