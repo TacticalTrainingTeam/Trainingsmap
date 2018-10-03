@@ -19,10 +19,11 @@ class CfgFunctions {
 #include "reim_text\CfgFunctions.hpp"
 
 #include "spec_fullheal\CfgFunctions.hpp"
+#include "spec_medic\CfgFunctions.hpp"
 #include "spec_mortar\CfgFunctions.hpp"
 #include "spec_tfar\CfgFunctions.hpp"
 #include "spec_zeus\CfgFunctions.hpp"
-#include "spec_medic\CfgFunctions.hpp"
+#include "spec_zeusUtility\CfgFunctions.hpp"
 #include "target_range\CfgFunctions.hpp"
 
 #include "W_Teleporter\CfgFunctions.hpp"
