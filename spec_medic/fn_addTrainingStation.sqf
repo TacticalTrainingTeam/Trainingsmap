@@ -26,7 +26,9 @@ if(hasInterface) then {
     [_object,0,["ACE_MainActions","medic_dummy_crate"]] call ace_interact_menu_fnc_removeActionFromObject;
     private _actionSpawnMedicCrate = ["medic_dummy_crate", "Spawne Medic-Kiste", "", {
         params ["_target", "_caller"];
-        private _crate = "TTT_Logistik_Medic_Us" createVehicle getPosASL _caller;
+        //private _crate = "ACE_medicalSupplyCrate_advanced" createVehicle getPosASL _caller;
+        private _crate = "ACE_medicalSupplyCrate_advanced" createVehicle [0,0,0];
+        _crate setPosATL (getPosATL medic_spawn);
         private _actionDeleteCrate = ["crate_delete", "Lösche Kiste", "", {
             params ["_target", "_caller"];
             deleteVehicle _target;

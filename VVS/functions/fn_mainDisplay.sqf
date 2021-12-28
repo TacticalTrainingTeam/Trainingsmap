@@ -38,7 +38,7 @@ if(_mode == "All") then
 	{
 		lbAdd[38102,_x];
 		lbSetData[38102,(lbSize 38102)-1,_x];
-	} foreach ["All","Car","Air","Ship","Submarine","Armored","Autonomous","Support"];
+	} foreach ["All","Car","Air","Ship","Armored","Autonomous","Support"];
 	
 	lbSetCurSel[38102,0];
 }

@@ -4,27 +4,33 @@
 #define LANDVEHICLE 3
 #define MINEFIELD 4
 
-params ["_object", ["_isLargeArea",false,[true]], ["_targetMarker","",[""]], "_multipleTargetMarker" ];
+#define ALL_ACTIONS 0
+#define MINEFIELD_ACTIONS 1
+#define VEHICLE_MINE_ACTIONS 2
 
-// assign as eod and give them equipment
-_object addAction ["Zum Pionier machen",
-{
-    params ["_target", "_caller"];
-    _caller setVariable ["ACE_isEOD", true];
-    removeBackpack _caller;
-    _caller addBackpack "TTT_Backpack_Pionier_Bw_Flecktarn";
-},[],1.3,false,true,"","",5];
+params ["_object", "_action_type", "_targetMarker", "_multipleTargetMarker"];
 
 // add action to select type of area
-private _typeOfAreas = [
-    ["Mines", MINES],
-    ["Charges", CHARGES],
-    ["IEDs", IEDS]
-];
+private _typeOfAreas = [];
 
-// if we have a large are we can spawn a vehicle or minefield
-if(_isLargeArea) then {
+// if we have a large area we can spawn a vehicle or minefield
+
+if(_action_type == ALL_ACTIONS or _action_type == VEHICLE_MINE_ACTIONS) then {
+    _typeOfAreas pushBack ["Mines", MINES];
+    _typeOfAreas pushBack ["Charges", CHARGES];
+    _typeOfAreas pushBack ["IEDs", IEDS];
+};
+
+if(_action_type == ALL_ACTIONS) then {
     _typeOfAreas pushBack ["Fahrzeuge", LANDVEHICLE];
+    _typeOfAreas pushBack ["Minenfeld", MINEFIELD];
+};
+
+if(_action_type == VEHICLE_MINE_ACTIONS) then {
+    _typeOfAreas pushBack ["Fahrzeuge", LANDVEHICLE];
+};
+
+if(_action_type == MINEFIELD_ACTIONS) then {
     _typeOfAreas pushBack ["Minenfeld", MINEFIELD];
 };
 
@@ -44,7 +50,8 @@ if(_isLargeArea) then {
         "(_target getVariable [""type"", -1]) == -1",
         5
     ];
-} foreach _typeOfAreas;
+} 
+foreach _typeOfAreas;
 
 // abort when type selected or mine spawned
 _object addAction ["<t size='1' color='#ff0000'>Abbrechen / Fertig</t>",
@@ -56,7 +63,7 @@ _object addAction ["<t size='1' color='#ff0000'>Abbrechen / Fertig</t>",
         {
             deleteVehicle _x;
         } foreach _spawnedObjects;
-        hint "Übung abgebrochen / beendet."
+        hint "Übungsende, Übungsende."
     },
     [],1.2,false,true,"",
     "(_target getVariable [""type"", -1]) != -1",
@@ -84,7 +91,7 @@ private _mineNameAndTypeArray = [
     ["IED Urban Small", "ACE_IEDUrbanSmall_Range", IEDS]
 ];
 
-if(_isLargeArea) then {
+if(_action_type == ALL_ACTIONS or _action_type == VEHICLE_MINE_ACTIONS) then {
     _mineNameAndTypeArray pushBack ["LKW", "B_Truck_01_mover_F", LANDVEHICLE];
     _mineNameAndTypeArray pushBack ["SPZ", "B_APC_Wheeled_01_cannon_F", LANDVEHICLE];
     _mineNameAndTypeArray pushBack ["Panzer", "B_MBT_01_TUSK_F", LANDVEHICLE];
@@ -92,7 +99,6 @@ if(_isLargeArea) then {
 
 // save spawn area
 _object setVariable ["targetMarker", _targetMarker];
-
 {
     _x params ["_name", "_typeOfMine", "_type"];
     _object addAction [
@@ -122,9 +128,10 @@ _object setVariable ["targetMarker", _targetMarker];
 } foreach _mineNameAndTypeArray;
 
 // if we have a large area we can spawn a minefield
-if(_isLargeArea) then {
+if(_action_type == ALL_ACTIONS or _action_type == MINEFIELD_ACTIONS) then {
     // hard code multiple markers because currently only one mine field is used (and this is easier to read than in call)
     _multipleTargetMarker = [
+        "spawn_pionierplatz_2",
         "spawn_pionierplatz_3",
         "spawn_pionierplatz_4",
         "spawn_pionierplatz_5",

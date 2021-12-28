@@ -1,6 +1,7 @@
 /*
     Author: SpecOp0
-    
+    Edit: Redd
+
     Description:
     AddsActions (ACE self interaction) to a player who takes to role of a FAC for Mk6 Mortar.
     - Spawn Target (offroad)
@@ -30,23 +31,29 @@ if(_parameterCorrect && hasInterface) then {
             // add eventHandler to indicate damage
             _mortarTarget addEventHandler ["Dammaged",{
                 params ["_unit","_selectionName","_damage"];
-                hint format ["Hit!\n%1 Schaden erhalten", _damage];
+                hint format ["Gute Wirkung im Zielgebiet!\n Ziel hat %1 Schaden erhalten", _damage];
             }];
             _mortarTarget addEventHandler ["Killed",{
                 params ["_unit","_selectionName","_damage"];
                 if(!isNull _unit) then { deleteVehicle _unit };
                 private _scriptHandle = [] spawn {
                     sleep 1;
-                    hint "Hit!\nZiel zerstoert";
+                    hint "Gute Wirkung im Zielgebiet!\nZiel vernichtet";
             };
             }];
         } else {
             _mortarTarget setDamage 0;
         };
         // select new position for vehicle
-        private _placementRadius = 2000;
+        _area_array = 
+        [
+            (getMarkerpos "Artillerie_Zielbereich_1"),
+            (getMarkerpos "Artillerie_Zielbereich_2")
+        ];
+        _targetPos = selectRandom _area_array;
+        private _placementRadius = 1000;
         for "_i" from 0 to 10 do {
-            _mortarTarget setVehiclePosition [(getPos _caller),[],_placementRadius,"NONE"];
+            _mortarTarget setVehiclePosition [_targetPos,[],_placementRadius,"NONE"];
             if(getPosASL _mortarTarget select 2 >= 0) exitWith {};
         };
     }, {true}] call ace_interact_menu_fnc_createAction;

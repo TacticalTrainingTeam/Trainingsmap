@@ -1,29 +1,36 @@
 /*
 	author = Reimchen
+    edit: Redd
 	description = n.a.
 */
 
-if(hasInterface) then {
+if(hasInterface) then 
+{
     {
         [_x] call Reim_teleporter_fnc_addActions;
-    } foreach [
-        flag_sammelplatz,
-        flag_ttt_boden,
-        flag_ttt_luft,
+    } 
+    foreach 
+    [
+        flag_Infanterie_Gefechtsschiessbahn,
+        flag_Infanterie_Schulschiessbahn,
+        flag_Scharfschuetzen_Schulschiessbahn,
+        flag_Kpz_Spz_Gefechtsschiessbahn,
+        flag_Kpz_Spz_Schulschiessbahn,
+        flag_AT_Schiessbahn,
         flag_uebungsplatz,
+        flag_aa_Schiessbahn,
+        flag_Handgranaten,
+        flag_cqb,
+        flag_fzg,
+        flag_kpz_gsch_zug,
+        flag_spz_gesch_zug,
+        flag_trpPlz,
+        flag_cas,
+        flag_sammelplatz,
         flag_medizinischerbereich,
         flag_pionierplatz,
-        flag_panzerplatz,
         flag_luftfahrgelaende,
-        flag_cqb,
-        flag_moerserplatz,
-        flag_showcase_oben
+        flag_moerserplatz
     ];
-
-    [flag_cqb_2, "Zum Start 1", "teleport_cqb_1"] call Reim_teleporter_fnc_addTeleportToMarkerAction;
-    [flag_cqb_2, "Zum Start 2", "teleport_cqb_2"] call Reim_teleporter_fnc_addTeleportToMarkerAction;
-
-    [flag_showcase_oben, "Nach unten", "teleport_showcase_unten"] call Reim_teleporter_fnc_addTeleportToMarkerAction;
-    [flag_showcase_unten, "Nach oben", "teleport_showcase_oben"] call Reim_teleporter_fnc_addTeleportToMarkerAction;
 
 };

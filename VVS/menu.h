@@ -58,8 +58,9 @@ class VVS_Menu
 			text = "No";
 			action = "[] call VVS_fnc_checkBox";
 			sizeEx = 0.04;
+// def 2015 09 19>
 			colorDisabled[] = {1, 1, 1, 0.3};
-			
+// <def 2015 09 19
 			x = 0.32; y = 0.805;
 			w = 0.275; h = 0.04;
 		};

@@ -13,15 +13,21 @@ if(_filter == "") exitWith {[]};
 _ret = [];
 
 _vehicleList = switch(_filter) do
-{
-	case "All": {(VVS_pre_Car + VVS_pre_Air + VVS_pre_Ship + VVS_pre_Submarine + VVS_pre_Armored + VVS_pre_Support + VVS_pre_Autonomous)};
+{	
+	//original code
+	/*
+	case "All": {(VVS_pre_Car + VVS_pre_Air + VVS_pre_Ship + VVS_pre_Armored + VVS_pre_Support + VVS_pre_Autonomous)};
 	case "Car": {VVS_pre_Car};
 	case "Air": {VVS_pre_Air};
 	case "Ship": {VVS_pre_Ship};
-	case "Submarine": {VVS_pre_Submarine};
 	case "Armored": {VVS_pre_Armored};
 	case "Autonomous": {VVS_pre_Autonomous};
 	case "Support": {VVS_pre_Support};
+	default {[]};
+	*/
+	//custom Code by Redd
+	case "Ground": {(VVS_pre_Car + VVS_pre_Armored)};
+	case "Air": {VVS_pre_Air + VVS_pre_Autonomous};
 	default {[]};
 };
 

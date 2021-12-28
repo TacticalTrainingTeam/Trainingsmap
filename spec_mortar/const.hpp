@@ -5,15 +5,15 @@
 
 #define ACTION_CRATE_AMMO_NAME "Spawn Moerser Munition"
 #define ACTION_CRATE_AMMO_ID "Spec_action_mortar_crateMortarAmmo"
-#define CRATE_AMMO_CLASS "ACE_Box_82mm_Mo_Combo"
+#define CRATE_AMMO_CLASS "Redd_Box_120mm_Mo_Combo"//ACE_Box_82mm_Mo_Combo"
 
 #define ACTION_CRATE_DELETE_NAME "Loesche Kisten"
 #define ACTION_CRATE_DELETE_ID "Spec_action_mortar_deleteCrates"
 
-#define ACTION_ADD_ACTIONS_NAME "Ich bin FAC"
+#define ACTION_ADD_ACTIONS_NAME "Ich bin Schießbahnleitender"
 #define ACTION_ADD_ACTIONS_ID "Spec_action_mortar_addActions"
 
-#define ACTION_REMOVE_ACTIONS_NAME "Ich bin kein FAC"
+#define ACTION_REMOVE_ACTIONS_NAME "Ich bin kein Schießbahnleitender mehr"
 #define ACTION_REMOVE_ACTIONS_ID "Spec_action_mortar_removeActions"
 
 // actions for player
@@ -26,7 +26,7 @@
 #define ACTION_TIP_NAME "Daten fuer Tabelle"
 #define ACTION_TIP_ID "Spec_action_mortar_tip"
 
-#define ACTION_SOLUTION_NAME "Loesung"
+#define ACTION_SOLUTION_NAME "Feuerloesung"
 #define ACTION_SOLUTION_ID "Spec_action_mortar_result"
 
 // other variables
