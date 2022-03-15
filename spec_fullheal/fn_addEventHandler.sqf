@@ -26,7 +26,7 @@ _unit addEventHandler ["GetInMan", {
             playSound "fullheal";
             // sleep before healing - else the player bugs into the air and takes damage multiple time
             sleep 2;
-            [_unit,_unit] call ACE_medical_fnc_treatmentAdvanced_fullHeal;
+            [_unit] call ace_medical_treatment_fnc_fullHealLocal;
             // add medical items
             private _expectedItemAndCount = [
                 ["ACE_fieldDressing", 9],

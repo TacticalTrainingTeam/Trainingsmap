@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={13306.085,30.952896,7635.6582};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={5627.8442,14.744209,1432.006};
+		dir[]={-0.47185686,-0.71506315,0.51580149};
+		up[]={-0.48265213,0.69905818,0.52760196};
+		aside[]={0.73784614,7.9465099e-007,0.67498142};
 	};
 };
 binarizationWanted=0;
@@ -55276,7 +55276,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
-				init="call{this addAction [""Heilen"",{[player] call ace_medical_treatment_fnc_fullHealLocal;},[],1.5, true, true, """",""true"",5];}";
+				init="call{this addAction [""Heilen"",{[player] call ace_medical_treatment_fnc_fullHealLocal; playSound ""fullheal"";},[],1.5, true, true, """",""true"",5];}";
 			};
 			id=6787;
 			type="FlagCarrierRedCross_EP1";
