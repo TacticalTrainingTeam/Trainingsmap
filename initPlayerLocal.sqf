@@ -637,7 +637,8 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Gold\TTT_Diver.sqf";
 			}
 		];
-} forEach [container_01, container_02];
+} forEach [container_01, container_02, container_03, container_04, container_05, container_06, container_07, container_08, container_09, container_10, container_11, container_12, container_13, container_14, container_15, container_16, container_17, container_18, container_19,
+container_20, container_21, container_22, container_23, container_24, container_25, container_26, container_27];
 
 //Nummern wechseln an TTT Schild
 {
@@ -742,4 +743,6 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 
-} forEach [nummer_01, nummer_02];
+} forEach [nummer_01, nummer_02, nummer_03, nummer_04, nummer_05, nummer_06, nummer_07, nummer_08, nummer_09,
+nummer_10, nummer_11, nummer_12, nummer_13, nummer_14, nummer_15, nummer_16, nummer_17, nummer_18, nummer_19,
+nummer_20, nummer_21, nummer_22, nummer_23, nummer_24, nummer_25, nummer_26, nummer_27];

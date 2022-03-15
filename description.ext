@@ -1,6 +1,6 @@
 /*
 	author = Reimchen
-	edit = Redd
+	edit = Redd, Andx
 	description = n.a.
 */
 
@@ -12,7 +12,6 @@
 class CfgFunctions 
 {
 	#include "redd_actions\CfgFunctions.hpp"
-	#include "redd_loadout_container\CfgFunctions.hpp"
 	#include "reddZugSB\CfgFunctions.hpp"
 	#include "reddCasSB\CfgFunctions.hpp"
 	#include "reddAtG\CfgFunctions.hpp"
@@ -26,8 +25,8 @@ class CfgFunctions
 	#include "spec_fullheal\CfgFunctions.hpp"
 	#include "spec_medic\CfgFunctions.hpp"
 	#include "spec_mortar\CfgFunctions.hpp"
-	#include "spec_zeus\CfgFunctions.hpp"
-	#include "spec_zeusUtility\CfgFunctions.hpp"
+	//#include "spec_zeus\CfgFunctions.hpp"
+	//#include "spec_zeusUtility\CfgFunctions.hpp"
 
 	#include "target_range\CfgFunctions.hpp"
 
@@ -48,7 +47,7 @@ class Header
 
 	gameType = "coop";
 	minPlayers = "1";
-	maxPlayers = "97";
+	maxPlayers = "120";
 
 };
 
@@ -60,9 +59,18 @@ corpseLimit = 0;
 corpseRemovalMinTime = 0;
 corpseRemovalMaxTime = 1;
 
-onLoadMission = "Based on Trainingsmission by Reimchen";
+onLoadMission = "Train hard, Play smart!";
 OnLoadMissionTime = true;
-author="[TTT] Redd";
+author="Tactical Training Team";
 OnLoadName = "Trainingsmission v2.7.0";
 loadScreen = "pictures\onLoad_mission.jpg";
 disabledAI = 1;
+
+//Streamator ready
+class CLib {
+    Modules[] = {"CLib", "Streamator"};
+    useExperimentalAutoload = 0;
+    useCompressedFunction = 0;
+    useFallbackRemoteExecution = 0;
+    FrameGraphSize = 128;
+};

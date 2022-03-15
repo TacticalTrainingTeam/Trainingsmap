@@ -5,7 +5,7 @@ class spec_medic {
         class addTrainingStation {};
         class boolToStr {};
         class showMedicData {};
-        class showMedicDataLoop {};
+        //class showMedicDataLoop {};
         class spawnDummy {};
     };
 };

@@ -37,3 +37,9 @@ Trainingsmap of the Tactical Training Team
 
 - Gruppen Umbau, Loadouts aus _v05
 - Code refactor
+
+## v09 04-2022
+
+- neue Loadouts, Loadoutzuweisung
+- fix Heal-Flag
+- Nachschub in Kisten
