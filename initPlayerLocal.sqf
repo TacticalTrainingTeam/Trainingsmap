@@ -1,6 +1,6 @@
 /*
-	author = Reimchen
-    edit: Redd
+	author = Reimchen 
+    edit: Redd + Andx
 	description = n.a.
 */
 
@@ -61,3 +61,685 @@ laptopHangar_1 addAction ["Gruppe - Stack",{boardHangar_1 setObjectTextureGlobal
 laptopHangar_1 addAction ["Gruppe - Keil",{boardHangar_1 setObjectTextureGlobal [0, "formationen\07_gruppe_keil.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Kette",{boardHangar_1 setObjectTextureGlobal [0, "formationen\08_gruppe_Schutzenkette.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal [0, "formationen\09_gruppe_schutzenreihe.paa"];},[],1,false,true,"","",5];
+
+//Loadout-Container
+{
+	_x addAction
+		[
+			"Grün - Zugführer",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_ZugF.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - Stellv. Zugführer",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_StZugF.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - Funker",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_Funker.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - FO",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_FO.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - JTAC",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_JTAC.sqf";
+			}
+		];
+		
+	_x addAction
+		[
+			"Grün - Gruppenführer",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_GF.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - Truppführer",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_TF.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - LMG-Schütze",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_LMG.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - Grenadier",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_Gren.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - DMR-Schütze",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_DMR.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - Leichter AT-Schütze (NLAW)",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_LAT.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - AT-Schütze (MAAWS)",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_AT.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - AT-Assistent",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_ATA.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - Schwerer AT-Schütze (Titan)",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_HAT.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - Schwerer AT-Assistent",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_HATA.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - MMG-Schütze [Marksman DLC]",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_MMG.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - MMG-Assistent",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_MMGA.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - AA-Schütze",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_AA.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - AA-Assistent",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_AAA.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - Schütze",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_Rifle.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Grün - Munitionsträger",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_Ammo.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Blau - Pionier Truppführer",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Blau_Pio_GF.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Blau - Pionier",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Blau_Pio.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Bronze - Kommandant",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Bronze_Commander.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Bronze - Kraftfahrer / Richtschütze",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Bronze_Crew.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Gold - Aufklärer Truppführer",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Gold_TF.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Gold - Drohnenbediener",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Gold_UAV.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Gold - Spotter",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Gold_Spotter.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Gold - Sniper",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Gold_Sniper.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Braun - Arzt",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Braun_Arzt.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Braun - Sanitäter",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Braun_Sani.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Platin - Pilot (Jet)",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Platin_Jet.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Platin - Pilot (Helikopter)",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Platin\TTT_Platin_Heli.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Weiß - Pilot",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Pilot.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Weiß - Arzt",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Arzt.sqf";
+			}
+		];
+
+	_x addAction
+		[
+			"Weiß - Sani",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Sani.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"Silber - Pilot",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Silber_Pilot.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"Silber - Logistiker",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Silber_Logi.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"Silber - Pilot",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Silber_Pilot.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"Rot (Mörser) - Fire Direction Commander",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Rot\TTT_Rot_FDC.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"Rot (Mörser) - Geschützcrew",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Rot\TTT_Rot_Mortar.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"Schwarz (Mech.-Inf.) - Zugführer",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_ZugF.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"Schwarz (Mech.-Inf.) - Gruppenführer",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_GF.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"Schwarz (Mech.-Inf.) - Truppführer",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_TF.sqf";
+			}
+		];
+
+	
+		_x addAction
+		[
+			"Schwarz (Mech.-Inf.) - Fahrer/Ricthschütze",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_Crew.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"Schwarz (Mech.-Inf.) - Grenadier",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_Gren.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"Schwarz (Mech.-Inf.) - Leichter AT-Schütze (NLAW)",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_LAT.sqf";
+			}
+		];
+
+		
+		_x addAction
+		[
+			"Schwarz (Mech.-Inf.) - AT-Schütze (MAAWS)",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_AT.sqf";
+			}
+		];
+
+			_x addAction
+		[
+			"Schwarz (Mech.-Inf.) - Grenadier",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_LAT.sqf";
+			}
+		];
+
+			_x addAction
+		[
+			"Schwarz (Mech.-Inf.) - DMR-Schütze",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_DMR.sqf";
+			}
+		];
+
+				_x addAction
+		[
+			"Schwarz (Mech.-Inf.) - Schütze",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_Rifle.sqf";
+			}
+		];
+
+		_x addAction
+		[
+			"TTT - Kampftaucher",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_helm = _caller getVariable ["helm", ""];
+				[_caller, _helm] spawn compile preprocessFileLineNumbers "loadouts\Gold\TTT_Diver.sqf";
+			}
+		];
+} forEach [container_01, container_02];
+
+//Nummern wechseln an TTT Schild
+{
+	_x addAction
+		[
+			"Werde 1",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "1"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde 2",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "2"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde 3",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "3"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde 4",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "4"];
+			}
+		];
+
+			_x addAction
+		[
+			"Werde 5",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "5"];
+			}
+		];
+
+			_x addAction
+		[
+			"Werde 6",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "6"];
+			}
+		];
+
+			_x addAction
+		[
+			"Werde 7",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "7"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde 8",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "8"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde 9",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "9"];
+			}
+		];
+
+		_x addAction
+		[
+			"Fallschirm ausrüsten",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				[_caller] spawn compile preprocessFileLineNumbers "loadouts\TTT_Parachute.sqf";
+				hint "Fallschirm und Höhenmesser ausgerüstet.";
+			}
+		];
+
+} forEach [nummer_01, nummer_02];
