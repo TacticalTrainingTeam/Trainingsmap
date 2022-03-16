@@ -76,6 +76,7 @@ container_20, container_21, container_22, container_23, container_24, container_
 	  ["ACRE_PRC117F", 10],
 
 	  ["ItemAndroid", 30],
-	  ["ItemcTab", 30]
+	  ["ItemcTab", 30],
+	  ["ACE_HuntIR_monitor", 10]
     ]
 ] call reim_fnc_crateFiller;

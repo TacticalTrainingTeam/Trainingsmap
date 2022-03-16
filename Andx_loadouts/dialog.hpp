@@ -1,6 +1,6 @@
 /*
 	author = Andx
-	Original by: andxchen
+	Original by: Reimchen
 	description = n.a.
 */
 

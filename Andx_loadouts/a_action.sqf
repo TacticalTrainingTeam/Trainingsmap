@@ -378,4 +378,4 @@ if (_selectedIndex == -) exitWith {
 };
 */
 
-hint "Markiere zuerst einen Ort";
+hint "Wähle zuerst ein Loadout aus der Liste aus";
