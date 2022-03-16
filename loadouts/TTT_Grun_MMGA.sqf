@@ -57,6 +57,7 @@ _unit addItemToVest "ACE_NVG_Wide_Black";
 _unit addItemToBackpack (["TTT_Helmet_", _helm, "_BW_Flecktarn"] joinString "");
 for "_i" from 1 to 3 do {_unit addItemToBackpack "130Rnd_338_Mag";};
 _unit addItemToBackpack "ACE_SpareBarrel";
+_unit addItemToBackpack "ACE_EntrenchingTool";
 
 _unit addHeadgear "TTT_Beret_Green";
 

@@ -115,42 +115,42 @@ if (_selectedIndex == 15) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - MMG-Schütze";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_MMG.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_MMG.sqf";
 };
 
 if (_selectedIndex == 16) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - MMG-Hilfsschütze";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_MMGA.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_MMGA.sqf";
 };
 
 if (_selectedIndex == 17) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - AA-Schütze";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_AA.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_AA.sqf";
 };
 
 if (_selectedIndex == 18) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - AA-Hilfsschütze";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_AAA.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_AAA.sqf";
 };
 
 if (_selectedIndex == 19) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - Munitionsträger";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Ammo.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_Ammo.sqf";
 };
 
 if (_selectedIndex == 20) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - Schütze";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Rifle.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_Rifle.sqf";
 };
 
 if (_selectedIndex == 21) exitWith {
