@@ -6,9 +6,9 @@
 
 disableSerialization;
 
-_display = findDisplay 5000;
+_display = findDisplay 6000;
 
-_listBox = _display displayCtrl 5002;
+_listBox = _display displayCtrl 6002;
 
 _listBox lbAdd "Grün - Zugführer";//0
 _listBox lbAdd "Grün - Stellv. Zugführer";//1
