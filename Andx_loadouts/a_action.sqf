@@ -294,6 +294,79 @@ if (_selectedIndex == 40) exitWith {
 };
 
 if (_selectedIndex == 41) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Schwarz - Zugführer (mech. Inf.)";
+	_helm = player getVariable ["helm", "1"];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_ZugF.sqf";
+};
+
+if (_selectedIndex == 42) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Schwarz - Gruppenführer (mech. Inf.)";
+	_helm = player getVariable ["helm", "1"];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_GF.sqf";
+};
+
+if (_selectedIndex == 43) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Schwarz - Truppführer (mech. Inf.)";
+	_helm = player getVariable ["helm", ""];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_TF.sqf";
+};
+
+if (_selectedIndex == 44) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Schwarz - Crew (mech. Inf.)";
+	_helm = player getVariable ["helm", ""];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_Crew.sqf";
+};
+
+if (_selectedIndex == 45) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Schwarz - Grenadier (mech. Inf.)";
+	_helm = player getVariable ["helm", ""];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_Gren.sqf";
+};
+
+if (_selectedIndex == 46) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Schwarz - LMG-Schütze (mech. Inf.)";
+	_helm = player getVariable ["helm", ""];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_LMG.sqf";
+};
+
+
+if (_selectedIndex == 47) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Schwarz - LAT-Schütze (mech. Inf.)";
+	_helm = player getVariable ["helm", ""];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_LAT.sqf";
+};
+
+
+if (_selectedIndex == 48) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Schwarz - AT-Schütze (mech. Inf.)";
+	_helm = player getVariable ["helm", ""];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_AT.sqf";
+};
+
+if (_selectedIndex == 49) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Schwarz - DMR-Schütze (mech. Inf.)";
+	_helm = player getVariable ["helm", ""];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_DMR.sqf";
+};
+
+
+if (_selectedIndex == 50) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Schwarz - Schütze (mech. Inf.)";
+	_helm = player getVariable ["helm", ""];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_Rifle.sqf";
+};
+
+if (_selectedIndex == 51) exitWith {
 	//closeDialog 0;
 };
 
