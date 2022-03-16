@@ -26,7 +26,7 @@ _unit addHandgunItem "16Rnd_9x21_Mag";
 comment "Add containers";
 _unit forceAddUniform "TTT_Uniform_Bronze_BW_Flecktarn";
 _unit addVest "TTT_Vest_Crew_Bronx";
-_unit addBackpack "B_AssaultPack_cbr";
+_unit addBackpack "TTT_backpack_radio_bronx_us_desert";
 
 comment "Add binoculars";
 _unit addWeapon "Rangefinder";
@@ -53,6 +53,7 @@ _unit addItemToVest "ACRE_PRC152";
 _unit addItemToVest "ACE_NVG_Wide_Black";
 
 _unit addItemToBackpack "TTT_Helmet_bronx_VehicleCrew";
+_unit addItemToBackpack "ACRE_PRC117F";
 
 _unit addHeadgear "TTT_Beret_Bronze";
 
