@@ -4,7 +4,7 @@
 	description = n.a.
 */
 
-if(hasInterface) then 
+if( hasInterface ) then 
 {
     {
         [_x] call Andx_loadouts_fnc_addActions;

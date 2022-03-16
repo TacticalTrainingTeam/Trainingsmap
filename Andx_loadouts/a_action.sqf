@@ -4,7 +4,7 @@
 	description = Funktionen zum teleportieren
 */
 
-_selectedIndex = lbCurSel 6002;
+_selectedIndex = lbCurSel 5002;
 
 if (_selectedIndex == 0) exitWith {
 	closeDialog 0;

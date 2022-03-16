@@ -1370,14 +1370,14 @@ class andxRscControlsGroup
 ///////////////////////////////////////////////////////////////////////////
 
 class andx_loadouts {
-	idd = 6000;
+	idd = 5000;
 	movingenable = false;
 	onload = "[] spawn {execVM 'andx_loadouts\a_init.sqf';};";
 	
 	class controls {
 		class andx_background_1: andxIGUIBack
 		{
-			idc = 6001;
+			idc = 5001;
 			x = 0.345312 * safezoneW + safezoneX;
 			y = 0.269 * safezoneH + safezoneY;
 			w = 0.309375 * safezoneW;
@@ -1386,7 +1386,7 @@ class andx_loadouts {
 		};
 		class andx_list_1: andxRscListbox
 		{
-			idc = 6002;
+			idc = 5002;
 			x = 0.345312 * safezoneW + safezoneX;
 			y = 0.335 * safezoneH + safezoneY;
 			w = 0.237187 * safezoneW;
@@ -1394,7 +1394,7 @@ class andx_loadouts {
 		};
 		class andx_button_1: andxRscButton
 		{
-			idc = 6003;
+			idc = 5003;
 			text = "X"; //--- ToDo: Localize;
 			x = 0.592812 * safezoneW + safezoneX;
 			y = 0.335 * safezoneH + safezoneY;
@@ -1405,7 +1405,7 @@ class andx_loadouts {
 		};
 		class andx_button_2: andxRscButton
 		{
-			idc = 6004;
+			idc = 5004;
 			text = "ausrüsten"; //--- ToDo: Localize;
 			x = 0.592812 * safezoneW + safezoneX;
 			y = 0.401 * safezoneH + safezoneY;
@@ -1416,7 +1416,7 @@ class andx_loadouts {
 		};
 		class andx_text_1: andxRscText
 		{
-			idc = 6005;
+			idc = 5005;
 			text = "Loadouts"; //--- ToDo: Localize;
 			x = 0.345312 * safezoneW + safezoneX;
 			y = 0.269 * safezoneH + safezoneY;
@@ -1426,7 +1426,7 @@ class andx_loadouts {
 		};
 		class andx_text_2: andxRscText
 		{
-			idc = 6006;
+			idc = 5006;
 			text = "by Andx"; //--- ToDo: Localize;
 			x = 0.603125 * safezoneW + safezoneX;
 			y = 0.269 * safezoneH + safezoneY;
