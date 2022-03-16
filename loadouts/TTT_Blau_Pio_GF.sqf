@@ -68,6 +68,7 @@ for "_i" from 1 to 3 do {_unit addItemToBackpack "DemoCharge_Remote_Mag";};
 _unit addItemToBackpack "ACE_SpraypaintRed";
 _unit addItemToBackpack "ACE_SpraypaintGreen";
 _unit addItemToBackpack "ACE_SpraypaintBlack";
+_unit addItemToBackpack "ACE_Fortify";
 
 _unit addHeadgear "TTT_Beret_Blue";
 

@@ -13,11 +13,11 @@ CivHQ = createCenter CIVILIAN;
 	west, 
 	200,
 	[
-	  ["EFM_wood_wall_2m_single", 1],
+	  ["EFM_wood_wall_2m_single_filled", 1],
 	  ["Land_BagFence_Short_F", 1],
 	  ["Land_Net_Fence_4m_F", 1],
-	  ["Land_Shoot_House_Wall_Long_F", 1],
-	  ["Land_Plank_01_4m_F", 1]	
+	  ["Land_Plank_01_4m_F", 1],
+	  ["FlagMarker_01_F", 1]	
 	]
 ] call acex_fortify_fnc_registerObjects;
 
@@ -33,6 +33,7 @@ container_20, container_21, container_22, container_23, container_24, container_
     [
       ["ACE_fieldDressing", 270],
 	  ["ACE_quikclot", 90],
+	  ["ACE_packingBandage", 90],
 	  ["ACE_morphine", 27],
 	  ["ACE_tourniquet", 54],
 
