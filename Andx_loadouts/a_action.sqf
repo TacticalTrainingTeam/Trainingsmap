@@ -108,7 +108,7 @@ if (_selectedIndex == 14) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - Schwerer AT-Hilfsschütze";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_HAT.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_HAT.sqf";
 };
 
 if (_selectedIndex == 15) exitWith {
