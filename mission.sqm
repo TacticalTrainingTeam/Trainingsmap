@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5641.2446,6.1744242,1445.4172};
-		dir[]={-0.58512193,-0.44746247,-0.67634463};
-		up[]={-0.29277143,0.89429224,-0.33841518};
-		aside[]={-0.75627875,-6.2980689e-008,0.65427506};
+		pos[]={5651.4614,17.791752,1429.7699};
+		dir[]={0.23762742,-0.94890642,-0.20765099};
+		up[]={0.71453464,0.31554967,-0.62439656};
+		aside[]={-0.65801835,-5.3027179e-007,-0.75301069};
 	};
 };
 binarizationWanted=0;
@@ -59513,13 +59513,14 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5677.6982,1.5014389,1450.5532};
-						angles[]={0,3.9251785,0};
+						angles[]={0,3.9251757,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
 						rank="CAPTAIN";
+						init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];";
 						description="#1 Kommandant@Gepanzerte Kräfte ""Bronze-1""";
 						isPlayable=1;
 					};
@@ -59593,12 +59594,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5679.1392,1.5014389,1452.0237};
-						angles[]={0,3.9332592,0};
+						angles[]={0,3.9332564,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];";
 						description="#2 Richtschütze";
 						isPlayable=1;
 					};
@@ -59672,12 +59674,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5680.4175,1.5014389,1453.3285};
-						angles[]={0,3.8592923,0};
+						angles[]={0,3.8592894,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];";
 						description="#3 Kraftfahrer";
 						isPlayable=1;
 					};
@@ -59726,12 +59729,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5676.2622,1.5014389,1451.9435};
-						angles[]={0,3.9251785,0};
+						angles[]={0,3.9251757,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];";
 						description="#1 Kommandant@Gepanzerte Kräfte ""Bronze-2""";
 						isPlayable=1;
 					};
@@ -59805,12 +59809,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5677.7031,1.5014389,1453.4143};
-						angles[]={0,3.9332592,0};
+						angles[]={0,3.9332564,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];";
 						description="#2 Richtschütze";
 						isPlayable=1;
 					};
@@ -59846,12 +59851,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5678.9814,1.5014389,1454.7191};
-						angles[]={0,3.8592923,0};
+						angles[]={0,3.8592894,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];";
 						description="#3 Kraftfahrer";
 						isPlayable=1;
 					};
@@ -59900,12 +59906,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5674.8335,1.5014389,1453.3431};
-						angles[]={0,3.9251785,0};
+						angles[]={0,3.9251757,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];";
 						description="#1 Kommandant@Gepanzerte Kräfte ""Bronze-3""";
 						isPlayable=1;
 					};
@@ -59979,12 +59986,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5676.2744,1.5014389,1454.814};
-						angles[]={0,3.9332592,0};
+						angles[]={0,3.9332564,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];";
 						description="#2 Richtschütze";
 						isPlayable=1;
 					};
@@ -60020,12 +60028,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5677.5527,1.5014389,1456.1188};
-						angles[]={0,3.8592923,0};
+						angles[]={0,3.8592894,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];";
 						description="#3 Kraftfahrer";
 						isPlayable=1;
 					};
@@ -60074,12 +60083,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5673.4048,1.5014389,1454.7428};
-						angles[]={0,3.9251785,0};
+						angles[]={0,3.9251757,0};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];";
 						description="#1 Kommandant@Gepanzerte Kräfte ""Bronze-4""";
 						isPlayable=1;
 					};
@@ -60153,12 +60163,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5674.8457,1.5014389,1456.2136};
-						angles[]={0,3.9332592,0};
+						angles[]={0,3.9332564,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];";
 						description="#2 Richtschütze";
 						isPlayable=1;
 					};
@@ -60194,12 +60205,13 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5676.124,1.5014389,1457.5184};
-						angles[]={0,3.8592923,0};
+						angles[]={0,3.8592894,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
+						init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];";
 						description="#3 Kraftfahrer";
 						isPlayable=1;
 					};

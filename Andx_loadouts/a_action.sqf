@@ -293,12 +293,9 @@ if (_selectedIndex == 40) exitWith {
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Gold\TTT_Diver.sqf";
 };
 
-
 if (_selectedIndex == 41) exitWith {
 	//closeDialog 0;
 };
-
-
 
 /*
 if (_selectedIndex == -) exitWith {
