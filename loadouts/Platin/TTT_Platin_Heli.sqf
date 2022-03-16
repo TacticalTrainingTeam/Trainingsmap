@@ -29,7 +29,8 @@ _unit addVest "FIR_pilot_vest";
 _unit addBackpack "TTT_backpack_radio_platin_us_desert";
 
 comment "Add items to containers";
-for "_i" from 1 to 15 do {_unit addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
+for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_packingBandage";};
 for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_quikclot";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
 _unit addItemToUniform "ACE_IR_Strobe_Item";
