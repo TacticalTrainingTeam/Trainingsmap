@@ -269,7 +269,7 @@ if (_selectedIndex == 37) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Silber - Logistiker";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Silber_Logistiker.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Silber_Logi.sqf";
 };
 
 if (_selectedIndex == 38) exitWith {
