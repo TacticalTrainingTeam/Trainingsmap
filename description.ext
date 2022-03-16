@@ -5,6 +5,7 @@
 */
 
 #include "reim_teleporter\dialog.hpp"
+#include "andx_loadouts\dialog.hpp"
 #include "reim_text\dialog.hpp"
 #include "W_Teleporter\dialog.hpp"
 #include "VVS\menu.h"
@@ -19,6 +20,8 @@ class CfgFunctions
 	#include "reim_explosive\CfgFunctions.hpp"
 	#include "reim_parcour\CfgFunctions.hpp"
 	#include "reim_teleporter\CfgFunctions.hpp"
+
+	#include "andx_loadouts\CfgFunctions.hpp"
 
 	#include "reim_text\CfgFunctions.hpp"
 
