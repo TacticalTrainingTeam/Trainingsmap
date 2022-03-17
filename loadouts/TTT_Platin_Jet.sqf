@@ -36,7 +36,7 @@ _unit addItemToUniform "ACE_MapTools";
 _unit addItemToUniform "ACE_morphine";
 for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_tourniquet";};
 _unit addItemToUniform "ItemAndroid";
-for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
+_unit addItemToUniform "16Rnd_9x21_Mag";
 _unit addItemToUniform "ACE_HandFlare_Green";
 for "_i" from 1 to 2 do {_unit addItemToUniform "SmokeShellOrange";};
 _unit addItemToUniform "acex_intelitems_notepad";
