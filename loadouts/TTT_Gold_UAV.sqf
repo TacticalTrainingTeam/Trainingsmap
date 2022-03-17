@@ -33,7 +33,8 @@ _unit addVest "TTT_Vest_Lite_Gold_US_Woodland";
 _unit addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
-_unit addWeapon "Rangefinder";
+_unit addMagazine "Laserbatteries";
+_unit addWeapon "Laserdesignator_01_khk_F";
 
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
