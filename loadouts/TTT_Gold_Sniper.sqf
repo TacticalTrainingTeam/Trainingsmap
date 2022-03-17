@@ -21,7 +21,7 @@ comment "Add weapons";
 _unit addWeapon "srifle_LRR_F";
 _unit addPrimaryWeaponItem "optic_LRPS";
 _unit addPrimaryWeaponItem "7Rnd_408_Mag";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";

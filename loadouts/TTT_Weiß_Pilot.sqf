@@ -20,7 +20,7 @@ removeGoggles _unit;
 comment "Add weapons";
 _unit addWeapon "SMG_03C_black";
 _unit addPrimaryWeaponItem "50Rnd_570x28_SMG_03";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";

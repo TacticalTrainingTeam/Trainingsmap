@@ -20,7 +20,7 @@ removeGoggles _unit;
 comment "Add weapons";
 _unit addWeapon "arifle_SDAR_F";
 _unit addPrimaryWeaponItem "20Rnd_556x45_UW_mag";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";

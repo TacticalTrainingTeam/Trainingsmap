@@ -22,7 +22,7 @@ _unit addWeapon "LMG_03_F";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addPrimaryWeaponItem "200Rnd_556x45_Box_Tracer_Red_F";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";

@@ -24,7 +24,7 @@ _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
 _unit addWeapon "launch_MRAWS_green_F";
 _unit addSecondaryWeaponItem "MRAWS_HEAT_F";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";

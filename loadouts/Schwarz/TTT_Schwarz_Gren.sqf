@@ -23,7 +23,7 @@ _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
 _unit addPrimaryWeaponItem "1Rnd_HE_Grenade_shell";
-_unit addWeapon "hgun_P07_F";
+_unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
