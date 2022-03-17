@@ -68,12 +68,3 @@ author="Tactical Training Team";
 OnLoadName = "Trainingsmission v2.7.0";
 loadScreen = "pictures\onLoad_mission.jpg";
 disabledAI = 1;
-
-//Streamator ready
-class CLib {
-    Modules[] = {"CLib", "Streamator"};
-    useExperimentalAutoload = 0;
-    useCompressedFunction = 0;
-    useFallbackRemoteExecution = 0;
-    FrameGraphSize = 128;
-};
