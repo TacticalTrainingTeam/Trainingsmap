@@ -65,6 +65,6 @@ corpseRemovalMaxTime = 1;
 onLoadMission = "Train hard, Play smart!";
 OnLoadMissionTime = true;
 author="Tactical Training Team";
-OnLoadName = "Trainingsmission v2.7.0";
+OnLoadName = "Trainingsmission v3.0.0";
 loadScreen = "pictures\onLoad_mission.jpg";
 disabledAI = 1;
