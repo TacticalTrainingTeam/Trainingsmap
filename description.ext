@@ -28,8 +28,6 @@ class CfgFunctions
 	#include "spec_fullheal\CfgFunctions.hpp"
 	#include "spec_medic\CfgFunctions.hpp"
 	#include "spec_mortar\CfgFunctions.hpp"
-	//#include "spec_zeus\CfgFunctions.hpp"
-	//#include "spec_zeusUtility\CfgFunctions.hpp"
 
 	#include "target_range\CfgFunctions.hpp"
 

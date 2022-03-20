@@ -54,7 +54,7 @@ for "_i" from 1 to 3 do {_unit addItemToVest "50Rnd_570x28_SMG_03";};
 _unit addItemToBackpack (["TTT_Helmet_", _helm, "_BW_Flecktarn"] joinString "");
 _unit addItemToBackpack "ACRE_PRC117F";
 for "_i" from 1 to 6 do {_unit addItemToBackpack "ACE_morphine";};
-for "_i" from 1 to 10 do {_unit addItemToBackpack "ACE_epinephrine";};
+for "_i" from 1 to 12 do {_unit addItemToBackpack "ACE_epinephrine";};
 for "_i" from 1 to 6 do {_unit addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "ACE_tourniquet";};
 for "_i" from 1 to 16 do {_unit addItemToBackpack "ACE_elasticBandage";};

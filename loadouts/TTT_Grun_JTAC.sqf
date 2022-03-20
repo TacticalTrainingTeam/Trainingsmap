@@ -16,7 +16,7 @@ removeHeadgear _unit;
 removeGoggles _unit;
 
 comment "Add weapons";
-_unit addWeapon "arifle_SPAR_01_blk_F";
+_unit addWeapon "arifle_SPAR_01_GL_blk_F";
 _unit addPrimaryWeaponItem "acc_pointer_IR";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
@@ -58,6 +58,7 @@ for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag_red";};
 _unit addItemToBackpack (["TTT_Helmet_", _helm, "_BW_Flecktarn"] joinString "");
 _unit addItemToBackpack "ACRE_PRC117F";
 _unit addItemToBackpack "itc_land_tablet_rover";
+for "_i" from 1 to 12 do {_unit addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
 
 _unit addHeadgear "TTT_Beret_Green";
 

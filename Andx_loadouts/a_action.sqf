@@ -241,94 +241,101 @@ if (_selectedIndex == 33) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Weiß - Pilot";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Platin\TTT_Weiß_Pilot.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Pilot.sqf";
 };
 
 if (_selectedIndex == 34) exitWith {
 	closeDialog 0;
-	hint "Du bist nun Weiß - Arzt";
+	hint "Du bist nun Weiß - Arzt (Long Range)";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Platin\TTT_Weiß_Arzt.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Arzt.sqf";
 };
 
 if (_selectedIndex == 35) exitWith {
 	closeDialog 0;
-	hint "Du bist nun Weiß - Sanitäter";
+	hint "Du bist nun Weiß - Arzt";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Platin\TTT_Weiß_Sani.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Arzt2.sqf";
 };
 
 if (_selectedIndex == 36) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Weiß - Sanitäter";
+	_helm = player getVariable ["helm", ""];
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Sani.sqf";
+};
+
+if (_selectedIndex == 37) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Silber - Pilot";
 	_helm = player getVariable ["helm", ""];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Silber_Pilot.sqf";
 };
 
-if (_selectedIndex == 37) exitWith {
+if (_selectedIndex == 38) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Silber - Logistiker";
 	_helm = player getVariable ["helm", ""];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Silber_Logi.sqf";
 };
 
-if (_selectedIndex == 38) exitWith {
+if (_selectedIndex == 39) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Rot - Fire Direction Commander";
 	_helm = player getVariable ["helm", "1"];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Rot\TTT_Rot_FDC.sqf";
 };
 
-if (_selectedIndex == 39) exitWith {
+if (_selectedIndex == 40) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Rot - Mörserschütze";
 	_helm = player getVariable ["helm", ""];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Rot\TTT_Rot_Mortar.sqf";
 };
 
-if (_selectedIndex == 40) exitWith {
+if (_selectedIndex == 41) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Kampftaucher";
 	_helm = player getVariable ["helm", ""];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Gold\TTT_Diver.sqf";
 };
 
-if (_selectedIndex == 41) exitWith {
+if (_selectedIndex == 42) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Schwarz - Zugführer (mech. Inf.)";
 	_helm = player getVariable ["helm", "1"];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_ZugF.sqf";
 };
 
-if (_selectedIndex == 42) exitWith {
+if (_selectedIndex == 43) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Schwarz - Gruppenführer (mech. Inf.)";
 	_helm = player getVariable ["helm", "1"];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_GF.sqf";
 };
 
-if (_selectedIndex == 43) exitWith {
+if (_selectedIndex == 44) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Schwarz - Truppführer (mech. Inf.)";
 	_helm = player getVariable ["helm", ""];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_TF.sqf";
 };
 
-if (_selectedIndex == 44) exitWith {
+if (_selectedIndex == 45) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Schwarz - Crew (mech. Inf.)";
 	_helm = player getVariable ["helm", ""];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_Crew.sqf";
 };
 
-if (_selectedIndex == 45) exitWith {
+if (_selectedIndex == 46) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Schwarz - Grenadier (mech. Inf.)";
 	_helm = player getVariable ["helm", ""];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_Gren.sqf";
 };
 
-if (_selectedIndex == 46) exitWith {
+if (_selectedIndex == 47) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Schwarz - LMG-Schütze (mech. Inf.)";
 	_helm = player getVariable ["helm", ""];
@@ -344,14 +351,14 @@ if (_selectedIndex == 47) exitWith {
 };
 
 
-if (_selectedIndex == 48) exitWith {
+if (_selectedIndex == 49) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Schwarz - AT-Schütze (mech. Inf.)";
 	_helm = player getVariable ["helm", ""];
 	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Schwarz\TTT_Schwarz_AT.sqf";
 };
 
-if (_selectedIndex == 49) exitWith {
+if (_selectedIndex == 50) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Schwarz - DMR-Schütze (mech. Inf.)";
 	_helm = player getVariable ["helm", ""];
@@ -359,7 +366,7 @@ if (_selectedIndex == 49) exitWith {
 };
 
 
-if (_selectedIndex == 50) exitWith {
+if (_selectedIndex == 51) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Schwarz - Schütze (mech. Inf.)";
 	_helm = player getVariable ["helm", ""];

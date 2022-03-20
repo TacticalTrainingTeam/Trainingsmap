@@ -24,9 +24,12 @@ _unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
-_unit forceAddUniform "U_B_HeliPilotCoveralls";
+_unit forceAddUniform "FIR_Fighter_Pilot_JASDF_Nomex4";
 _unit addVest "FIR_pilot_vest";
 _unit addBackpack "TTT_backpack_radio_white_us_desert";
+
+comment "Add binoculars";
+_unit addWeapon "Binocular";
 
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};

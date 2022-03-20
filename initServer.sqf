@@ -46,6 +46,7 @@ container_20, container_21, container_22, container_23, container_24, container_
 	  ["SmokeShellOrange", 30],
 	  ["SmokeShellPurple", 30],
 	  ["SmokeShellYellow", 30],
+	  ["SmokeShellRed", 60],
 
 	  ["1Rnd_HE_Grenade_shell", 60],
 	  ["1Rnd_Smoke_Grenade_shell", 60],

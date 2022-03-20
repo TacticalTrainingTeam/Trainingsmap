@@ -25,6 +25,9 @@ comment "Add containers";
 _unit forceAddUniform "U_B_PilotCoveralls";
 _unit addBackpack "TTT_backpack_radio_platin_us_desert";
 
+comment "Add binoculars";
+_unit addWeapon "Binocular";
+
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_packingBandage";};

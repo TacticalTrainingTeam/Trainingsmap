@@ -50,27 +50,28 @@ _listBox lbAdd "Platin - Pilot (Jet)";//31
 _listBox lbAdd "Platin - Pilot (Helikopter)";//32
 
 _listBox lbAdd "Weiß - Pilot";//33
-_listBox lbAdd "Weiß - Arzt";//34
-_listBox lbAdd "Weiß - Sanitäter";//35
+_listBox lbAdd "Weiß - Arzt (Long Range)";//34
+_listBox lbAdd "Weiß - Arzt";//35
+_listBox lbAdd "Weiß - Sanitäter";//36
 
-_listBox lbAdd "Silber - Pilot";//36
-_listBox lbAdd "Silber - Logistiker";//37
+_listBox lbAdd "Silber - Pilot";//37
+_listBox lbAdd "Silber - Logistiker";//38
 
-_listBox lbAdd "Rot - Fire Direction Commander";//38
-_listBox lbAdd "Rot - Mörserschütze";//39
+_listBox lbAdd "Rot - Fire Direction Commander";//39
+_listBox lbAdd "Rot - Mörserschütze";//40
 
-_listBox lbAdd "TTT - Kampftaucher";//40
+_listBox lbAdd "TTT - Kampftaucher";//41
 
-_listBox lbAdd "Schwarz - Zugführer (mech. Inf.)";//41
-_listBox lbAdd "Schwarz - Gruppenführer (mech. Inf.)";//42
-_listBox lbAdd "Schwarz - Truppführer (mech. Inf.)";//43
-_listBox lbAdd "Schwarz - Crew (mech. Inf.)";//44
-_listBox lbAdd "Schwarz - Grenadier (mech. Inf.)";//45
-_listBox lbAdd "Schwarz - LMG-Schütze (mech. Inf.)";//46
-_listBox lbAdd "Schwarz - LAT-Schütze (mech. Inf.)";//47
-_listBox lbAdd "Schwarz - AT-Schütze (mech. Inf.)";//48
-_listBox lbAdd "Schwarz - DMR-Schütze (mech. Inf.)";//49
-_listBox lbAdd "Schwarz - Schütze (mech. Inf.)";//50
+_listBox lbAdd "Schwarz - Zugführer (mech. Inf.)";//42
+_listBox lbAdd "Schwarz - Gruppenführer (mech. Inf.)";//43
+_listBox lbAdd "Schwarz - Truppführer (mech. Inf.)";//44
+_listBox lbAdd "Schwarz - Crew (mech. Inf.)";//45
+_listBox lbAdd "Schwarz - Grenadier (mech. Inf.)";//46
+_listBox lbAdd "Schwarz - LMG-Schütze (mech. Inf.)";//47
+_listBox lbAdd "Schwarz - LAT-Schütze (mech. Inf.)";//48
+_listBox lbAdd "Schwarz - AT-Schütze (mech. Inf.)";//49
+_listBox lbAdd "Schwarz - DMR-Schütze (mech. Inf.)";//50
+_listBox lbAdd "Schwarz - Schütze (mech. Inf.)";//51
 
 _listBox lbSetColor [0, [1,1,1,1]];
 
