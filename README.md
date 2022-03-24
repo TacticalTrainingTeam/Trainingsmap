@@ -43,3 +43,4 @@ Trainingsmap of the Tactical Training Team
 - neue Loadouts, Loadoutzuweisung
 - fix Heal-Flag
 - Nachschub in Kisten
+- alte Spec-Scripte entfernt
