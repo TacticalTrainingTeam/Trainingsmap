@@ -59,8 +59,8 @@ _unit addItemToVest "ACE_NVG_Wide_Black";
 _unit addItemToBackpack (["TTT_Helmet_", _helm, "_BW_Flecktarn"] joinString "");
 for "_i" from 1 to 5 do {_unit addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
 for "_i" from 1 to 5 do {_unit addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
-for "_i" from 1 to 8 do {_unit addItemToBackpack "1Rnd_HE_Grenade_shell";};
-for "_i" from 1 to 4 do {_unit addItemToBackpack "ACE_HuntIR_M203";};
+for "_i" from 1 to 10 do {_unit addItemToBackpack "1Rnd_HE_Grenade_shell";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "ACE_HuntIR_M203";};
 
 _unit addHeadgear "TTT_Beret_Green";
 

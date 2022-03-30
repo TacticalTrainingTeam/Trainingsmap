@@ -46,12 +46,13 @@ container_20, container_21, container_22, container_23, container_24, container_
 	  ["SmokeShellOrange", 30],
 	  ["SmokeShellPurple", 30],
 	  ["SmokeShellYellow", 30],
-	  ["SmokeShellRed", 60],
+	  ["SmokeShellRed", 30],
 
-	  ["1Rnd_HE_Grenade_shell", 60],
-	  ["1Rnd_Smoke_Grenade_shell", 60],
-	  ["1Rnd_SmokeRed_Grenade_shell", 60],
-	  ["ACE_HuntIR_M203", 60],
+	  ["1Rnd_HE_Grenade_shell", 30],
+	  ["1Rnd_Smoke_Grenade_shell", 30],
+	  ["1Rnd_SmokeRed_Grenade_shell", 30],
+	  ["1Rnd_SmokeOrange_Grenade_shell", 30],
+	  ["ACE_HuntIR_M203", 20],
 
 	  ["50Rnd_570x28_SMG_03", 60],
 	  ["30Rnd_556x45_Stanag_Red", 60],

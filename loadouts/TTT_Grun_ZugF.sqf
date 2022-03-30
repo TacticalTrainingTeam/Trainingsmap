@@ -59,7 +59,6 @@ for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellBlue";};
 _unit addItemToBackpack (["TTT_Helmet_", _helm, "_BW_Flecktarn"] joinString "");
 _unit addItemToBackpack "ACE_SpraypaintGreen";
 _unit addItemToBackpack "ACE_HuntIR_monitor";
-for "_i" from 1 to 4 do {_unit addItemToBackpack "1Rnd_SmokeBlue_Grenade_shell";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "1Rnd_SmokeOrange_Grenade_shell";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "ACE_HuntIR_M203";};

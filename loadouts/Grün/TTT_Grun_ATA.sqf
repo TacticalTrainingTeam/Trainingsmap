@@ -28,7 +28,7 @@ _unit addHandgunItem "16Rnd_9x21_Mag";
 comment "Add containers";
 _unit forceAddUniform "TTT_Uniform_Green_BW_Flecktarn";
 _unit addVest "TTT_Vest_Heavy_Green_US_Desert";
-_unit addBackpack "B_AssaultPack_cbr";
+_unit addBackpack "B_Kitbag_cbr";
 
 comment "Add binoculars";
 _unit addWeapon "Binocular";
@@ -55,8 +55,8 @@ for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag_red";};
 _unit addItemToVest "ACE_NVG_Wide_Black";
 
 _unit addItemToBackpack (["TTT_Helmet_", _helm, "_BW_Flecktarn"] joinString "");
-_unit addItemToBackpack "MRAWS_HEAT_F";
-_unit addItemToBackpack "MRAWS_HE_F";
+for "_i" from 1 to 2 do {_unit addItemToBackpack "MRAWS_HEAT_F";};
+for "_i" from 1 to 2 do {_unit addItemToBackpack "MRAWS_HE_F";};
 
 _unit addHeadgear "TTT_Beret_Green";
 
