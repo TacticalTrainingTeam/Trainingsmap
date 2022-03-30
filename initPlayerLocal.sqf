@@ -1,6 +1,6 @@
 /*
-	author = Reimchen
-    edit: Redd
+	author = Reimchen 
+    edit: Redd + Andx
 	description = n.a.
 */
 
@@ -61,3 +61,110 @@ laptopHangar_1 addAction ["Gruppe - Stack",{boardHangar_1 setObjectTextureGlobal
 laptopHangar_1 addAction ["Gruppe - Keil",{boardHangar_1 setObjectTextureGlobal [0, "formationen\07_gruppe_keil.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Kette",{boardHangar_1 setObjectTextureGlobal [0, "formationen\08_gruppe_Schutzenkette.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal [0, "formationen\09_gruppe_schutzenreihe.paa"];},[],1,false,true,"","",5];
+
+//Nummern wechseln an TTT Schild
+{
+	_x addAction
+		[
+			"Werde 1",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "1"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde 2",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "2"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde 3",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "3"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde 4",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "4"];
+			}
+		];
+
+			_x addAction
+		[
+			"Werde 5",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "5"];
+			}
+		];
+
+			_x addAction
+		[
+			"Werde 6",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "6"];
+			}
+		];
+
+			_x addAction
+		[
+			"Werde 7",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "7"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde 8",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "8"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde 9",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["helm", "9"];
+			}
+		];
+
+		_x addAction
+		[
+			"Fallschirm ausrüsten",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				[_caller] spawn compile preprocessFileLineNumbers "loadouts\TTT_Parachute.sqf";
+				hint "Fallschirm und Höhenmesser ausgerüstet.";
+			}
+		];
+
+} forEach [nummer_01, nummer_02, nummer_03, nummer_04, nummer_05, nummer_06, nummer_07, nummer_08, nummer_09,
+nummer_10, nummer_11, nummer_12, nummer_13, nummer_14, nummer_15, nummer_16, nummer_17, nummer_18, nummer_19,
+nummer_20, nummer_21, nummer_22, nummer_23, nummer_24, nummer_25, nummer_26, nummer_27];
