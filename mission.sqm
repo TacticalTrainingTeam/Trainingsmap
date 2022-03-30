@@ -20,18 +20,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=907;
+		nextID=926;
 	};
 	class Camera
 	{
-		pos[]={5609.811,46.49062,1395.3176};
-		dir[]={0.52500999,-0.6322459,0.56980848};
-		up[]={0.42841429,0.77476394,0.46497011};
-		aside[]={0.7354418,-4.9127266e-008,-0.67762262};
+		pos[]={5648.8843,7.7755566,1437.8022};
+		dir[]={-0.038984433,-0.48744923,0.87228072};
+		up[]={-0.021763619,0.87315136,0.48696321};
+		aside[]={0.99900293,0,0.044647969};
 	};
 };
 binarizationWanted=0;
-sourceName="co91_TTT-Trainingskarte_v01";
+sourceName="co91_TTT-Trainingskarte_v07";
 addons[]=
 {
 	"A3_Ui_F",
@@ -179,63 +179,63 @@ class AddonsMetaData
 		};
 		class Item15
 		{
-			className="r_unfold";
-			name="r_unfold";
-			author="Rallen";
-		};
-		class Item16
-		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item17
+		class Item16
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item18
+		class Item17
 		{
 			className="A3_Characters_F_Tank";
 			name="Arma 3 Tank - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item19
+		class Item18
 		{
 			className="A3_Characters_F_Mark";
 			name="Arma 3 Marksmen - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item19
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item21
+		class Item20
 		{
 			className="FIR_PilotCrewPack_US";
 			name="FIR_PilotCrewPack_US";
 		};
-		class Item22
+		class Item21
 		{
 			className="ace_nouniformrestrictions";
 			name="ACE3 - No Uniform Restrictions";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item23
+		class Item22
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
+		};
+		class Item23
+		{
+			className="cfp_uniforms";
+			name="cfp_uniforms";
+			author="CFP Team";
 		};
 		class Item24
 		{
@@ -51120,13 +51120,13 @@ class Mission
 						angles[]={0,1.3301255,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						name="t_e_3_2";
 					};
 					id=6408;
 					type="hebontes_popuptarget_rifleman";
-					atlOffset=4.2221889;
 				};
 				class Item21
 				{
@@ -53320,13 +53320,13 @@ class Mission
 						angles[]={0,2.3773139,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						name="t_e_6_20";
 					};
 					id=6712;
 					type="hebontes_popuptarget_rifleman";
-					atlOffset=0.44191551;
 				};
 				class Item114
 				{
@@ -53337,13 +53337,13 @@ class Mission
 						angles[]={0,6.131547,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						name="t_e_6_21";
 					};
 					id=6713;
 					type="hebontes_popuptarget_rifleman";
-					atlOffset=3.8226585;
 				};
 				class Item115
 				{
@@ -53354,13 +53354,13 @@ class Mission
 						angles[]={0,0.44325247,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						name="t_e_6_22";
 					};
 					id=6714;
 					type="hebontes_popuptarget_rifleman";
-					atlOffset=0.80218887;
 				};
 				class Item116
 				{
@@ -53371,13 +53371,13 @@ class Mission
 						angles[]={0,5.0997763,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						name="t_e_6_23";
 					};
 					id=6715;
 					type="hebontes_popuptarget_rifleman";
-					atlOffset=4.2221889;
 				};
 				class Item117
 				{
@@ -53541,13 +53541,13 @@ class Mission
 						angles[]={0,0.69458693,0};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						name="t_e_6_33";
 					};
 					id=6725;
 					type="hebontes_popuptarget_rifleman";
-					atlOffset=3.5642834;
 				};
 				class Item127
 				{
@@ -55203,6 +55203,7 @@ class Mission
 					{
 					};
 					id=7105;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55693,6 +55694,7 @@ class Mission
 					{
 					};
 					id=7111;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56184,6 +56186,7 @@ class Mission
 					{
 					};
 					id=7121;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56674,6 +56677,7 @@ class Mission
 					{
 					};
 					id=7131;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57430,6 +57434,7 @@ class Mission
 					{
 					};
 					id=7141;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57866,6 +57871,7 @@ class Mission
 					{
 					};
 					id=7151;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58062,6 +58068,7 @@ class Mission
 					{
 					};
 					id=7157;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58258,6 +58265,7 @@ class Mission
 					{
 					};
 					id=7160;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58534,6 +58542,7 @@ class Mission
 					{
 					};
 					id=7163;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58773,6 +58782,7 @@ class Mission
 					{
 					};
 					id=7167;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58973,6 +58983,7 @@ class Mission
 					{
 					};
 					id=7171;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59174,6 +59185,7 @@ class Mission
 						formation="LINE";
 					};
 					id=7175;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59374,6 +59386,7 @@ class Mission
 					{
 					};
 					id=7179;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59490,6 +59503,7 @@ class Mission
 					{
 					};
 					id=7183;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59606,6 +59620,7 @@ class Mission
 					{
 					};
 					id=7185;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59649,7 +59664,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weiß_Pilot""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Pilot""];" \n "this setVariable [""helm"", ""1""];";
 								description="#1 Co-Pilot@Air MedEvac ""Weiß""";
 								isPlayable=1;
 							};
@@ -59729,7 +59744,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weiß_Pilot""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Pilot""];" \n "this setVariable [""helm"", ""2""];";
 								description="#2 Pilot";
 								isPlayable=1;
 							};
@@ -59809,7 +59824,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weiß_Arzt""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Arzt""];" \n "this setVariable [""helm"", ""3""];";
 								description="#3 Arzt (Long Range)";
 								isPlayable=1;
 							};
@@ -59889,7 +59904,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weiß_Arzt2""];" \n "this setVariable [""helm"", ""4""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Arzt2""];" \n "this setVariable [""helm"", ""4""];";
 								description="#4 Arzt";
 								isPlayable=1;
 							};
@@ -59969,7 +59984,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weiß_Sani""];" \n "this setVariable [""helm"", ""5""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Sani""];" \n "this setVariable [""helm"", ""5""];";
 								description="#5 Sanitäter";
 								isPlayable=1;
 							};
@@ -60049,7 +60064,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weiß_Sani""];" \n "this setVariable [""helm"", ""6""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Sani""];" \n "this setVariable [""helm"", ""6""];";
 								description="#6 Sanitäter";
 								isPlayable=1;
 							};
@@ -60122,6 +60137,7 @@ class Mission
 					{
 					};
 					id=7187;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60478,6 +60494,7 @@ class Mission
 					{
 					};
 					id=7194;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60834,6 +60851,7 @@ class Mission
 					{
 					};
 					id=7199;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -61491,6 +61509,7 @@ class Mission
 					{
 					};
 					id=7204;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0

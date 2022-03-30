@@ -80,7 +80,7 @@ if (_selectedIndex == 10) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - Leichter AT-Schütze (NLAW)";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_LAT.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grun\TTT_Grun_LAT.sqf";
 };
 
 if (_selectedIndex == 11) exitWith {
@@ -94,7 +94,7 @@ if (_selectedIndex == 12) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - AT-Hilfsschütze";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_ATA.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grun\TTT_Grun_ATA.sqf";
 };
 
 if (_selectedIndex == 13) exitWith {
@@ -129,28 +129,28 @@ if (_selectedIndex == 17) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - AA-Schütze";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_AA.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grun\TTT_Grun_AA.sqf";
 };
 
 if (_selectedIndex == 18) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - AA-Hilfsschütze";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_AAA.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grun\TTT_Grun_AAA.sqf";
 };
 
 if (_selectedIndex == 19) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - Munitionsträger";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_Ammo.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grun\TTT_Grun_Ammo.sqf";
 };
 
 if (_selectedIndex == 20) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Grün - Schütze";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grün\TTT_Grun_Rifle.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\Grun\TTT_Grun_Rifle.sqf";
 };
 
 if (_selectedIndex == 21) exitWith {
@@ -241,28 +241,28 @@ if (_selectedIndex == 33) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Weiß - Pilot";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Pilot.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weis_Pilot.sqf";
 };
 
 if (_selectedIndex == 34) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Weiß - Arzt (Long Range)";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Arzt.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weis_Arzt.sqf";
 };
 
 if (_selectedIndex == 35) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Weiß - Arzt";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Arzt2.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weis_Arzt2.sqf";
 };
 
 if (_selectedIndex == 36) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Weiß - Sanitäter";
 	_helm = player getVariable ["helm", ""];
-	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weiß_Sani.sqf";
+	[player, _helm] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weis_Sani.sqf";
 };
 
 if (_selectedIndex == 37) exitWith {
