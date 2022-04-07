@@ -1,4 +1,4 @@
-params ["_unit", "_helm"];
+params ["_unit", "_helm", "_tarn", "_farbe"];
 
 _unit setRank "COLONEL";
 

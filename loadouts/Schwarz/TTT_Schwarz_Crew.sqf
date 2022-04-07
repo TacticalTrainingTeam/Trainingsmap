@@ -1,4 +1,4 @@
-params ["_unit", "_helm"];
+params ["_unit", "_helm", "_tarn", "_farbe"];
 
 _unit setRank "PRIVATE";
 
@@ -24,7 +24,7 @@ _unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
-_unit forceAddUniform "TTT_Uniform_Black_BW_Flecktarn";
+_unit forceAddUniform (["TTT_Uniform", _farbe, _tarn] joinString "_");
 _unit addVest "TTT_Vest_Crew_US_Woodland";
 
 comment "Add binoculars";

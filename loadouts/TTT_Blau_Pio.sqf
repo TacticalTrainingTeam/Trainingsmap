@@ -1,4 +1,4 @@
-params ["_unit", "_helm"];
+params ["_unit", "_helm", "_tarn", "_farbe"];
 
 _unit setRank "PRIVATE";
 
@@ -26,8 +26,8 @@ _unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
-_unit forceAddUniform "TTT_Uniform_Blue_BW_Flecktarn";
-_unit addVest "TTT_Vest_Heavy_Blue_US_Desert";
+_unit forceAddUniform (["TTT_Uniform", _farbe, _tarn] joinString "_");
+_unit addVest (["TTT_Vest_Heavy", _farbe, "US_Desert"] joinString "_");
 _unit addBackpack "B_Carryall_cbr";
 
 comment "Add binoculars";
@@ -56,7 +56,7 @@ for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
 for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag_red";};
 _unit addItemToVest "ACE_NVG_Wide_Black";
 
-_unit addItemToBackpack (["TTT_Helmet_", _helm, "_BW_Flecktarn"] joinString "");
+_unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 _unit addItemToBackpack "ACE_wirecutter";
 _unit addItemToBackpack "ACE_EntrenchingTool";
 _unit addItemToBackpack "ACE_VMH3";
@@ -67,7 +67,7 @@ _unit addItemToBackpack "ACE_SpraypaintGreen";
 _unit addItemToBackpack "ACE_SpraypaintBlack";
 _unit addItemToBackpack "ACE_Fortify";
 
-_unit addHeadgear "TTT_Beret_Blue";
+_unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";

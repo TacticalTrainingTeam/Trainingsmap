@@ -1,4 +1,4 @@
-params ["_unit", "_helm"];
+params ["_unit", "_helm", "_tarn", "_farbe"];
 
 _unit setRank "SERGEANT";
 
@@ -26,8 +26,8 @@ _unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
-_unit forceAddUniform "TTT_Uniform_red_BW_Flecktarn";
-_unit addVest "TTT_Vest_Lite_red_US_Desert";
+_unit forceAddUniform (["TTT_Uniform", _farbe, _tarn] joinString "_");
+_unit addVest (["TTT_Vest_Lite", _farbe, "US_Desert"] joinString "_");
 _unit addBackpack "TTT_backpack_radio_base_coyote";
 
 comment "Add binoculars";
@@ -58,10 +58,10 @@ for "_i" from 1 to 7 do {_unit addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellBlue";};
 _unit addItemToVest "ACE_NVG_Wide_Black";
 
-_unit addItemToBackpack (["TTT_Helmet_", _helm, "_BW_Flecktarn"] joinString "");
+_unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 _unit addItemToBackpack "ACRE_PRC117F";
 
-_unit addHeadgear "TTT_Beret_Red";
+_unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";

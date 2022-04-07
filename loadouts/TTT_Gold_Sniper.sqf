@@ -1,4 +1,4 @@
-params ["_unit", "_helm"];
+params ["_unit", "_helm", "_tarn", "_farbe"];
 
 _unit setRank "CORPORAL";
 
@@ -26,7 +26,7 @@ _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
 _unit forceAddUniform "U_B_FullGhillie_lsh";
-_unit addVest "TTT_Vest_Lite_Gold_US_Desert";
+_unit addVest (["TTT_Vest_Lite", _farbe, "US_Desert"] joinString "_");
 _unit addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
@@ -58,7 +58,7 @@ _unit addItemToVest "ACE_NVG_Wide_Black";
 _unit addItemToBackpack "ACE_Tripod";
 for "_i" from 1 to 4 do {_unit addItemToBackpack "7Rnd_408_Mag";};
 
-_unit addHeadgear "TTT_Beret_Gold";
+_unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";

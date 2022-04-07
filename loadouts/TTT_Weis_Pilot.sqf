@@ -1,4 +1,4 @@
-params ["_unit", "_helm"];
+params ["_unit", "_helm", "_tarn", "_farbe"];
 
 _unit setRank "CAPTAIN";
 
@@ -57,7 +57,7 @@ _unit addItemToVest "ACE_NVG_Wide_Black";
 _unit addItemToBackpack "ACRE_PRC117F";
 _unit addItemToBackpack "TTT_Helmet_Falcon";
 
-_unit addHeadgear "TTT_Beret_White";
+_unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";

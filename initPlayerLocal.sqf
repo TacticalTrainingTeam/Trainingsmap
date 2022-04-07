@@ -156,6 +156,173 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
+			"Werde Blau",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "blue"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Braun",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "brown"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Bronze",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "bronze"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Gelb",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "yellow"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Gold",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "gold"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Grau",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "grey"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Grün",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "green"];
+			}
+		];
+
+			_x addAction
+		[
+			"Werde Orange",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "orange"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Rot",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "red"];
+			}
+		];
+
+
+		_x addAction
+		[
+			"Werde Schwarz",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "black"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Silber",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "silver"];
+			}
+		];
+
+
+		_x addAction
+		[
+			"Werde Violett",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "violet"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde white",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "white"];
+			}
+		];
+
+				_x addAction
+		[
+			"BW Flecktarn",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["tarn", "BW_Flecktarn"];
+			}
+		];
+
+				_x addAction
+		[
+			"BW Tropentarn",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["tarn", "BW_Tropentarn"];
+			}
+		];
+	
+
+	
+				_x addAction
+		[
+			"BW Tropentarn",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["tarn", "US_Woodland"];
+			}
+		];
+
+
+
+
+		_x addAction
+		[
 			"Fallschirm ausrüsten",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
