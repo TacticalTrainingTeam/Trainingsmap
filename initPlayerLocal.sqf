@@ -39,10 +39,16 @@
 // spectator cam and clean up near base
 flag_sammelplatz addAction ["Zuschauermodus", {
     params ["_target","_caller"];
+
     ["Initialize", [_caller, [], true]] call BIS_fnc_EGSpectator;
-},[],1,false,true,"","",5];
+	},
+	[],1,false,true,"","",5
+	
+	];
+
 player addEventHandler ["Respawn",{
     params ["","_corpse"];
+
     if((getPosASL player) distance (getMarkerPos "respawn") < 1000) then {
         deleteVehicle _corpse;
     };
@@ -64,7 +70,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 //Nummern wechseln an TTT Schild
 {
-	_x addAction
+		_x addAction
 		[
 			"Werde 1",	// title
 			{
@@ -104,7 +110,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 
-			_x addAction
+		_x addAction
 		[
 			"Werde 5",	// title
 			{
@@ -114,7 +120,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 
-			_x addAction
+		_x addAction
 		[
 			"Werde 6",	// title
 			{
@@ -124,7 +130,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 
-			_x addAction
+		_x addAction
 		[
 			"Werde 7",	// title
 			{
@@ -224,7 +230,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 
-			_x addAction
+		_x addAction
 		[
 			"Werde Orange",	// title
 			{
@@ -286,7 +292,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 
-				_x addAction
+		_x addAction
 		[
 			"BW Flecktarn",	// title
 			{
@@ -296,7 +302,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 
-				_x addAction
+		_x addAction
 		[
 			"BW Tropentarn",	// title
 			{
@@ -306,20 +312,15 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 	
-
-	
-				_x addAction
+		_x addAction
 		[
-			"BW Tropentarn",	// title
+			"US Wüstentarn",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["tarn", "US_Woodland"];
 			}
 		];
-
-
-
 
 		_x addAction
 		[
