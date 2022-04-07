@@ -57,7 +57,7 @@ _unit addItemToVest "ACE_NVG_Wide_Black";
 _unit addItemToBackpack "ACRE_PRC117F";
 _unit addItemToBackpack "TTT_Helmet_Falcon";
 
-_unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
+_unit addHeadgear (["TTT_Beret", "white"] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";

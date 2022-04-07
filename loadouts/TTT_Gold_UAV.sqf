@@ -28,8 +28,8 @@ _unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
-_unit forceAddUniform (["TTT_Uniform", _farbe, _tarn] joinString "_");
-_unit addVest (["TTT_Vest_lite", _farbe, "US_Desert"] joinString "_");
+_unit forceAddUniform (["TTT_Uniform", "gold", _tarn] joinString "_");
+_unit addVest (["TTT_Vest_lite", "gold", "US_Desert"] joinString "_");
 _unit addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
@@ -61,7 +61,7 @@ _unit addItemToVest "ACE_NVG_Wide_Black";
 _unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 _unit addItemToBackpack "ITC_Land_B_AR2e_Packed";
 
-_unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
+_unit addHeadgear (["TTT_Beret", "gold"] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";

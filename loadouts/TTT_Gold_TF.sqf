@@ -28,9 +28,9 @@ _unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
-_unit forceAddUniform (["TTT_Uniform", _farbe, _tarn] joinString "_");
-_unit addVest (["TTT_Vest_lite", _farbe, "US_Desert"] joinString "_");
-_unit addBackpack (["TTT_backpack_radio", _farbe, "US_Desert"] joinString "_");
+_unit forceAddUniform (["TTT_Uniform", "gold", _tarn] joinString "_");
+_unit addVest (["TTT_Vest_lite", "gold", "US_Desert"] joinString "_");
+_unit addBackpack (["TTT_backpack_radio", "gold", "US_Desert"] joinString "_");
 
 comment "Add binoculars";
 _unit addMagazine "Laserbatteries";
@@ -62,7 +62,7 @@ _unit addItemToVest "ACE_NVG_Wide_Black";
 _unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 _unit addItemToBackpack "ACRE_PRC117F";
 
-_unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
+_unit addHeadgear (["TTT_Beret", "gold"] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";

@@ -26,7 +26,7 @@ _unit addHandgunItem "16Rnd_9x21_Mag";
 comment "Add containers";
 _unit forceAddUniform "FIR_Fighter_Pilot_JASDF_Nomex4";
 _unit addVest "FIR_pilot_vest";
-_unit addBackpack (["TTT_backpack_radio", _farbe, "US_Desert"] joinString "_");
+_unit addBackpack (["TTT_backpack_radio", "silver", "US_Desert"] joinString "_");
 
 comment "Add binoculars";
 _unit addWeapon "Binocular";

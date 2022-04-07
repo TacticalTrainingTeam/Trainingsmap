@@ -24,10 +24,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5589.3857,31.233612,16866.518};
-		dir[]={0.04050903,-0.25268614,-0.966784};
-		up[]={0.010582461,0.96752197,-0.2525346};
-		aside[]={-0.9992041,-6.8437657e-007,-0.041866172};
+		pos[]={5971.8545,88.120743,16834.238};
+		dir[]={0.82753682,-0.55829,-0.059182908};
+		up[]={0.55687004,0.82964474,-0.039825801};
+		aside[]={-0.071334593,-4.4354238e-008,-0.99745655};
 	};
 };
 binarizationWanted=0;
@@ -18585,6 +18585,7 @@ class Mission
 		{
 			dataType="Layer";
 			name="Inf Schießbahnen";
+			state=1;
 			class Entities
 			{
 				items=441;
@@ -34568,6 +34569,7 @@ class Mission
 					};
 					id=4156;
 					type="hebontes_targetsector_R_B";
+					atlOffset=-2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0

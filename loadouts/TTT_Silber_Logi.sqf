@@ -24,8 +24,8 @@ _unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
-_unit forceAddUniform (["TTT_Uniform", _farbe, _tarn] joinString "_");
-_unit addVest (["TTT_Vest_Crew", _farbe] joinString "_");
+_unit forceAddUniform (["TTT_Uniform", "silver", _tarn] joinString "_");
+_unit addVest (["TTT_Vest_Crew", "silver"] joinString "_");
 _unit addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";

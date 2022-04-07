@@ -26,7 +26,7 @@ _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
 _unit forceAddUniform "U_B_FullGhillie_lsh";
-_unit addVest (["TTT_Vest_Lite", _farbe, "US_Desert"] joinString "_");
+_unit addVest (["TTT_Vest_Lite", "gold", "US_Desert"] joinString "_");
 _unit addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
@@ -58,7 +58,7 @@ _unit addItemToVest "ACE_NVG_Wide_Black";
 _unit addItemToBackpack "ACE_Tripod";
 for "_i" from 1 to 4 do {_unit addItemToBackpack "7Rnd_408_Mag";};
 
-_unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
+_unit addHeadgear (["TTT_Beret", "gold"] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";

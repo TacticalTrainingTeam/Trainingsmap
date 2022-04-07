@@ -162,51 +162,11 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde Blau",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "blue"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Braun",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "brown"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Bronze",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "bronze"];
-			}
-		];
-
-		_x addAction
-		[
 			"Werde Gelb",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["farbe", "yellow"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Gold",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "gold"];
 			}
 		];
 
@@ -263,32 +223,11 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde Silber",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "silver"];
-			}
-		];
-
-
-		_x addAction
-		[
 			"Werde Violett",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["farbe", "violet"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde white",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "white"];
 			}
 		];
 
@@ -328,7 +267,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
-				[_caller] spawn compile preprocessFileLineNumbers "loadouts\TTT_Parachute.sqf";
+				[_caller] spawn compile preprocessFileLineNumbers "loadouts\Parachute.sqf";
 				hint "Fallschirm und Höhenmesser ausgerüstet.";
 			}
 		];
