@@ -68,7 +68,7 @@ laptopHangar_1 addAction ["Gruppe - Keil",{boardHangar_1 setObjectTextureGlobal 
 laptopHangar_1 addAction ["Gruppe - Kette",{boardHangar_1 setObjectTextureGlobal [0, "formationen\08_gruppe_Schutzenkette.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal [0, "formationen\09_gruppe_schutzenreihe.paa"];},[],1,false,true,"","",5];
 
-//Nummern wechseln an TTT Schild
+//Nummern/Tarn/Farbe wechseln an TTT Schild
 {
 		_x addAction
 		[
@@ -172,6 +172,16 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
+			"Werde Gold",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "gold"];
+			}
+		];
+
+		_x addAction
+		[
 			"Werde Grau",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
@@ -233,7 +243,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"BW Flecktarn",	// title
+			"TTT Flecktarn",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -243,7 +253,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"BW Tropentarn",	// title
+			"TTT Tropentarn",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -253,7 +263,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 	
 		_x addAction
 		[
-			"US Wüstentarn",	// title
+			"TTT Wüstentarn",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 

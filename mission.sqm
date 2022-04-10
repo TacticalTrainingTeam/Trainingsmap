@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=7296;
+		nextID=7302;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=983;
+		nextID=1002;
 	};
 	class Camera
 	{
-		pos[]={5735.8633,86.402344,1409.1006};
-		dir[]={-0.6953029,-0.36222854,-0.62080741};
-		up[]={-0.2702114,0.93207771,-0.24126099};
-		aside[]={-0.66603297,-3.1781383e-008,0.74595428};
+		pos[]={5608.3882,27.289604,1439.1073};
+		dir[]={0.87458462,-0.46476468,0.13818681};
+		up[]={0.45906976,0.88543427,0.0725343};
+		aside[]={0.15606672,-7.4505806e-009,-0.9877466};
 	};
 };
 binarizationWanted=0;
@@ -263,6 +263,157 @@ randomSeed=13674699;
 class ScenarioData
 {
 	author="Reddiem";
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="cba_settings_hash";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=4;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="#CBA_HASH#";
+							};
+						};
+						class Item1
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=1;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="v1_mass_toggle";
+										};
+									};
+								};
+							};
+						};
+						class Item2
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=1;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+						class Item3
+						{
+							class data
+							{
+								nil=1;
+								class type
+								{
+									type[]=
+									{
+										"ANY"
+									};
+								};
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
 };
 class Mission
 {
@@ -55672,6 +55823,7 @@ class Mission
 					{
 					};
 					id=7105;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56238,6 +56390,7 @@ class Mission
 					{
 					};
 					id=7111;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56729,6 +56882,7 @@ class Mission
 					{
 					};
 					id=7121;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57219,6 +57373,7 @@ class Mission
 					{
 					};
 					id=7131;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57975,6 +58130,7 @@ class Mission
 					{
 					};
 					id=7141;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58411,6 +58567,7 @@ class Mission
 					{
 					};
 					id=7151;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58607,6 +58764,7 @@ class Mission
 					{
 					};
 					id=7157;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58803,6 +58961,7 @@ class Mission
 					{
 					};
 					id=7160;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59079,6 +59238,7 @@ class Mission
 					{
 					};
 					id=7163;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59318,6 +59478,7 @@ class Mission
 					{
 					};
 					id=7167;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59518,6 +59679,7 @@ class Mission
 					{
 					};
 					id=7171;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59719,6 +59881,7 @@ class Mission
 						formation="LINE";
 					};
 					id=7175;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59919,6 +60082,7 @@ class Mission
 					{
 					};
 					id=7179;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60035,6 +60199,7 @@ class Mission
 					{
 					};
 					id=7183;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60151,6 +60316,7 @@ class Mission
 					{
 					};
 					id=7185;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60667,6 +60833,7 @@ class Mission
 					{
 					};
 					id=7187;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -61023,6 +61190,7 @@ class Mission
 					{
 					};
 					id=7194;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -61379,6 +61547,7 @@ class Mission
 					{
 					};
 					id=7199;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -62036,6 +62205,7 @@ class Mission
 					{
 					};
 					id=7204;
+					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0

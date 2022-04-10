@@ -1,3 +1,13 @@
 params ["_object"];
 
-_object addAction ["Loadouts",{createDialog "andx_loadouts";},[],1,false,true,"","",7];
+_object addAction [
+	"Loadouts", //Title
+	{createDialog "andx_loadouts";}, //Script
+	[], //Arguments
+	1, //Priority
+	false, //showWindow
+	true, //hideonuse
+	"", //shortcut
+	"", //condition
+	11 //radius
+];

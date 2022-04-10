@@ -26,8 +26,17 @@ _unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
+if (_farbe == "platinum") then {
+	_farbe = "green";
+};
 _unit forceAddUniform (["TTT_Uniform", _farbe, _tarn] joinString "_");
-_unit addVest (["TTT_Vest_Heavy", _farbe, "US_Desert"] joinString "_");
+
+if (_farbe == "silver" || _farbe == "white" || _farbe == "bronze" || _farbe == "platinum") then {
+	_unit addVest (["TTT_Vest_Heavy", "green", "US_Desert"] joinString "_");
+} else {
+	_unit addVest (["TTT_Vest_Heavy", _farbe, "US_Desert"] joinString "_");
+};
+
 _unit addBackpack "B_Carryall_cbr";
 
 comment "Add binoculars";

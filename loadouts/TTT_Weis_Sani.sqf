@@ -64,7 +64,7 @@ for "_i" from 1 to 5 do {_unit addItemToBackpack "ACE_salineIV_250";};
 for "_i" from 1 to 3 do {_unit addItemToBackpack "ACE_salineIV";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "ACE_surgicalKit";};
 
-_unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
+_unit addHeadgear (["TTT_Beret", "white"] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";
