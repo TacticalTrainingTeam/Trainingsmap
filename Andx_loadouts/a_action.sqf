@@ -386,7 +386,7 @@ if (_selectedIndex == 41) exitWith {
 
 if (_selectedIndex == 42) exitWith {
 	closeDialog 0;
-	hint "Du bist nun Scharfschütze (Anti-Material Rifle)";
+	hint "Du bist nun Gold - Scharfschütze (Anti-Material Rifle)";
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "gold"]);
@@ -395,7 +395,7 @@ if (_selectedIndex == 42) exitWith {
 
 if (_selectedIndex == 43) exitWith {
 	closeDialog 0;
-	hint "Du bist nun Spotter (Anti-Material Rifle)";
+	hint "Du bist nun Gold - Spotter (Anti-Material Rifle)";
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "gold"]);

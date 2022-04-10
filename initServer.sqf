@@ -63,6 +63,7 @@ container_20, container_21, container_22, container_23, container_24, container_
 	  ["7Rnd_408_Mag", 20],
 	  ["ACE_20Rnd_762x51_Mag_SD", 20],
 	  ["130Rnd_338_Mag", 30],
+	  ["5Rnd_127x108_APDS_Mag", 20],
 
 	  ["MRAWS_HEAT_F", 10],
 	  ["MRAWS_HE_F", 10],
