@@ -12,7 +12,7 @@ if (_selectedIndex == 0) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_ZugF.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_ZugF.sqf";
 };
 
 if (_selectedIndex == 1) exitWith {
@@ -21,7 +21,7 @@ if (_selectedIndex == 1) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_StZugF.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_StZugF.sqf";
 };
 
 if (_selectedIndex == 2) exitWith {
@@ -30,7 +30,7 @@ if (_selectedIndex == 2) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_Funker.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Funker.sqf";
 };
 
 if (_selectedIndex == 3) exitWith {
@@ -39,7 +39,7 @@ if (_selectedIndex == 3) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_FO.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_FO.sqf";
 };
 
 if (_selectedIndex == 4) exitWith {
@@ -48,7 +48,7 @@ if (_selectedIndex == 4) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_JTAC.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_JTAC.sqf";
 };
 
 if (_selectedIndex == 5) exitWith {
@@ -57,7 +57,7 @@ if (_selectedIndex == 5) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_GF.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_GF.sqf";
 };
 
 if (_selectedIndex == 6) exitWith {
@@ -66,7 +66,7 @@ if (_selectedIndex == 6) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_TF.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_TF.sqf";
 };
 
 if (_selectedIndex == 7) exitWith {
@@ -75,7 +75,7 @@ if (_selectedIndex == 7) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_LMG.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_LMG.sqf";
 };
 
 if (_selectedIndex == 8) exitWith {
@@ -84,7 +84,7 @@ if (_selectedIndex == 8) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_Gren.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Gren.sqf";
 };
 
 if (_selectedIndex == 9) exitWith {
@@ -93,7 +93,7 @@ if (_selectedIndex == 9) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_DMR.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_DMR.sqf";
 };
 
 if (_selectedIndex == 10) exitWith {
@@ -102,7 +102,7 @@ if (_selectedIndex == 10) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_LAT.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_LAT.sqf";
 };
 
 if (_selectedIndex == 11) exitWith {
@@ -111,7 +111,7 @@ if (_selectedIndex == 11) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_AT.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_AT.sqf";
 };
 
 if (_selectedIndex == 12) exitWith {
@@ -120,7 +120,7 @@ if (_selectedIndex == 12) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_ATA.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_ATA.sqf";
 };
 
 if (_selectedIndex == 13) exitWith {
@@ -129,7 +129,7 @@ if (_selectedIndex == 13) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_HAT.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_HAT.sqf";
 };
 
 if (_selectedIndex == 14) exitWith {
@@ -138,7 +138,7 @@ if (_selectedIndex == 14) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_HATA.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_HATA.sqf";
 };
 
 if (_selectedIndex == 15) exitWith {
@@ -147,7 +147,7 @@ if (_selectedIndex == 15) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_MMG.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_MMG.sqf";
 };
 
 if (_selectedIndex == 16) exitWith {
@@ -156,7 +156,7 @@ if (_selectedIndex == 16) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_MMGA.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_MMGA.sqf";
 };
 
 if (_selectedIndex == 17) exitWith {
@@ -165,7 +165,7 @@ if (_selectedIndex == 17) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_AA.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_AA.sqf";
 };
 
 if (_selectedIndex == 18) exitWith {
@@ -174,7 +174,7 @@ if (_selectedIndex == 18) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_AAA.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_AAA.sqf";
 };
 
 if (_selectedIndex == 19) exitWith {
@@ -183,7 +183,7 @@ if (_selectedIndex == 19) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_Ammo.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Ammo.sqf";
 };
 
 if (_selectedIndex == 20) exitWith {
@@ -192,7 +192,7 @@ if (_selectedIndex == 20) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "green"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Grun_Rifle.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Rifle.sqf";
 };
 
 if (_selectedIndex == 21) exitWith {
@@ -363,7 +363,7 @@ if (_selectedIndex == 39) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "red"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Rot_FDC.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_FDC.sqf";
 };
 
 if (_selectedIndex == 40) exitWith {
@@ -372,7 +372,7 @@ if (_selectedIndex == 40) exitWith {
 	private _helm = (player getVariable ["helm", "1"]);
 	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
 	private _farbe = (player getVariable ["farbe", "red"]);
-	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Rot_Mortar.sqf";
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Mortar.sqf";
 };
 
 if (_selectedIndex == 41) exitWith {

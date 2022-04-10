@@ -55278,7 +55278,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_ZugF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_ZugF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#1 Zugführer@Infanterie Zugführung ""Grün""";
 								isPlayable=1;
 							};
@@ -55358,7 +55358,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_StZugF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_StZugF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#2 Stellv. Zugführer";
 								isPlayable=1;
 							};
@@ -55438,7 +55438,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Funker""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_Funker""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#3 Funker";
 								isPlayable=1;
 							};
@@ -55518,7 +55518,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_FO""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_FO""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#4 Forward Observer";
 								isPlayable=1;
 							};
@@ -55598,7 +55598,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_JTAC""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_JTAC""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#5 Joint-Terminal-Attack-Controller";
 								isPlayable=1;
 							};
@@ -55715,7 +55715,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#1 Gruppenführer@Infanteriegruppe ""Grün-1""";
 								isPlayable=1;
 							};
@@ -55795,7 +55795,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#2 Truppführer";
 								isPlayable=1;
 							};
@@ -55837,7 +55837,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#3 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -55879,7 +55879,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#4 Grenadier";
 								isPlayable=1;
 							};
@@ -55959,7 +55959,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_AT""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_AT""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#5 AT-Schütze";
 								isPlayable=1;
 							};
@@ -56039,7 +56039,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#6 Truppführer";
 								isPlayable=1;
 							};
@@ -56081,7 +56081,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#7 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -56123,7 +56123,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#8 Grenadier";
 								isPlayable=1;
 							};
@@ -56203,7 +56203,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_DMR""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_DMR""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#9 DMR-Schütze";
 								isPlayable=1;
 							};
@@ -56281,7 +56281,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#1 Gruppenführer@Infanteriegruppe ""Grün-2""";
 								isPlayable=1;
 							};
@@ -56361,7 +56361,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#2 Truppführer";
 								isPlayable=1;
 							};
@@ -56403,7 +56403,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#3 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -56445,7 +56445,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#4 Grenadier";
 								isPlayable=1;
 							};
@@ -56487,7 +56487,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_AT""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_AT""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#5 AT-Schütze";
 								isPlayable=1;
 							};
@@ -56567,7 +56567,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#6 Truppführer";
 								isPlayable=1;
 							};
@@ -56609,7 +56609,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#7 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -56651,7 +56651,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#8 Grenadier";
 								isPlayable=1;
 							};
@@ -56693,7 +56693,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_DMR""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_DMR""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#9 DMR-Schütze";
 								isPlayable=1;
 							};
@@ -56772,7 +56772,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#1 Gruppenführer@Infanteriegruppe ""Grün-3""";
 								isPlayable=1;
 							};
@@ -56852,7 +56852,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#2 Truppführer";
 								isPlayable=1;
 							};
@@ -56894,7 +56894,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#3 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -56936,7 +56936,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#4 Grenadier";
 								isPlayable=1;
 							};
@@ -56978,7 +56978,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_AT""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_AT""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#5 AT-Schütze";
 								isPlayable=1;
 							};
@@ -57058,7 +57058,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#6 Truppführer";
 								isPlayable=1;
 							};
@@ -57100,7 +57100,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#7 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -57142,7 +57142,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#8 Grenadier";
 								isPlayable=1;
 							};
@@ -57184,7 +57184,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_DMR""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_DMR""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#9 DMR-Schütze";
 								isPlayable=1;
 							};
@@ -57262,7 +57262,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#1 Gruppenführer@Schwere Infanteriegruppe ""Grün-4""";
 								isPlayable=1;
 							};
@@ -57342,7 +57342,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_MMG""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_MMG""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#2 MMG-Schütze [Marksman-DLC]";
 								isPlayable=1;
 							};
@@ -57422,7 +57422,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_MMGA""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_MMGA""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#3 MMG-Assistent";
 								isPlayable=1;
 							};
@@ -57502,7 +57502,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_MMG""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_MMG""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#4 MMG-Schütze [Marksman-DLC]";
 								isPlayable=1;
 							};
@@ -57582,7 +57582,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_MMGA""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_MMGA""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#5 MMG-Assistent";
 								isPlayable=1;
 							};
@@ -57662,7 +57662,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_HAT""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_HAT""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#6 Schwerer AT-Schütze";
 								isPlayable=1;
 							};
@@ -57742,7 +57742,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_HATA""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_HATA""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#7 Schwerer AT-Assistent";
 								isPlayable=1;
 							};
@@ -57822,7 +57822,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_HAT""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_HAT""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#8 Schwerer AT-Schütze";
 								isPlayable=1;
 							};
@@ -57902,7 +57902,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_HATA""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
+								init="this setVariable [""loadout"", ""TTT_HATA""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#9 Schwerer AT-Assistent";
 								isPlayable=1;
 							};
