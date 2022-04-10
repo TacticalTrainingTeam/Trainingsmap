@@ -62,17 +62,6 @@ _listBox lbAdd "Mörserschütze";//40
 
 _listBox lbAdd "Kampftaucher";//41
 
-_listBox lbAdd "Zugführer (mech. Inf.)";//42
-_listBox lbAdd "Gruppenführer (mech. Inf.)";//43
-_listBox lbAdd "Truppführer (mech. Inf.)";//44
-_listBox lbAdd "Crew (mech. Inf.)";//45
-_listBox lbAdd "Grenadier (mech. Inf.)";//46
-_listBox lbAdd "LMG-Schütze (mech. Inf.)";//47
-_listBox lbAdd "LAT-Schütze (mech. Inf.)";//48
-_listBox lbAdd "AT-Schütze (mech. Inf.)";//49
-_listBox lbAdd "DMR-Schütze (mech. Inf.)";//50
-_listBox lbAdd "Schütze (mech. Inf.)";//51
-
 _listBox lbSetColor [0, [1,1,1,1]];
 
 // add event handler for double click

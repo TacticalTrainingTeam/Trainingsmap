@@ -28,7 +28,16 @@ _unit addHandgunItem "16Rnd_9x21_Mag";
 comment "Add containers";
 _unit forceAddUniform (["TTT_Uniform", _farbe, _tarn] joinString "_");
 _unit addVest (["TTT_Vest_Heavy", _farbe, "US_Desert"] joinString "_");
-_unit addBackpack (["TTT_backpack_radio", _farbe, "US_Desert"] joinString "_");
+if (_farbe == "brown" || _farbe == "yellow" || _farbe == "gold" || _farbe == "grey" || _farbe == "green" || _farbe == "silver" || _farbe == "white") then {
+	_unit addBackpack (["TTT_backpack_radio", _farbe, "US_Desert"] joinString "_");
+} else {
+	if (_farbe == "platinum") then {
+		_unit addBackpack "TTT_backpack_radio_paltin_us_desert";
+	} else {
+		_unit addBackpack "TTT_backpack_radio_base_coyote";
+	};
+};
+
 
 comment "Add binoculars";
 _unit addWeapon "ACE_Vector";
