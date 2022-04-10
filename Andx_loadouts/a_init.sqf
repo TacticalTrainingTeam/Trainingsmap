@@ -61,6 +61,8 @@ _listBox lbAdd "Fire Direction Commander";//39
 _listBox lbAdd "Mörserschütze";//40
 
 _listBox lbAdd "Kampftaucher";//41
+_listBox lbAdd "Scharfschütze Anti-Material Rifle";//42
+_listBox lbAdd "Spotter Anti-Material Rifle";//43
 
 _listBox lbSetColor [0, [1,1,1,1]];
 

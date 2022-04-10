@@ -384,6 +384,24 @@ if (_selectedIndex == 41) exitWith {
 	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Diver.sqf";
 };
 
+if (_selectedIndex == 42) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Scharfschütze (Anti-Material Rifle)";
+	private _helm = (player getVariable ["helm", "1"]);
+	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
+	private _farbe = (player getVariable ["farbe", "gold"]);
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Gold_Sniper_AMR.sqf";
+};
+
+if (_selectedIndex == 43) exitWith {
+	closeDialog 0;
+	hint "Du bist nun Spotter (Anti-Material Rifle)";
+	private _helm = (player getVariable ["helm", "1"]);
+	private _tarn = (player getVariable ["tarn", "BW_Flecktarn"]);
+	private _farbe = (player getVariable ["farbe", "gold"]);
+	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Gold_Spotter_AMR.sqf";
+};
+
 if (_selectedIndex == 52) exitWith {
 	//closeDialog 0;
 };

@@ -45,6 +45,7 @@ for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_tourniquet";};
 _unit addItemToUniform "ACRE_PRC343";
 for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
 _unit addItemToUniform "acex_intelitems_notepad";
+_unit addItemToUniform "ACE_microDAGR";
 
 _unit addItemToVest "ACE_Kestrel4500";
 _unit addItemToVest "ACE_ATragMX";

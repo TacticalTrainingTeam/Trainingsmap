@@ -1,6 +1,6 @@
 params ["_unit", "_helm", "_tarn", "_farbe"];
 
-_unit setRank "SERGEANT";
+_unit setRank "CORPORAL";
 
 comment "Exported from Arsenal by Andx";
 
@@ -18,19 +18,16 @@ removeHeadgear _unit;
 removeGoggles _unit;
 
 comment "Add weapons";
-_unit addWeapon "arifle_SPAR_03_blk_F";
-_unit addPrimaryWeaponItem "muzzle_snds_B";
-_unit addPrimaryWeaponItem "acc_pointer_IR";
-_unit addPrimaryWeaponItem "optic_ams";
-_unit addPrimaryWeaponItem "ACE_20Rnd_762x51_Mag_SD";
-_unit addPrimaryWeaponItem "bipod_01_F_blk";
+_unit addWeapon "srifle_GM6_F";
+_unit addPrimaryWeaponItem "optic_LRPS";
+_unit addPrimaryWeaponItem "5Rnd_127x108_APDS_Mag";
 _unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
 _unit forceAddUniform "U_B_FullGhillie_lsh";
 _unit addVest (["TTT_Vest_Lite", "gold", "US_Desert"] joinString "_");
-_unit addBackpack (["TTT_backpack_radio", "gold", "US_Desert"] joinString "_");
+_unit addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
 _unit addWeapon "ACE_Vector";
@@ -47,22 +44,20 @@ _unit addItemToUniform "ACE_morphine";
 for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_tourniquet";};
 _unit addItemToUniform "ACRE_PRC343";
 for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
-_unit addItemToUniform "ItemAndroid";
 _unit addItemToUniform "acex_intelitems_notepad";
 _unit addItemToUniform "ACE_microDAGR";
 
 _unit addItemToVest "ACE_Kestrel4500";
 _unit addItemToVest "ACE_ATragMX";
+for "_i" from 1 to 4 do {_unit addItemToVest "5Rnd_127x108_APDS_Mag";};
 for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 _unit addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
-for "_i" from 1 to 6 do {_unit addItemToVest "ACE_20Rnd_762x51_Mag_SD";};
 _unit addItemToVest "ACE_NVG_Wide_Black";
 
-_unit addItemToBackpack "ACE_SpottingScope";
-_unit addItemToBackpack "ACRE_PRC117F";
-for "_i" from 1 to 4 do {_unit addItemToBackpack "7Rnd_408_Mag";};
+_unit addItemToBackpack "ACE_Tripod";
+for "_i" from 1 to 4 do {_unit addItemToBackpack "5Rnd_127x108_APDS_Mag";};
 
 _unit addHeadgear (["TTT_Beret", "gold"] joinString "_");
 

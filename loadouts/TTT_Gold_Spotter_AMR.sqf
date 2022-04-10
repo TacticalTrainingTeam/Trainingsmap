@@ -62,7 +62,7 @@ _unit addItemToVest "ACE_NVG_Wide_Black";
 
 _unit addItemToBackpack "ACE_SpottingScope";
 _unit addItemToBackpack "ACRE_PRC117F";
-for "_i" from 1 to 4 do {_unit addItemToBackpack "7Rnd_408_Mag";};
+for "_i" from 1 to 4 do {_unit addItemToBackpack "5Rnd_127x108_APDS_Mag";};
 
 _unit addHeadgear (["TTT_Beret", "gold"] joinString "_");
 
