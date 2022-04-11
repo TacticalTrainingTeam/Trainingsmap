@@ -60,13 +60,13 @@ for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 _unit addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
-for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag_red";};
-_unit addItemToVest "ACE_NVG_Wide_Black";
+for "_i" from 1 to 10 do {_unit addItemToVest "30Rnd_556x45_Stanag_red";};
 
 _unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 for "_i" from 1 to 3 do {_unit addItemToBackpack "130Rnd_338_Mag";};
 _unit addItemToBackpack "ACE_SpareBarrel";
 _unit addItemToBackpack "ACE_EntrenchingTool";
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
 
 _unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
 

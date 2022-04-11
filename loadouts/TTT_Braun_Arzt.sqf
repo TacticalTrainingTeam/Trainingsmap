@@ -53,9 +53,8 @@ for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellGreen";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
-for "_i" from 1 to 3 do {_unit addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
+for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellBlue";};
-_unit addItemToVest "ACE_NVG_Wide_Black";
 
 _unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 for "_i" from 1 to 12 do {_unit addItemToBackpack "ACE_tourniquet";};
@@ -64,11 +63,12 @@ for "_i" from 1 to 12 do {_unit addItemToBackpack "ACE_morphine";};
 for "_i" from 1 to 20 do {_unit addItemToBackpack "ACE_epinephrine";};
 for "_i" from 1 to 10 do {_unit addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 16 do {_unit addItemToBackpack "ACE_quikclot";};
-for "_i" from 1 to 48 do {_unit addItemToBackpack "ACE_packingBandage";};
+for "_i" from 1 to 30 do {_unit addItemToBackpack "ACE_packingBandage";};
 _unit addItemToBackpack "ACE_bodyBag";
 for "_i" from 1 to 8 do {_unit addItemToBackpack "ACE_salineIV_500";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "ACE_salineIV_250";};
 for "_i" from 1 to 4 do {_unit addItemToBackpack "ACE_salineIV";};
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
 
 _unit addHeadgear (["TTT_Beret", "brown"] joinString "_");
 

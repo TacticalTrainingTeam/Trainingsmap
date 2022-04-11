@@ -49,10 +49,10 @@ for "_i" from 1 to 2 do {_unit addItemToVest "ACE_Handflare_Green";};
 _unit addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 3 do {_unit addItemToVest "50Rnd_570x28_SMG_03";};
 _unit addItemToVest "ACRE_PRC152";
-_unit addItemToVest "ACE_NVG_Wide_Black";
 
 _unit addItemToBackpack "ACRE_PRC117F";
 _unit addItemToBackpack "TTT_Helmet_Eagle";
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
 
 _unit addHeadgear "TTT_Beret_Platinum";
 

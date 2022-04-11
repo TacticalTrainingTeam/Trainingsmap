@@ -55,7 +55,7 @@ _unit addItemToVest "ACRE_PRC152";
 
 _unit addItemToBackpack "ACRE_PRC117F";
 _unit addItemToBackpack "TTT_Helmet_Buzzard";
-_unit addItemToVest "ACE_NVG_Wide_Black";
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
 
 _unit addHeadgear "TTT_Beret_Silver";
 

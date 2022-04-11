@@ -51,16 +51,16 @@ for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
 _unit addItemToUniform "acex_intelitems_notepad";
 _unit addItemToUniform "ItemAndroid";
 
-_unit addItemToVest "ACE_RangeCard";
 for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellGreen";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
-for "_i" from 1 to 6 do {_unit addItemToVest "ACE_20Rnd_762x51_Mag_SD";};
-_unit addItemToVest "ACE_NVG_Wide_Black";
+for "_i" from 1 to 8 do {_unit addItemToVest "ACE_20Rnd_762x51_Mag_SD";};
 
 _unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 _unit addItemToBackpack "ACRE_PRC117F";
+_unit addItemToBackpack "ACE_RangeCard";
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
 
 _unit addHeadgear (["TTT_Beret", "gold"] joinString "_");
 

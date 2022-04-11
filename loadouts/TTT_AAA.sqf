@@ -54,13 +54,13 @@ _unit addItemToUniform "ACRE_PRC343";
 for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
 _unit addItemToUniform "acex_intelitems_notepad";
 
-_unit addItemToVest "ACE_NVG_Wide_Black";
 for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 _unit addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
-for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag_red";};
+for "_i" from 1 to 10 do {_unit addItemToVest "30Rnd_556x45_Stanag_red";};
 
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
 _unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 for "_i" from 1 to 2 do {_unit addItemToBackpack "Titan_AA";};
 

@@ -47,17 +47,18 @@ for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
 _unit addItemToUniform "acex_intelitems_notepad";
 _unit addItemToUniform "ACE_microDAGR";
 
-_unit addItemToVest "ACE_Kestrel4500";
-_unit addItemToVest "ACE_ATragMX";
 for "_i" from 1 to 4 do {_unit addItemToVest "5Rnd_127x108_APDS_Mag";};
 for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 _unit addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
-_unit addItemToVest "ACE_NVG_Wide_Black";
 
 _unit addItemToBackpack "ACE_Tripod";
 for "_i" from 1 to 4 do {_unit addItemToBackpack "5Rnd_127x108_APDS_Mag";};
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
+_unit addItemToBackpack "ACE_Kestrel4500";
+_unit addItemToBackpack "ACE_ATragMX";
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
 
 _unit addHeadgear (["TTT_Beret", "gold"] joinString "_");
 

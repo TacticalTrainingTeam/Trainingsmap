@@ -39,7 +39,7 @@ if (_farbe == "silver" || _farbe == "white" || _farbe == "bronze" || _farbe == "
 	_unit addVest (["TTT_Vest_Heavy", _farbe, "US_Desert"] joinString "_");
 };
 
-_unit addBackpack "B_AssaultPack_cbr";
+_unit addBackpack "B_FieldPack_cbr";
 
 comment "Add binoculars";
 _unit addWeapon "Binocular";
@@ -62,9 +62,9 @@ for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 _unit addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
-for "_i" from 1 to 8 do {_unit addItemToVest "30Rnd_556x45_Stanag_red";};
-_unit addItemToVest "ACE_NVG_Wide_Black";
+for "_i" from 1 to 10 do {_unit addItemToVest "30Rnd_556x45_Stanag_red";};
 
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
 _unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 _unit addItemToBackpack "MRAWS_HEAT_F";
 _unit addItemToBackpack "MRAWS_HE_F";

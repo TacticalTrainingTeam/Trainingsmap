@@ -51,18 +51,19 @@ _unit addItemToUniform "ItemAndroid";
 _unit addItemToUniform "acex_intelitems_notepad";
 _unit addItemToUniform "ACE_microDAGR";
 
-_unit addItemToVest "ACE_Kestrel4500";
-_unit addItemToVest "ACE_ATragMX";
 for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 _unit addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
-for "_i" from 1 to 6 do {_unit addItemToVest "ACE_20Rnd_762x51_Mag_SD";};
-_unit addItemToVest "ACE_NVG_Wide_Black";
+for "_i" from 1 to 8 do {_unit addItemToVest "ACE_20Rnd_762x51_Mag_SD";};
 
 _unit addItemToBackpack "ACE_SpottingScope";
 _unit addItemToBackpack "ACRE_PRC117F";
 for "_i" from 1 to 4 do {_unit addItemToBackpack "5Rnd_127x108_APDS_Mag";};
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
+_unit addItemToBackpack "ACE_Kestrel4500";
+_unit addItemToBackpack "ACE_ATragMX";
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
 
 _unit addHeadgear (["TTT_Beret", "gold"] joinString "_");
 
