@@ -73,6 +73,7 @@ container_20, container_21, container_22, container_23, container_24, container_
 
 	  ["DemoCharge_Remote_Mag", 30],
 	  ["SatchelCharge_Remote_Mag", 10],
+	  ["AMP_Breaching_Charge_Mag", 30],
 
 	  ["ACRE_PRC343", 20],
 	  ["ACRE_PRC152", 20],
