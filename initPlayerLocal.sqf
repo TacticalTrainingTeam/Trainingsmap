@@ -260,17 +260,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				_caller setVariable ["tarn", "BW_Tropentarn"];
 			}
 		];
-	
-		_x addAction
-		[
-			"TTT Wüstentarn",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["tarn", "US_Woodland"];
-			}
-		];
-
+		
 		_x addAction
 		[
 			"Fallschirm ausrüsten",	// title
