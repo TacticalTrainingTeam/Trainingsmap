@@ -260,6 +260,17 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				_caller setVariable ["tarn", "BW_Tropentarn"];
 			}
 		];
+
+		_x addAction
+		[
+			"Schalldämpfer ausrüsten",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				[_caller] spawn compile preprocessFileLineNumbers "loadouts\Suppressor.sqf";
+				hint "Schalldämpfer ausgerüstet.";
+			}
+		];
 		
 		_x addAction
 		[

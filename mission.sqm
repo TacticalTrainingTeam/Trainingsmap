@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=7306;
+		nextID=7308;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1021;
+		nextID=1059;
 	};
 	class Camera
 	{
-		pos[]={5692.7764,53.940468,1359.473};
-		dir[]={-0.63825893,-0.54401904,0.54468936};
-		up[]={-0.41381866,0.83906913,0.35315296};
-		aside[]={0.64915341,-9.8836608e-008,0.7606684};
+		pos[]={5675.3442,32.41114,1509.2654};
+		dir[]={-0.55109257,-0.49641302,-0.67072433};
+		up[]={-0.31514087,0.86808646,-0.38355196};
+		aside[]={-0.7726469,-2.9802322e-008,0.63483602};
 	};
 };
 binarizationWanted=0;
@@ -266,7 +266,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category0
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -58174,7 +58174,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Blau_Pio_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
+								init="this setVariable [""loadout"", ""TTT_Pio_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
 								description="#1 Pionier Truppführer@Pioniertrupp ""Blau""";
 								isPlayable=1;
 							};
@@ -58254,7 +58254,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
+								init="this setVariable [""loadout"", ""TTT_Pio""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
 								description="#2 Kampfpionier";
 								isPlayable=1;
 							};
@@ -58334,7 +58334,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
+								init="this setVariable [""loadout"", ""TTT_Pio""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
 								description="#3 Kampfpionier";
 								isPlayable=1;
 							};
@@ -58414,7 +58414,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
+								init="this setVariable [""loadout"", ""TTT_Pio""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
 								description="#4 Kampfpionier";
 								isPlayable=1;
 							};
@@ -58494,7 +58494,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
+								init="this setVariable [""loadout"", ""TTT_Pio""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
 								description="#5 Kampfpionier";
 								isPlayable=1;
 							};
