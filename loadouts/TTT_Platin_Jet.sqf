@@ -23,7 +23,7 @@ _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
 _unit forceAddUniform "U_B_PilotCoveralls";
-_unit addBackpack "TTT_backpack_radio_platin_us_desert";
+_unit addBackpack "TTT_backpack_radio_platinum_us_desert";
 
 comment "Add binoculars";
 _unit addWeapon "Binocular";

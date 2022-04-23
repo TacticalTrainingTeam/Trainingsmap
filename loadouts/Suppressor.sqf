@@ -1,4 +1,4 @@
-// Check the current equipped weapon and and the correct suppressor to it
+// Check the current equipped weapon and add the correct suppressor to it
 
 params ["_unit"];
 

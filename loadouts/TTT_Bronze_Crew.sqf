@@ -25,7 +25,7 @@ _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
 _unit forceAddUniform (["TTT_Uniform", "bronze", _tarn] joinString "_");
-_unit addVest "TTT_Vest_Crew_Bronx";
+_unit addVest "TTT_Vest_Crew_Bronze";
 _unit addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
@@ -49,7 +49,7 @@ for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 _unit addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 3 do {_unit addItemToVest "50Rnd_570x28_SMG_03";};
 
-_unit addItemToBackpack "TTT_Helmet_bronx_VehicleCrew";
+_unit addItemToBackpack "TTT_Helmet_bronze_VehicleCrew";
 _unit addItemToBackpack "ACE_NVG_Wide_Black";
 
 _unit addHeadgear (["TTT_Beret", "bronze"] joinString "_");

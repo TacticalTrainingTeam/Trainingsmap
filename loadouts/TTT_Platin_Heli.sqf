@@ -26,7 +26,7 @@ _unit addHandgunItem "16Rnd_9x21_Mag";
 comment "Add containers";
 _unit forceAddUniform "FIR_Fighter_Pilot_JASDF_Nomex4";
 _unit addVest "FIR_pilot_vest";
-_unit addBackpack "TTT_backpack_radio_platin_us_desert";
+_unit addBackpack "TTT_backpack_radio_platinum_us_desert";
 
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
