@@ -38,11 +38,7 @@ if (_farbe == "silver" || _farbe == "white" || _farbe == "bronze" || _farbe == "
 if (_farbe == "brown" || _farbe == "yellow" || _farbe == "gold" || _farbe == "grey" || _farbe == "green" || _farbe == "silver" || _farbe == "white") then {
 	_unit addBackpack (["TTT_backpack_radio", _farbe, "US_Desert"] joinString "_");
 } else {
-	if (_farbe == "platinum") then {
-		_unit addBackpack "TTT_backpack_radio_platin_us_desert";
-	} else {
-		_unit addBackpack "TTT_backpack_radio_base_coyote";
-	};
+	_unit addBackpack "TTT_backpack_radio_base_coyote";
 };
 
 comment "Add binoculars";

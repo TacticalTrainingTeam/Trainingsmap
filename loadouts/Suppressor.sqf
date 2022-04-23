@@ -25,7 +25,6 @@ if (_gun == "SMG_03C_black") then {
 	_unit addPrimaryWeaponItem "muzzle_snds_570";
 };
 
-
 //Side Arm
 _sidearm = handgunWeapon _unit;
 
