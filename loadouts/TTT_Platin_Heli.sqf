@@ -31,15 +31,12 @@ _unit addBackpack "TTT_backpack_radio_platinum_us_desert";
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_packingBandage";};
-for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_quikclot";};
-for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
+for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_quikclot";};
 _unit addItemToUniform "ACE_IR_Strobe_Item";
 _unit addItemToUniform "ACE_Flashlight_XL50";
 _unit addItemToUniform "ACE_MapTools";
 _unit addItemToUniform "ACE_morphine";
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_tourniquet";};
-_unit addItemToUniform "16Rnd_9x21_Mag";
-_unit addItemToUniform "ACRE_PRC343";
 _unit addItemToUniform "ItemAndroid";
 _unit addItemToUniform "acex_intelitems_notepad";
 

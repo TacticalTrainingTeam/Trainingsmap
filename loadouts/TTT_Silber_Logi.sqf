@@ -34,7 +34,7 @@ _unit addWeapon "Binocular";
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_packingBandage";};
-for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_quikclot";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
 _unit addItemToUniform "ACE_IR_Strobe_Item";
 _unit addItemToUniform "ACE_Flashlight_XL50";

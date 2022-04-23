@@ -19,7 +19,7 @@ removeGoggles _unit;
 
 comment "Add weapons";
 _unit addWeapon "arifle_SPAR_03_blk_F";
-_unit addPrimaryWeaponItem "acc_pointer_IR";
+_unit addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
 _unit addPrimaryWeaponItem "optic_SOS";
 _unit addPrimaryWeaponItem "ACE_20Rnd_762x51_Mag_Tracer";
 _unit addPrimaryWeaponItem "bipod_01_F_blk";
@@ -46,7 +46,7 @@ _unit addWeapon "Binocular";
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_packingBandage";};
-for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_quikclot";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
 _unit addItemToUniform "ACE_IR_Strobe_Item";
 _unit addItemToUniform "ACE_Flashlight_XL50";

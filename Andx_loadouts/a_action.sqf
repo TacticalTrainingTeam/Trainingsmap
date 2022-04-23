@@ -358,7 +358,7 @@ if (_selectedIndex == 42) exitWith {
 	[player, _helm, _tarn, _farbe] spawn compile preprocessFileLineNumbers "loadouts\TTT_Weis_Arzt.sqf";
 };
 
-if (_selectedIndex == 42) exitWith {
+if (_selectedIndex == 43) exitWith {
 	closeDialog 0;
 	hint "Du bist nun Weiß - Arzt";
 	private _helm = (player getVariable ["helm", "1"]);

@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1097;
+		nextID=1116;
 	};
 	class Camera
 	{
-		pos[]={5653.0298,6.4812202,1438.9161};
-		dir[]={0.78101182,-0.33068249,0.52980012};
-		up[]={0.27366561,0.94373912,0.18564096};
-		aside[]={0.56138325,2.6772614e-007,-0.82756931};
+		pos[]={5650.0664,15.432256,1418.839};
+		dir[]={0.44279584,-0.83385336,0.32957613};
+		up[]={0.66890609,0.55198604,0.49787161};
+		aside[]={0.59707332,0,-0.80218673};
 	};
 };
 binarizationWanted=0;
@@ -68,6 +68,7 @@ addons[]=
 	"ace_gforces",
 	"ace_nouniformrestrictions",
 	"ace_parachute",
+	"cfp_uniforms",
 	"A3_Structures_F_EPB_Items_Military",
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Structures_F_Items_Documents",
@@ -79,7 +80,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=26;
+		items=27;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -233,19 +234,25 @@ class AddonsMetaData
 		};
 		class Item23
 		{
+			className="cfp_uniforms";
+			name="cfp_uniforms";
+			author="CFP Team";
+		};
+		class Item24
+		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item24
+		class Item25
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item26
 		{
 			className="Desert";
 			name="Desert";
@@ -55406,7 +55413,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="Spawn";
-			state=1;
 			class Entities
 			{
 				items=98;
@@ -55823,7 +55829,6 @@ class Mission
 					{
 					};
 					id=7105;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56390,7 +56395,6 @@ class Mission
 					{
 					};
 					id=7111;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56882,7 +56886,6 @@ class Mission
 					{
 					};
 					id=7121;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57373,7 +57376,6 @@ class Mission
 					{
 					};
 					id=7131;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58130,7 +58132,6 @@ class Mission
 					{
 					};
 					id=7141;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58567,7 +58568,6 @@ class Mission
 					{
 					};
 					id=7151;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58764,7 +58764,6 @@ class Mission
 					{
 					};
 					id=7157;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58961,7 +58960,6 @@ class Mission
 					{
 					};
 					id=7160;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59238,7 +59236,6 @@ class Mission
 					{
 					};
 					id=7163;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59478,7 +59475,6 @@ class Mission
 					{
 					};
 					id=7167;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59679,7 +59675,6 @@ class Mission
 					{
 					};
 					id=7171;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59881,7 +59876,6 @@ class Mission
 						formation="LINE";
 					};
 					id=7175;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60082,7 +60076,6 @@ class Mission
 					{
 					};
 					id=7179;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60199,7 +60192,6 @@ class Mission
 					{
 					};
 					id=7183;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60316,7 +60308,6 @@ class Mission
 					{
 					};
 					id=7185;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60833,7 +60824,6 @@ class Mission
 					{
 					};
 					id=7187;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -61037,7 +61027,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTTT_Silber_Logi""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""silver""];";
+								init="this setVariable [""loadout"", ""TTT_Silber_Logi""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""silver""];";
 								description="#3 Logistiker";
 								isPlayable=1;
 							};
@@ -61190,7 +61180,6 @@ class Mission
 					{
 					};
 					id=7194;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -61547,7 +61536,6 @@ class Mission
 					{
 					};
 					id=7199;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -62205,7 +62193,6 @@ class Mission
 					{
 					};
 					id=7204;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0

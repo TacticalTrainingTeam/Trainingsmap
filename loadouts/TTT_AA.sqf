@@ -17,7 +17,7 @@ removeGoggles _unit;
 
 comment "Add weapons";
 _unit addWeapon "arifle_SPAR_01_blk_F";
-_unit addPrimaryWeaponItem "acc_pointer_IR";
+_unit addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
 _unit addWeapon "launch_B_Titan_olive_F";
@@ -45,7 +45,7 @@ _unit addWeapon "Binocular";
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_packingBandage";};
-for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_quikclot";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
 _unit addItemToUniform "ACE_IR_Strobe_Item";
 _unit addItemToUniform "ACE_Flashlight_XL50";
@@ -55,7 +55,6 @@ for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_tourniquet";};
 _unit addItemToUniform "ACRE_PRC343";
 for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
 _unit addItemToUniform "acex_intelitems_notepad";
-
 
 for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};

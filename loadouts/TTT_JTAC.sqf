@@ -17,7 +17,7 @@ removeGoggles _unit;
 
 comment "Add weapons";
 _unit addWeapon "arifle_SPAR_01_GL_blk_F";
-_unit addPrimaryWeaponItem "acc_pointer_IR";
+_unit addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "30Rnd_556x45_Stanag_red";
 _unit addWeapon "hgun_P07_blk_F";
@@ -48,7 +48,7 @@ _unit addWeapon "Laserdesignator_01_khk_F";
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_packingBandage";};
-for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_quikclot";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
 _unit addItemToUniform "ACE_IR_Strobe_Item";
 _unit addItemToUniform "ACE_Flashlight_XL50";
@@ -59,20 +59,27 @@ _unit addItemToUniform "ItemAndroid";
 _unit addItemToUniform "ACRE_PRC343";
 for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
 _unit addItemToUniform "acex_intelitems_notepad";
+_unit addItemToUniform "ACE_microDAGR";
 
 _unit addItemToVest "ACRE_PRC152";
 
 for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
-_unit addItemToVest "SmokeShellGreen";
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellGreen";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
 for "_i" from 1 to 10 do {_unit addItemToVest "30Rnd_556x45_Stanag_red";};
+for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellBlue";};
 
 _unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 _unit addItemToBackpack "ACRE_PRC117F";
 _unit addItemToBackpack "itc_land_tablet_rover";
-for "_i" from 1 to 12 do {_unit addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
+for "_i" from 1 to 10 do {_unit addItemToBackpack "1Rnd_SmokeRed_Grenade_shell";};
 _unit addItemToBackpack "ACE_NVG_Wide_Black";
+for "_i" from 1 to 3 do {_unit addItemToBackpack "SmokeShellBlue";};
+for "_i" from 1 to 3 do {_unit addItemToBackpack "SmokeShellOrange";};
+for "_i" from 1 to 5 do {_unit addItemToBackpack "SmokeShellPurple";};
+for "_i" from 1 to 3 do {_unit addItemToBackpack "SmokeShellYellow";};
+for "_i" from 1 to 3 do {_unit addItemToBackpack "SmokeShellGreen";};
 
 _unit addHeadgear (["TTT_Beret", _farbe] joinString "_");
 
