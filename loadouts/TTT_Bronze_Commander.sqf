@@ -41,7 +41,7 @@ _unit addItemToUniform "ACE_Flashlight_XL50";
 _unit addItemToUniform "ACE_MapTools";
 _unit addItemToUniform "ACE_morphine";
 _unit addItemToUniform "ItemAndroid";
-for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_tourniquet";};
 _unit addItemToUniform "ACRE_PRC343";
 _unit addItemToUniform "acex_intelitems_notepad";
 
