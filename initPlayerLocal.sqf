@@ -72,7 +72,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 {
 		_x addAction
 		[
-			"Werde 1",	// title
+			"Werde Nummer 1",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -82,7 +82,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 2",	// title
+			"Werde Nummer 2",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -92,7 +92,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 3",	// title
+			"Werde Nummer 3",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -102,7 +102,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 4",	// title
+			"Werde Nummer 4",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -112,7 +112,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 5",	// title
+			"Werde Nummer 5",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -122,7 +122,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 6",	// title
+			"Werde Nummer 6",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -132,7 +132,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 7",	// title
+			"Werde Nummer 7",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -142,7 +142,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 8",	// title
+			"Werde Nummer 8",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -152,7 +152,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 9",	// title
+			"Werde Nummer 9",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
