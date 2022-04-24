@@ -140,7 +140,7 @@ class andxRscStructuredText
 	{
 		font = "RobotoCondensed";
 		color = "#ffffff";
-		colorLink = "#D09B43";
+		colorLink = "#a10f2b";
 		align = "left";
 		shadow = false;
 	};

@@ -1,4 +1,4 @@
-params ["_unit", "_helm"];
+params ["_unit", "_helm", "_tarn", "_farbe"];
 
 _unit setRank "CORPORAL";
 
@@ -26,7 +26,7 @@ _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
 _unit forceAddUniform "U_B_FullGhillie_lsh";
-_unit addVest "TTT_Vest_Lite_Gold_US_Desert";
+_unit addVest (["TTT_Vest_Lite", "gold", "US_Desert"] joinString "_");
 _unit addBackpack "B_AssaultPack_cbr";
 
 comment "Add binoculars";
@@ -35,30 +35,31 @@ _unit addWeapon "ACE_Vector";
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_packingBandage";};
-for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_quikclot";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
 _unit addItemToUniform "ACE_IR_Strobe_Item";
 _unit addItemToUniform "ACE_Flashlight_XL50";
 _unit addItemToUniform "ACE_MapTools";
 _unit addItemToUniform "ACE_morphine";
-for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_tourniquet";};
 _unit addItemToUniform "ACRE_PRC343";
 for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
 _unit addItemToUniform "acex_intelitems_notepad";
+_unit addItemToUniform "ACE_microDAGR";
 
-_unit addItemToVest "ACE_Kestrel4500";
-_unit addItemToVest "ACE_ATragMX";
 for "_i" from 1 to 4 do {_unit addItemToVest "7Rnd_408_Mag";};
 for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 _unit addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
-_unit addItemToVest "ACE_NVG_Wide_Black";
 
 _unit addItemToBackpack "ACE_Tripod";
 for "_i" from 1 to 4 do {_unit addItemToBackpack "7Rnd_408_Mag";};
+_unit addItemToBackpack "ACE_Kestrel4500";
+_unit addItemToBackpack "ACE_ATragMX";
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
 
-_unit addHeadgear "TTT_Beret_Gold";
+_unit addHeadgear (["TTT_Beret", "gold"] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";

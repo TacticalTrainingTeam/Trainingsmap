@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=7296;
+		nextID=7311;
 	};
 	class MarkerIDProvider
 	{
@@ -20,18 +20,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=926;
+		nextID=1116;
 	};
 	class Camera
 	{
-		pos[]={5648.8843,7.7755566,1437.8022};
-		dir[]={-0.038984433,-0.48744923,0.87228072};
-		up[]={-0.021763619,0.87315136,0.48696321};
-		aside[]={0.99900293,0,0.044647969};
+		pos[]={5650.0664,15.432256,1418.839};
+		dir[]={0.44279584,-0.83385336,0.32957613};
+		up[]={0.66890609,0.55198604,0.49787161};
+		aside[]={0.59707332,0,-0.80218673};
 	};
 };
 binarizationWanted=0;
-sourceName="co91_TTT-Trainingskarte_v07";
+sourceName="co91_TTT-Trainingskarte_v302";
 addons[]=
 {
 	"A3_Ui_F",
@@ -68,6 +68,7 @@ addons[]=
 	"ace_gforces",
 	"ace_nouniformrestrictions",
 	"ace_parachute",
+	"cfp_uniforms",
 	"A3_Structures_F_EPB_Items_Military",
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Structures_F_Items_Documents",
@@ -269,6 +270,157 @@ randomSeed=13674699;
 class ScenarioData
 {
 	author="Reddiem";
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="cba_settings_hash";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=4;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="#CBA_HASH#";
+							};
+						};
+						class Item1
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=1;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="v1_mass_toggle";
+										};
+									};
+								};
+							};
+						};
+						class Item2
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=1;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+											class value
+											{
+												items=2;
+												class Item0
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"BOOL"
+															};
+														};
+														value=0;
+													};
+												};
+												class Item1
+												{
+													class data
+													{
+														class type
+														{
+															type[]=
+															{
+																"SCALAR"
+															};
+														};
+														value=1;
+													};
+												};
+											};
+										};
+									};
+								};
+							};
+						};
+						class Item3
+						{
+							class data
+							{
+								nil=1;
+								class type
+								{
+									type[]=
+									{
+										"ANY"
+									};
+								};
+							};
+						};
+					};
+				};
+			};
+		};
+		nAttributes=1;
+	};
 };
 class Mission
 {
@@ -11042,7 +11194,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item274
@@ -12426,7 +12597,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item42
@@ -12467,7 +12657,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -13599,7 +13808,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -14677,7 +14905,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -18466,7 +18713,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -34450,7 +34716,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4813.7505,13.882643,16062.511};
+						position[]={4815.2671,13.854967,16071.945};
 						angles[]={0,3.2850761,0};
 					};
 					side="Empty";
@@ -34461,7 +34727,7 @@ class Mission
 					};
 					id=4156;
 					type="hebontes_targetsector_R_B";
-					atlOffset=-4.7683716e-007;
+					atlOffset=-2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -39243,7 +39509,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item434
@@ -39283,7 +39568,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item435
@@ -39323,7 +39627,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item436
@@ -39363,7 +39686,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item437
@@ -39403,7 +39745,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item438
@@ -39443,7 +39804,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item439
@@ -39483,7 +39863,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item440
@@ -39523,7 +39922,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -41364,7 +41782,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item38
@@ -42319,7 +42756,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -43239,7 +43695,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item24
@@ -44814,7 +45289,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -45329,7 +45823,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -47769,7 +48282,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -49894,7 +50426,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -50512,7 +51063,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -53737,7 +54307,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item137
@@ -53777,7 +54366,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -54775,7 +55383,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 			};
@@ -54786,7 +55413,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="Spawn";
-			state=1;
 			class Entities
 			{
 				items=98;
@@ -54802,14 +55428,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5665.2236,1.5014389,1436.0894};
-								angles[]={0,5.4842634,0};
+								position[]={5665.2241,1.5014389,1436.089};
+								angles[]={0,5.484261,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_ZugF""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_ZugF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#1 Zugführer@Infanterie Zugführung ""Grün""";
 								isPlayable=1;
 							};
@@ -54882,14 +55508,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5666.7231,1.5014389,1434.6205};
-								angles[]={0,5.4833212,0};
+								position[]={5666.7231,1.5014389,1434.62};
+								angles[]={0,5.4833183,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_StZugF""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_StZugF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#2 Stellv. Zugführer";
 								isPlayable=1;
 							};
@@ -54963,13 +55589,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5668.0879,1.5014389,1433.2831};
-								angles[]={0,5.4723258,0};
+								angles[]={0,5.4723225,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Funker""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_Funker""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#3 Funker";
 								isPlayable=1;
 							};
@@ -55042,14 +55668,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5669.5562,1.5014389,1431.845};
-								angles[]={0,5.4491477,0};
+								position[]={5669.5562,1.5014389,1431.8451};
+								angles[]={0,5.4491448,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_FO""];" \n "this setVariable [""helm"", ""4""];";
+								init="this setVariable [""loadout"", ""TTT_FO""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#4 Forward Observer";
 								isPlayable=1;
 							};
@@ -55122,20 +55748,20 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5670.9668,1.5908185,1430.4628};
-								angles[]={0,5.4777884,0};
+								position[]={5670.9668,1.5904388,1430.463};
+								angles[]={0,5.4777856,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_JTAC""];" \n "this setVariable [""helm"", ""5""];";
+								init="this setVariable [""loadout"", ""TTT_JTAC""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#5 Joint-Terminal-Attack-Controller";
 								isPlayable=1;
 							};
 							id=7110;
 							type="B_Soldier_TL_F";
-							atlOffset=0.089379668;
+							atlOffset=0.088999987;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -55203,7 +55829,6 @@ class Mission
 					{
 					};
 					id=7105;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55247,7 +55872,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_GF""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#1 Gruppenführer@Infanteriegruppe ""Grün-1""";
 								isPlayable=1;
 							};
@@ -55321,13 +55946,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5668.0439,1.5014389,1436.1338};
-								angles[]={0,5.5447741,0};
+								angles[]={0,5.5447712,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#2 Truppführer";
 								isPlayable=1;
 							};
@@ -55363,13 +55988,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5669.5313,1.5014389,1434.7728};
-								angles[]={0,5.4800577,0};
+								angles[]={0,5.4800549,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#3 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -55405,13 +56030,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5670.9399,1.5014389,1433.406};
-								angles[]={0,5.5087333,0};
+								angles[]={0,5.5087304,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""4""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#4 Grenadier";
 								isPlayable=1;
 							};
@@ -55438,7 +56063,45 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male01ENG";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1.02;
+										};
+									};
+								};
+								nAttributes=3;
 							};
 						};
 						class Item4
@@ -55447,13 +56110,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5672.334,1.5014389,1431.9943};
-								angles[]={0,5.4642096,0};
+								angles[]={0,5.4642067,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_AT""];" \n "this setVariable [""helm"", ""5""];";
+								init="this setVariable [""loadout"", ""TTT_AT""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#5 AT-Schütze";
 								isPlayable=1;
 							};
@@ -55527,13 +56190,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5669.4409,1.5014389,1437.5692};
-								angles[]={0,5.4714184,0};
+								angles[]={0,5.4714155,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""6""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#6 Truppführer";
 								isPlayable=1;
 							};
@@ -55569,13 +56232,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5670.9033,1.5014389,1436.1512};
-								angles[]={0,5.4902153,0};
+								angles[]={0,5.4902124,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""7""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#7 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -55610,14 +56273,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5672.3418,1.5014389,1434.7874};
-								angles[]={0,5.4783468,0};
+								position[]={5672.3418,1.5014389,1434.7871};
+								angles[]={0,5.478344,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""8""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#8 Grenadier";
 								isPlayable=1;
 							};
@@ -55644,7 +56307,45 @@ class Mission
 										};
 									};
 								};
-								nAttributes=1;
+								class Attribute1
+								{
+									property="speaker";
+									expression="_this setspeaker _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="Male08ENG";
+										};
+									};
+								};
+								class Attribute2
+								{
+									property="pitch";
+									expression="_this setpitch _value;";
+									class Value
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+								nAttributes=3;
 							};
 						};
 						class Item8
@@ -55653,13 +56354,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5673.7339,1.5014389,1433.3986};
-								angles[]={0,5.5017867,0};
+								angles[]={0,5.5017838,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_DMR""];" \n "this setVariable [""helm"", ""9""];";
+								init="this setVariable [""loadout"", ""TTT_DMR""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#9 DMR-Schütze";
 								isPlayable=1;
 							};
@@ -55694,7 +56395,6 @@ class Mission
 					{
 					};
 					id=7111;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -55738,7 +56438,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_GF""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#1 Gruppenführer@Infanteriegruppe ""Grün-2""";
 								isPlayable=1;
 							};
@@ -55812,13 +56512,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5670.8447,1.5014389,1439.0212};
-								angles[]={0,5.5447741,0};
+								angles[]={0,5.5447712,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#2 Truppführer";
 								isPlayable=1;
 							};
@@ -55854,13 +56554,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5672.332,1.5014389,1437.6603};
-								angles[]={0,5.4800577,0};
+								angles[]={0,5.4800549,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#3 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -55896,13 +56596,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5673.7402,1.5014389,1436.2935};
-								angles[]={0,5.5087333,0};
+								angles[]={0,5.5087304,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""4""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#4 Grenadier";
 								isPlayable=1;
 							};
@@ -55938,13 +56638,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5675.1348,1.5014389,1434.8815};
-								angles[]={0,5.4642096,0};
+								angles[]={0,5.4642067,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_AT""];" \n "this setVariable [""helm"", ""5""];";
+								init="this setVariable [""loadout"", ""TTT_AT""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#5 AT-Schütze";
 								isPlayable=1;
 							};
@@ -56018,13 +56718,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5672.2412,1.5014389,1440.4568};
-								angles[]={0,5.4714184,0};
+								angles[]={0,5.4714155,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""6""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#6 Truppführer";
 								isPlayable=1;
 							};
@@ -56060,13 +56760,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5673.7041,1.5014389,1439.0387};
-								angles[]={0,5.4902153,0};
+								angles[]={0,5.4902124,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""7""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#7 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -56102,13 +56802,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5675.1421,1.5014389,1437.6749};
-								angles[]={0,5.4783468,0};
+								angles[]={0,5.478344,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""8""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#8 Grenadier";
 								isPlayable=1;
 							};
@@ -56144,13 +56844,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5676.5347,1.5778618,1436.286};
-								angles[]={0,5.5017867,0};
+								angles[]={0,5.5017838,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_DMR""];" \n "this setVariable [""helm"", ""9""];";
+								init="this setVariable [""loadout"", ""TTT_DMR""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#9 DMR-Schütze";
 								isPlayable=1;
 							};
@@ -56186,7 +56886,6 @@ class Mission
 					{
 					};
 					id=7121;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56230,7 +56929,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_GF""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#1 Gruppenführer@Infanteriegruppe ""Grün-3""";
 								isPlayable=1;
 							};
@@ -56304,13 +57003,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5673.6436,1.5014389,1441.8784};
-								angles[]={0,5.5447741,0};
+								angles[]={0,5.5447712,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#2 Truppführer";
 								isPlayable=1;
 							};
@@ -56346,13 +57045,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5675.1313,1.5014389,1440.5176};
-								angles[]={0,5.4800577,0};
+								angles[]={0,5.4800549,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#3 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -56388,13 +57087,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5676.5396,1.5014389,1439.1506};
-								angles[]={0,5.5087333,0};
+								angles[]={0,5.5087304,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""4""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#4 Grenadier";
 								isPlayable=1;
 							};
@@ -56430,13 +57129,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5677.9341,1.5014389,1437.7386};
-								angles[]={0,5.4642096,0};
+								angles[]={0,5.4642067,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_AT""];" \n "this setVariable [""helm"", ""5""];";
+								init="this setVariable [""loadout"", ""TTT_AT""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#5 AT-Schütze";
 								isPlayable=1;
 							};
@@ -56510,13 +57209,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5675.0405,1.5014389,1443.314};
-								angles[]={0,5.4714184,0};
+								angles[]={0,5.4714155,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_TF""];" \n "this setVariable [""helm"", ""6""];";
+								init="this setVariable [""loadout"", ""TTT_TF""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#6 Truppführer";
 								isPlayable=1;
 							};
@@ -56552,13 +57251,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5676.5034,1.5014389,1441.896};
-								angles[]={0,5.4902153,0};
+								angles[]={0,5.4902124,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_LMG""];" \n "this setVariable [""helm"", ""7""];";
+								init="this setVariable [""loadout"", ""TTT_LMG""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#7 LMG-Schütze";
 								isPlayable=1;
 							};
@@ -56594,13 +57293,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5677.9414,1.5014389,1440.5321};
-								angles[]={0,5.4783468,0};
+								angles[]={0,5.478344,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_Gren""];" \n "this setVariable [""helm"", ""8""];";
+								init="this setVariable [""loadout"", ""TTT_Gren""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#8 Grenadier";
 								isPlayable=1;
 							};
@@ -56636,13 +57335,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5679.334,1.5014389,1439.1433};
-								angles[]={0,5.5017867,0};
+								angles[]={0,5.5017838,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_DMR""];" \n "this setVariable [""helm"", ""9""];";
+								init="this setVariable [""loadout"", ""TTT_DMR""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#9 DMR-Schütze";
 								isPlayable=1;
 							};
@@ -56677,7 +57376,6 @@ class Mission
 					{
 					};
 					id=7131;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56721,7 +57419,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_GF""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#1 Gruppenführer@Schwere Infanteriegruppe ""Grün-4""";
 								isPlayable=1;
 							};
@@ -56801,7 +57499,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_MMG""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_MMG""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#2 MMG-Schütze [Marksman-DLC]";
 								isPlayable=1;
 							};
@@ -56874,14 +57572,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5677.8423,1.5014389,1443.2965};
-								angles[]={0,5.4801798,0};
+								position[]={5677.8418,1.5014389,1443.296};
+								angles[]={0,5.4801764,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_MMGA""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_MMGA""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#3 MMG-Assistent";
 								isPlayable=1;
 							};
@@ -56961,7 +57659,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_MMG""];" \n "this setVariable [""helm"", ""4""];";
+								init="this setVariable [""loadout"", ""TTT_MMG""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#4 MMG-Schütze [Marksman-DLC]";
 								isPlayable=1;
 							};
@@ -57034,14 +57732,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5680.6763,1.5014389,1440.5734};
-								angles[]={0,5.4871435,0};
+								position[]={5680.6758,1.5014389,1440.573};
+								angles[]={0,5.4871407,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_MMGA""];" \n "this setVariable [""helm"", ""5""];";
+								init="this setVariable [""loadout"", ""TTT_MMGA""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#5 MMG-Assistent";
 								isPlayable=1;
 							};
@@ -57114,14 +57812,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5677.9077,1.5014389,1446.0712};
-								angles[]={0,5.5411963,0};
+								position[]={5677.9082,1.5014389,1446.071};
+								angles[]={0,5.5411935,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_HAT""];" \n "this setVariable [""helm"", ""6""];";
+								init="this setVariable [""loadout"", ""TTT_HAT""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#6 Schwerer AT-Schütze";
 								isPlayable=1;
 							};
@@ -57195,13 +57893,13 @@ class Mission
 							class PositionInfo
 							{
 								position[]={5679.2822,1.5014389,1444.7321};
-								angles[]={0,5.5057836,0};
+								angles[]={0,5.5057807,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_HATA""];" \n "this setVariable [""helm"", ""7""];";
+								init="this setVariable [""loadout"", ""TTT_HATA""];" \n "this setVariable [""helm"", ""7""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#7 Schwerer AT-Assistent";
 								isPlayable=1;
 							};
@@ -57274,14 +57972,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5680.6826,1.5014389,1443.3474};
-								angles[]={0,5.5318589,0};
+								position[]={5680.6831,1.5014389,1443.347};
+								angles[]={0,5.5318561,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_HAT""];" \n "this setVariable [""helm"", ""8""];";
+								init="this setVariable [""loadout"", ""TTT_HAT""];" \n "this setVariable [""helm"", ""8""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#8 Schwerer AT-Schütze";
 								isPlayable=1;
 							};
@@ -57354,14 +58052,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5682.0581,1.5014389,1441.9524};
-								angles[]={0,5.4949102,0};
+								position[]={5682.0581,1.5014389,1441.952};
+								angles[]={0,5.4949074,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Grun_HATA""];" \n "this setVariable [""helm"", ""9""];";
+								init="this setVariable [""loadout"", ""TTT_HATA""];" \n "this setVariable [""helm"", ""9""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""green""];";
 								description="#9 Schwerer AT-Assistent";
 								isPlayable=1;
 							};
@@ -57434,7 +58132,6 @@ class Mission
 					{
 					};
 					id=7141;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57471,14 +58168,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5662.3823,1.5014389,1433.1892};
-								angles[]={0,5.5256281,0};
+								position[]={5662.3818,1.5014389,1433.1891};
+								angles[]={0,5.5256252,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Blau_Pio_GF""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Blau_Pio_GF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
 								description="#1 Pionier Truppführer@Pioniertrupp ""Blau""";
 								isPlayable=1;
 							};
@@ -57551,14 +58248,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5663.8359,1.5014389,1431.7651};
-								angles[]={0,5.4751005,0};
+								position[]={5663.8359,1.5014389,1431.765};
+								angles[]={0,5.4750981,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
 								description="#2 Kampfpionier";
 								isPlayable=1;
 							};
@@ -57631,14 +58328,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5665.228,1.5014389,1430.4011};
-								angles[]={0,5.4735298,0};
+								position[]={5665.228,1.5014389,1430.401};
+								angles[]={0,5.473527,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
 								description="#3 Kampfpionier";
 								isPlayable=1;
 							};
@@ -57711,14 +58408,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5666.668,1.5014389,1428.9904};
-								angles[]={0,5.4563208,0};
+								position[]={5666.668,1.5014389,1428.99};
+								angles[]={0,5.4563179,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""4""];";
+								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
 								description="#4 Kampfpionier";
 								isPlayable=1;
 							};
@@ -57791,14 +58488,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5668.0776,1.5014389,1427.6095};
-								angles[]={0,5.4575253,0};
+								position[]={5668.0781,1.5014389,1427.609};
+								angles[]={0,5.4575224,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""5""];";
+								init="this setVariable [""loadout"", ""TTT_Blau_Pio""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""blue""];";
 								description="#5 Kampfpionier";
 								isPlayable=1;
 							};
@@ -57871,7 +58568,6 @@ class Mission
 					{
 					};
 					id=7151;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57908,14 +58604,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5659.625,1.5014389,1430.3749};
-								angles[]={0,5.4949627,0};
+								position[]={5659.625,1.5014389,1430.375};
+								angles[]={0,5.4949598,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Gold_TF""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Gold_TF""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""gold""];";
 								description="#1 Aufklärer Truppführer@Aufklärertrupp ""Gold-1""";
 								isPlayable=1;
 							};
@@ -57988,14 +58684,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5661.0464,1.5014389,1428.9823};
-								angles[]={0,5.5038462,0};
+								position[]={5661.0459,1.5014389,1428.9821};
+								angles[]={0,5.5038433,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Gold_UAV""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Gold_UAV""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""gold""];";
 								description="#2 Aufklärer Drohnenbediener";
 								isPlayable=1;
 							};
@@ -58068,7 +58764,6 @@ class Mission
 					{
 					};
 					id=7157;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58105,14 +58800,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5661.0249,1.5014389,1431.8036};
-								angles[]={0,5.49786,0};
+								position[]={5661.0249,1.5014389,1431.8041};
+								angles[]={0,5.4978571,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Gold_Spotter""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Gold_Spotter""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""gold""];";
 								description="#1 Spotter@Scharfschützentrupp ""Gold-2""";
 								isPlayable=1;
 							};
@@ -58185,14 +58880,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5662.4639,1.5014389,1430.3934};
-								angles[]={0,5.4880686,0};
+								position[]={5662.4639,1.5014389,1430.3931};
+								angles[]={0,5.4880657,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Gold_Sniper""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Gold_Sniper""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""gold""];";
 								description="#2 Scharfschütze";
 								isPlayable=1;
 							};
@@ -58265,7 +58960,6 @@ class Mission
 					{
 					};
 					id=7160;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58302,14 +58996,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5655.9966,1.5014389,1429.3849};
-								angles[]={0,5.4844666,0};
+								position[]={5655.9971,1.5014389,1429.385};
+								angles[]={0,5.4844704,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""helm"", ""1""];" \n "this setVariable [""loadout"", ""TTT_Braun_Arzt""];";
+								init="this setVariable [""helm"", ""1""];" \n "this setVariable [""loadout"", ""TTT_Braun_Arzt""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""brown""];";
 								description="#1 Arzt@Beweglicher Arzt-Trupp ""Braun""";
 								isPlayable=1;
 							};
@@ -58382,14 +59076,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5657.4458,1.5014389,1427.9215};
-								angles[]={0,5.5095029,0};
+								position[]={5657.4458,1.5014389,1427.921};
+								angles[]={0,5.5094981,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""helm"", ""2""];" \n "this setVariable [""loadout"", ""TTT_Braun_Sani""];";
+								init="this setVariable [""helm"", ""2""];" \n "this setVariable [""loadout"", ""TTT_Braun_Sani""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""brown""];";
 								description="#2 Sanitäter";
 								isPlayable=1;
 							};
@@ -58462,14 +59156,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5658.8247,1.5014389,1426.5295};
-								angles[]={0,5.5466347,0};
+								position[]={5658.8252,1.5014389,1426.5291};
+								angles[]={0,5.546639,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""helm"", ""3""];" \n "this setVariable [""loadout"", ""TTT_Braun_Sani""];";
+								init="this setVariable [""helm"", ""3""];" \n "this setVariable [""loadout"", ""TTT_Braun_Sani""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""brown""];";
 								description="#3 Sanitäter";
 								isPlayable=1;
 							};
@@ -58542,7 +59236,6 @@ class Mission
 					{
 					};
 					id=7163;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58587,7 +59280,7 @@ class Mission
 							class Attributes
 							{
 								rank="CAPTAIN";
-								init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#1 Kommandant@Gepanzerte Kräfte ""Bronze-1""";
 								isPlayable=1;
 							};
@@ -58667,7 +59360,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#2 Richtschütze";
 								isPlayable=1;
 							};
@@ -58747,7 +59440,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#3 Kraftfahrer";
 								isPlayable=1;
 							};
@@ -58782,7 +59475,6 @@ class Mission
 					{
 					};
 					id=7167;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58826,7 +59518,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#1 Kommandant@Gepanzerte Kräfte ""Bronze-2""";
 								isPlayable=1;
 							};
@@ -58906,7 +59598,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#2 Richtschütze";
 								isPlayable=1;
 							};
@@ -58948,7 +59640,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#3 Kraftfahrer";
 								isPlayable=1;
 							};
@@ -58983,7 +59675,6 @@ class Mission
 					{
 					};
 					id=7171;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59027,7 +59718,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#1 Kommandant@Gepanzerte Kräfte ""Bronze-3""";
 								isPlayable=1;
 							};
@@ -59107,7 +59798,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#2 Richtschütze";
 								isPlayable=1;
 							};
@@ -59149,7 +59840,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#3 Kraftfahrer";
 								isPlayable=1;
 							};
@@ -59185,7 +59876,6 @@ class Mission
 						formation="LINE";
 					};
 					id=7175;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59229,7 +59919,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Commander""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#1 Kommandant@Gepanzerte Kräfte ""Bronze-4""";
 								isPlayable=1;
 							};
@@ -59309,7 +59999,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#2 Richtschütze";
 								isPlayable=1;
 							};
@@ -59351,7 +60041,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_Bronze_Crew""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""bronze""];";
 								description="#3 Kraftfahrer";
 								isPlayable=1;
 							};
@@ -59386,7 +60076,6 @@ class Mission
 					{
 					};
 					id=7179;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59430,7 +60119,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Platin_Jet""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Platin_Jet""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""platinum""];";
 								description="#1 Jet-Pilot@Luftnahunterstützung ""Platin-1""";
 								isPlayable=1;
 							};
@@ -59503,7 +60192,6 @@ class Mission
 					{
 					};
 					id=7183;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59547,7 +60235,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Platin_Jet""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Platin_Jet""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""platinum""];";
 								description="#1 Jet-Pilot@Luftnahunterstützung ""Platin-2""";
 								isPlayable=1;
 							};
@@ -59620,7 +60308,6 @@ class Mission
 					{
 					};
 					id=7185;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59657,14 +60344,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5654.5757,1.5014389,1427.9774};
+								position[]={5654.5762,1.5014389,1427.9771};
 								angles[]={0,5.5025868,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weis_Pilot""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Pilot""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""white""];";
 								description="#1 Co-Pilot@Air MedEvac ""Weiß""";
 								isPlayable=1;
 							};
@@ -59737,14 +60424,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5656.0474,1.5014389,1426.4922};
+								position[]={5656.0469,1.5014389,1426.4921};
 								angles[]={0,5.5025868,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weis_Pilot""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Pilot""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""white""];";
 								description="#2 Pilot";
 								isPlayable=1;
 							};
@@ -59824,7 +60511,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weis_Arzt""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Arzt""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""white""];";
 								description="#3 Arzt (Long Range)";
 								isPlayable=1;
 							};
@@ -59904,7 +60591,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weis_Arzt2""];" \n "this setVariable [""helm"", ""4""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Arzt2""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""white""];";
 								description="#4 Arzt";
 								isPlayable=1;
 							};
@@ -59977,14 +60664,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5660.2842,1.5014389,1422.2141};
+								position[]={5660.2842,1.5014389,1422.214};
 								angles[]={0,5.5025868,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weis_Sani""];" \n "this setVariable [""helm"", ""5""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Sani""];" \n "this setVariable [""helm"", ""5""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""white""];";
 								description="#5 Sanitäter";
 								isPlayable=1;
 							};
@@ -60057,14 +60744,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5661.668,1.5014389,1420.8173};
+								position[]={5661.668,1.5014389,1420.817};
 								angles[]={0,5.5025868,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Weis_Sani""];" \n "this setVariable [""helm"", ""6""];";
+								init="this setVariable [""loadout"", ""TTT_Weis_Sani""];" \n "this setVariable [""helm"", ""6""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""white""];";
 								description="#6 Sanitäter";
 								isPlayable=1;
 							};
@@ -60137,7 +60824,6 @@ class Mission
 					{
 					};
 					id=7187;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60174,14 +60860,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5651.7339,1.5014389,1425.1628};
-								angles[]={0,5.4986558,0};
+								position[]={5651.7339,1.5014389,1425.1631};
+								angles[]={0,5.4986596,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Silber_Pilot""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Silber_Pilot""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""silver""];";
 								description="#1 Co-Pilot@Logistik ""Silber-1""";
 								isPlayable=1;
 							};
@@ -60254,14 +60940,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5653.2051,1.5014389,1423.6771};
-								angles[]={0,5.4681301,0};
+								position[]={5653.2051,1.5014389,1423.677};
+								angles[]={0,5.4681339,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Silber_Pilot""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Silber_Pilot""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""silver""];";
 								description="#2 Pilot";
 								isPlayable=1;
 							};
@@ -60334,14 +61020,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5654.6079,1.5014389,1422.261};
-								angles[]={0,5.4965615,0};
+								position[]={5654.6079,1.5014389,1422.2611};
+								angles[]={0,5.4965653,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTTT_Silber_Logi""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_Silber_Logi""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""silver""];";
 								description="#3 Logistiker";
 								isPlayable=1;
 							};
@@ -60414,14 +61100,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5656.0996,1.5014389,1420.7549};
-								angles[]={0,5.4906974,0};
+								position[]={5656.1001,1.5014389,1420.755};
+								angles[]={0,5.4907012,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Silber_Logi""];" \n "this setVariable [""helm"", ""4""];";
+								init="this setVariable [""loadout"", ""TTT_Silber_Logi""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""silver""];";
 								description="#4 Logistiker";
 								isPlayable=1;
 							};
@@ -60494,7 +61180,6 @@ class Mission
 					{
 					};
 					id=7194;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60531,14 +61216,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5653.1548,1.5014389,1426.5698};
-								angles[]={0,5.4986558,0};
+								position[]={5653.1548,1.5014389,1426.5701};
+								angles[]={0,5.4986596,0};
 							};
 							side="West";
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Silber_Pilot""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_Silber_Pilot""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""silver""];";
 								description="#1 Co-Pilot@Logistik ""Silber-2""";
 								isPlayable=1;
 							};
@@ -60611,14 +61296,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5654.626,1.5014389,1425.0847};
-								angles[]={0,5.4681301,0};
+								position[]={5654.626,1.5014389,1425.0851};
+								angles[]={0,5.4681339,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Silber_Pilot""];" \n "this setVariable [""helm"", ""2""];";
+								init="this setVariable [""loadout"", ""TTT_Silber_Pilot""];" \n "this setVariable [""helm"", ""2""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""silver""];";
 								description="#2 Pilot";
 								isPlayable=1;
 							};
@@ -60691,14 +61376,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5655.9482,1.5014389,1423.7502};
-								angles[]={0,5.5416613,0};
+								position[]={5655.9482,1.5014389,1423.75};
+								angles[]={0,5.5416646,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Silber_Logi""];" \n "this setVariable [""helm"", ""3""];";
+								init="this setVariable [""loadout"", ""TTT_Silber_Logi""];" \n "this setVariable [""helm"", ""3""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""silver""];";
 								description="#3 Logistiker";
 								isPlayable=1;
 							};
@@ -60771,14 +61456,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={5657.4014,1.5014389,1422.283};
-								angles[]={0,5.4564362,0};
+								position[]={5657.4009,1.5014389,1422.2831};
+								angles[]={0,5.4564404,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_Silber_Logi""];" \n "this setVariable [""helm"", ""4""];";
+								init="this setVariable [""loadout"", ""TTT_Silber_Logi""];" \n "this setVariable [""helm"", ""4""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""silver""];";
 								description="#4 Logistiker";
 								isPlayable=1;
 							};
@@ -60851,7 +61536,6 @@ class Mission
 					{
 					};
 					id=7199;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60895,7 +61579,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""yellow""];";
 								name="zeus_01";
 								description="#1 Zeus / Trainer@Zeus";
 								isPlayer=1;
@@ -60958,7 +61642,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""yellow""];";
 								name="zeus_02";
 								description="#2 Zeus / Trainer";
 								isPlayable=1;
@@ -61020,7 +61704,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""yellow""];";
 								name="zeus_03";
 								description="#3 Zeus / Trainer";
 								isPlayable=1;
@@ -61082,7 +61766,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""yellow""];";
 								name="zeus_04";
 								description="#4 Zeus / Trainer";
 								isPlayable=1;
@@ -61144,7 +61828,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""yellow""];";
 								name="zeus_05";
 								description="#5 Zeus / Trainer";
 								isPlayable=1;
@@ -61206,7 +61890,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""yellow""];";
 								name="zeus_06";
 								description="#6 Zeus / Trainer";
 								isPlayable=1;
@@ -61268,7 +61952,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""yellow""];";
 								name="zeus_07";
 								description="#7 Zeus / Trainer";
 								isPlayable=1;
@@ -61330,7 +62014,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""yellow""];";
 								name="zeus_08";
 								description="#8 Zeus / Trainer";
 								isPlayable=1;
@@ -61392,7 +62076,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""yellow""];";
 								name="zeus_09";
 								description="#9 Zeus / Trainer";
 								isPlayable=1;
@@ -61454,7 +62138,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
-								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];";
+								init="this setVariable [""loadout"", ""TTT_zeus""];" \n "this setVariable [""helm"", ""1""];" \n "this setVariable [""tarn"", ""BW_Flecktarn""];" \n "this setVariable [""farbe"", ""yellow""];";
 								name="zeus_10";
 								description="#10 Zeus / Trainer";
 								isPlayable=1;
@@ -61509,7 +62193,6 @@ class Mission
 					{
 					};
 					id=7204;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -62181,7 +62864,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item37
@@ -62222,7 +62924,26 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute1
+						{
+							property="allowDamage";
+							expression="_this allowdamage _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=2;
 					};
 				};
 				class Item38

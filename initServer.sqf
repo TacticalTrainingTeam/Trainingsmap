@@ -63,6 +63,7 @@ container_20, container_21, container_22, container_23, container_24, container_
 	  ["7Rnd_408_Mag", 20],
 	  ["ACE_20Rnd_762x51_Mag_SD", 20],
 	  ["130Rnd_338_Mag", 30],
+	  ["5Rnd_127x108_APDS_Mag", 20],
 
 	  ["MRAWS_HEAT_F", 10],
 	  ["MRAWS_HE_F", 10],
@@ -72,13 +73,15 @@ container_20, container_21, container_22, container_23, container_24, container_
 
 	  ["DemoCharge_Remote_Mag", 30],
 	  ["SatchelCharge_Remote_Mag", 10],
+	  ["AMP_Breaching_Charge_Mag", 30],
 
 	  ["ACRE_PRC343", 20],
 	  ["ACRE_PRC152", 20],
 	  ["ACRE_PRC117F", 10],
 
-	  ["ItemAndroid", 30],
-	  ["ItemcTab", 30],
+	  ["ItemMicroDAGR", 30],
+	  ["ItemAndroid", 15],
+	  ["ItemcTab", 10],
 	  ["ACE_HuntIR_monitor", 10]
     ]
 ] call reim_fnc_crateFiller;

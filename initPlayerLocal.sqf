@@ -39,10 +39,16 @@
 // spectator cam and clean up near base
 flag_sammelplatz addAction ["Zuschauermodus", {
     params ["_target","_caller"];
+
     ["Initialize", [_caller, [], true]] call BIS_fnc_EGSpectator;
-},[],1,false,true,"","",5];
+	},
+	[],1,false,true,"","",5
+	
+	];
+
 player addEventHandler ["Respawn",{
     params ["","_corpse"];
+
     if((getPosASL player) distance (getMarkerPos "respawn") < 1000) then {
         deleteVehicle _corpse;
     };
@@ -62,11 +68,11 @@ laptopHangar_1 addAction ["Gruppe - Keil",{boardHangar_1 setObjectTextureGlobal 
 laptopHangar_1 addAction ["Gruppe - Kette",{boardHangar_1 setObjectTextureGlobal [0, "formationen\08_gruppe_Schutzenkette.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal [0, "formationen\09_gruppe_schutzenreihe.paa"];},[],1,false,true,"","",5];
 
-//Nummern wechseln an TTT Schild
+//Nummern/Tarn/Farbe wechseln an TTT Schild
 {
-	_x addAction
+		_x addAction
 		[
-			"Werde 1",	// title
+			"Werde Nummer 1",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -76,7 +82,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 2",	// title
+			"Werde Nummer 2",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -86,7 +92,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 3",	// title
+			"Werde Nummer 3",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -96,7 +102,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 4",	// title
+			"Werde Nummer 4",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -104,9 +110,9 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 
-			_x addAction
+		_x addAction
 		[
-			"Werde 5",	// title
+			"Werde Nummer 5",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -114,9 +120,9 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 
-			_x addAction
+		_x addAction
 		[
-			"Werde 6",	// title
+			"Werde Nummer 6",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -124,9 +130,9 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 			}
 		];
 
-			_x addAction
+		_x addAction
 		[
-			"Werde 7",	// title
+			"Werde Nummer 7",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -136,7 +142,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 8",	// title
+			"Werde Nummer 8",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -146,7 +152,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
-			"Werde 9",	// title
+			"Werde Nummer 9",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
@@ -156,11 +162,123 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 
 		_x addAction
 		[
+			"Werde Gelb",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "yellow"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Gold",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "gold"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Grau",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "grey"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Grün",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "green"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Orange",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "orange"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Rot",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "red"];
+			}
+		];
+
+
+		_x addAction
+		[
+			"Werde Schwarz",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "black"];
+			}
+		];
+
+		_x addAction
+		[
+			"Werde Violett",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["farbe", "violet"];
+			}
+		];
+
+		_x addAction
+		[
+			"TTT Flecktarn",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["tarn", "BW_Flecktarn"];
+			}
+		];
+
+		_x addAction
+		[
+			"TTT Tropentarn",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				_caller setVariable ["tarn", "BW_Tropentarn"];
+			}
+		];
+
+		_x addAction
+		[
+			"Schalldämpfer ausrüsten",	// title
+			{
+				params ["_target", "_caller", "_actionId", "_arguments"]; // script
+
+				[_caller] spawn compile preprocessFileLineNumbers "loadouts\Suppressor.sqf";
+				hint "Schalldämpfer ausgerüstet.";
+			}
+		];
+		
+		_x addAction
+		[
 			"Fallschirm ausrüsten",	// title
 			{
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
-				[_caller] spawn compile preprocessFileLineNumbers "loadouts\TTT_Parachute.sqf";
+				[_caller] spawn compile preprocessFileLineNumbers "loadouts\Parachute.sqf";
 				hint "Fallschirm und Höhenmesser ausgerüstet.";
 			}
 		];

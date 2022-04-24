@@ -1,4 +1,4 @@
-params ["_unit", "_helm"];
+params ["_unit", "_helm", "_tarn", "_farbe"];
 
 _unit setRank "SERGEANT";
 
@@ -19,58 +19,58 @@ removeGoggles _unit;
 
 comment "Add weapons";
 _unit addWeapon "arifle_SPAR_01_blk_F";
-_unit addPrimaryWeaponItem "acc_pointer_IR";
+_unit addPrimaryWeaponItem "bwa3_acc_varioray_irlaser_black";
 _unit addPrimaryWeaponItem "optic_Hamr";
 _unit addPrimaryWeaponItem "30Rnd_556x45_Stanag_Tracer_Red";
 _unit addWeapon "hgun_P07_blk_F";
 _unit addHandgunItem "16Rnd_9x21_Mag";
 
 comment "Add containers";
-_unit forceAddUniform "TTT_Uniform_Blue_BW_Flecktarn";
-_unit addVest "TTT_Vest_Heavy_Blue_US_Desert";
+_unit forceAddUniform (["TTT_Uniform", "blue", _tarn] joinString "_");
+_unit addVest (["TTT_Vest_Heavy", "blue", "US_Desert"] joinString "_");
 _unit addBackpack "B_Carryall_cbr";
 
 comment "Add binoculars";
-_unit addWeapon "Binocular";
+_unit addWeapon "Rangefinder";
 
 comment "Add items to containers";
 for "_i" from 1 to 10 do {_unit addItemToUniform "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_packingBandage";};
-for "_i" from 1 to 5 do {_unit addItemToUniform "ACE_quikclot";};
+for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_quikclot";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
 _unit addItemToUniform "ACE_IR_Strobe_Item";
 _unit addItemToUniform "ACE_Flashlight_XL50";
 _unit addItemToUniform "ACE_MapTools";
 _unit addItemToUniform "ACE_morphine";
 _unit addItemToUniform "ItemAndroid";
-for "_i" from 1 to 3 do {_unit addItemToUniform "ACE_tourniquet";};
+for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_tourniquet";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
 _unit addItemToUniform "ACRE_PRC343";
 _unit addItemToUniform "acex_intelitems_notepad";
 
-_unit addItemToVest "ACE_DefusalKit";
-_unit addItemToVest "ACE_Clacker";
 _unit addItemToVest "ACRE_PRC152";
 for "_i" from 1 to 2 do {_unit addItemToVest "HandGrenade";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellGreen";};
 for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
-for "_i" from 1 to 6 do {_unit addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
+for "_i" from 1 to 10 do {_unit addItemToVest "30Rnd_556x45_Stanag_Tracer_Red";};
 for "_i" from 1 to 2 do {_unit addItemToVest "SmokeShellBlue";};
-_unit addItemToVest "ACE_NVG_Wide_Black";
 
-_unit addItemToBackpack (["TTT_Helmet_", _helm, "_BW_Flecktarn"] joinString "");
+_unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
 _unit addItemToBackpack "ACE_wirecutter";
 _unit addItemToBackpack "ACE_EntrenchingTool";
 _unit addItemToBackpack "ACE_VMH3";
-_unit addItemToBackpack "SatchelCharge_Remote_Mag";
 for "_i" from 1 to 3 do {_unit addItemToBackpack "DemoCharge_Remote_Mag";};
 _unit addItemToBackpack "ACE_SpraypaintRed";
 _unit addItemToBackpack "ACE_SpraypaintGreen";
 _unit addItemToBackpack "ACE_SpraypaintBlack";
 _unit addItemToBackpack "ACE_Fortify";
+_unit addItemToBackpack "ACE_NVG_Wide_Black";
+for "_i" from 1 to 3 do {_unit addItemToBackpack "AMP_Breaching_Charge_Mag";};
+_unit addItemToBackpack "ACE_DefusalKit";
+_unit addItemToBackpack "ACE_Clacker";
 
-_unit addHeadgear "TTT_Beret_Blue";
+_unit addHeadgear (["TTT_Beret", "blue"] joinString "_");
 
 comment "Add items";
 _unit linkItem "ItemMap";
