@@ -82,6 +82,8 @@ container_20, container_21, container_22, container_23, container_24, container_
 	  ["ItemMicroDAGR", 30],
 	  ["ItemAndroid", 15],
 	  ["ItemcTab", 10],
-	  ["ACE_HuntIR_monitor", 10]
+	  ["ACE_HuntIR_monitor", 10],
+	  ["ACE_Vector", 10],
+	  ["ACE_microDAGR", 10]
     ]
 ] call reim_fnc_crateFiller;

@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1116;
+		nextID=1135;
 	};
 	class Camera
 	{
-		pos[]={5650.0664,15.432256,1418.839};
-		dir[]={0.44279584,-0.83385336,0.32957613};
-		up[]={0.66890609,0.55198604,0.49787161};
-		aside[]={0.59707332,0,-0.80218673};
+		pos[]={5745.1777,131.00204,1410.2556};
+		dir[]={0.7715416,-0.45951182,-0.44002724};
+		up[]={0.3991718,0.88816065,-0.22765481};
+		aside[]={-0.49542481,4.2055035e-008,-0.86867511};
 	};
 };
 binarizationWanted=0;
@@ -68,7 +68,6 @@ addons[]=
 	"ace_gforces",
 	"ace_nouniformrestrictions",
 	"ace_parachute",
-	"cfp_uniforms",
 	"A3_Structures_F_EPB_Items_Military",
 	"A3_Supplies_F_Heli_CargoNets",
 	"A3_Structures_F_Items_Documents",
@@ -80,7 +79,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=27;
+		items=26;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -234,25 +233,19 @@ class AddonsMetaData
 		};
 		class Item23
 		{
-			className="cfp_uniforms";
-			name="cfp_uniforms";
-			author="CFP Team";
-		};
-		class Item24
-		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item25
+		class Item24
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item26
+		class Item25
 		{
 			className="Desert";
 			name="Desert";
@@ -63719,8 +63712,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5663.7783,2.2914259,1421.4103};
-						angles[]={0,2.3759689,0};
+						position[]={5663.7495,2.2914259,1421.4388};
+						angles[]={-0,2.365864,0};
 					};
 					side="Empty";
 					flags=4;
@@ -63932,8 +63925,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5676.5513,2.3776314,1434.7411};
-						angles[]={0,2.3600717,0};
+						position[]={5676.5513,2.2914259,1434.7411};
+						angles[]={-0,2.3600714,0};
 					};
 					side="Empty";
 					flags=4;
@@ -63943,7 +63936,6 @@ class Mission
 					};
 					id=7088;
 					type="TTT_Sign_Small_Green";
-					atlOffset=0.086205482;
 				};
 				class Item62
 				{
@@ -64018,8 +64010,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5659.5308,2.2914259,1417.2119};
-						angles[]={0,2.4130883,0};
+						position[]={5659.5449,2.2914259,1417.1978};
+						angles[]={-0,2.4029837,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64036,7 +64028,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5660.936,2.2914259,1418.5957};
-						angles[]={0,2.4130883,0};
+						angles[]={-0,2.4029837,0};
 					};
 					side="Empty";
 					flags=4;
@@ -64052,8 +64044,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5662.5625,2.2914259,1420.2332};
-						angles[]={0,2.38098,0};
+						position[]={5662.5459,2.2914259,1420.2495};
+						angles[]={-0,2.3708751,0};
 					};
 					side="Empty";
 					flags=4;
