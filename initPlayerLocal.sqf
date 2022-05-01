@@ -36,16 +36,24 @@
 ["B_Slingload_01_Cargo_F", "Init",{
 	[_this select 0] call Andx_loadouts_fnc_addActions;
 
-	// clearWeaponCargoGlobal (_this select 0);
-    // clearMagazineCargoGlobal (_this select 0);
-    // clearItemCargoGlobal (_this select 0);
-    // clearBackpackCargoGlobal (_this select 0);
-
 	(_this select 0) allowDamage false;
 
 	[_this select 0]  execVM "scripts\ax_log.sqf";
+	[_this select 0]  execVM "scripts\ax_options.sqf";
+
+    [(_this select 0), 0] call ace_cargo_fnc_setSpace;
+
+    (_this select 0) setVariable ["ace_cargo_noRename", true];
 
 }, false, nil, false] call CBA_fnc_addClassEventHandler;
+
+
+{
+	nul = [_x] execvm "scripts\ax_options.sqf";
+	
+} forEach [container_01, container_03, container_04, container_05, container_06, container_07, container_08, container_09,
+container_10, container_11, container_12, container_13, container_14, container_15, container_16, container_17, container_18, container_19,
+container_20, container_21, container_22, container_23, container_24, container_25, container_26, container_27];
 
 // spec_medic
 [sign_medizinischerbereich, medic_mat_2, "Medic Dummy B"] call Spec_medic_fnc_addTrainingStation;
@@ -83,241 +91,3 @@ laptopHangar_1 addAction ["Gruppe - Stack",{boardHangar_1 setObjectTextureGlobal
 laptopHangar_1 addAction ["Gruppe - Keil",{boardHangar_1 setObjectTextureGlobal [0, "formationen\07_gruppe_keil.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Kette",{boardHangar_1 setObjectTextureGlobal [0, "formationen\08_gruppe_Schutzenkette.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal [0, "formationen\09_gruppe_schutzenreihe.paa"];},[],1,false,true,"","",5];
-
-//Nummern/Tarn/Farbe wechseln an TTT Schild
-{
-		_x addAction
-		[
-			"Werde Nummer 1",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "1"];
-				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 2",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "2"];
-				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 3",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "3"];
-				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 4",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "4"];
-				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 5",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "5"];
-				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 6",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "6"];
-				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 7",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "7"];
-				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 8",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "8"];
-				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 9",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "9"];
-				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Gelb",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "yellow"];
-				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Gold",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "gold"];
-				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Grau",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "grey"];
-				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";	
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Grün",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "green"];
-				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Orange",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "orange"];
-				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Rot",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "red"];
-				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-			}
-		];
-
-
-		_x addAction
-		[
-			"Werde Schwarz",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "black"];
-				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Violett",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "violet"];
-				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"TTT Flecktarn",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["tarn", "BW_Flecktarn"];
-				hint "Neues Loadout ausrüsten um die richtige Uniform zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"TTT Tropentarn",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["tarn", "BW_Tropentarn"];
-				hint "Neues Loadout ausrüsten um die richtige Uniform zu bekommen.";
-			}
-		];
-
-		_x addAction
-		[
-			"Schalldämpfer ausrüsten",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				[_caller] spawn compile preprocessFileLineNumbers "loadouts\Suppressor.sqf";
-				hint "Schalldämpfer ausgerüstet.";
-			}
-		];
-		
-		_x addAction
-		[
-			"Fallschirm ausrüsten",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				[_caller] spawn compile preprocessFileLineNumbers "loadouts\Parachute.sqf";
-				hint "Fallschirm und Höhenmesser ausgerüstet.";
-			}
-		];
-
-} forEach [nummer_01, nummer_02, nummer_03, nummer_04, nummer_05, nummer_06, nummer_07, nummer_08, nummer_09,
-nummer_10, nummer_11, nummer_12, nummer_13, nummer_14, nummer_15, nummer_16, nummer_17, nummer_18, nummer_19,
-nummer_20, nummer_21, nummer_22, nummer_23, nummer_24, nummer_25, nummer_26, nummer_27];
