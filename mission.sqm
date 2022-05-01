@@ -20,18 +20,18 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1192;
+		nextID=1211;
 	};
 	class Camera
 	{
-		pos[]={1231.6254,109.65218,1189.2932};
-		dir[]={0.80892748,-0.48423561,0.33339533};
-		up[]={0.4477022,0.87493765,0.18451817};
-		aside[]={0.38105041,0,-0.92455447};
+		pos[]={5690.5283,24.248369,1411.62};
+		dir[]={-0.56234592,-0.44436166,0.69739318};
+		up[]={-0.27893659,0.89584512,0.34592199};
+		aside[]={0.77847123,-4.8964284e-007,0.62772435};
 	};
 };
 binarizationWanted=0;
-sourceName="co91_TTT-Trainingskarte_v302";
+sourceName="co91_TTT-Trainingskarte_v303beta";
 addons[]=
 {
 	"A3_Ui_F",
@@ -55822,7 +55822,6 @@ class Mission
 					{
 					};
 					id=7105;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56389,7 +56388,6 @@ class Mission
 					{
 					};
 					id=7111;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -56881,7 +56879,6 @@ class Mission
 					{
 					};
 					id=7121;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -57372,7 +57369,6 @@ class Mission
 					{
 					};
 					id=7131;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58129,7 +58125,6 @@ class Mission
 					{
 					};
 					id=7141;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58566,7 +58561,6 @@ class Mission
 					{
 					};
 					id=7151;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58763,7 +58757,6 @@ class Mission
 					{
 					};
 					id=7157;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58960,7 +58953,6 @@ class Mission
 					{
 					};
 					id=7160;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59237,7 +59229,6 @@ class Mission
 					{
 					};
 					id=7163;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59477,7 +59468,6 @@ class Mission
 					{
 					};
 					id=7167;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59678,7 +59668,6 @@ class Mission
 					{
 					};
 					id=7171;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59880,7 +59869,6 @@ class Mission
 						formation="LINE";
 					};
 					id=7175;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60081,7 +60069,6 @@ class Mission
 					{
 					};
 					id=7179;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60198,7 +60185,6 @@ class Mission
 					{
 					};
 					id=7183;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60315,7 +60301,6 @@ class Mission
 					{
 					};
 					id=7185;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -60832,7 +60817,6 @@ class Mission
 					{
 					};
 					id=7187;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -61189,7 +61173,6 @@ class Mission
 					{
 					};
 					id=7194;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -61546,7 +61529,6 @@ class Mission
 					{
 					};
 					id=7199;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -62204,7 +62186,6 @@ class Mission
 					{
 					};
 					id=7204;
-					atlOffset=8;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -63258,8 +63239,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5640.7393,2.2914259,1467.5415};
-						angles[]={0,3.9635983,0};
+						position[]={5640.4238,2.2914259,1467.1207};
+						angles[]={-0,3.9635983,0};
 					};
 					side="Empty";
 					flags=4;

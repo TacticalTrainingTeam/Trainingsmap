@@ -43,12 +43,12 @@
 
     [(_this select 0), 0] call ace_cargo_fnc_setSpace;  //Container hat kein ACE Inventar
 
-    (_this select 0) setVariable ["ace_cargo_noRename", true]; //Container kann nicht umbenannt werden
+    //(_this select 0) setVariable ["ace_cargo_noRename", true]; //Container kann nicht umbenannt werden
 
 }, false, nil, false] call CBA_fnc_addClassEventHandler;
 
 
-//Truppfarbe etc für alle Conatiner auf der Karte
+//Truppfarbe etc für alle Container auf der Karte
 {
 	nul = [_x] execvm "scripts\ax_options.sqf";
 	
