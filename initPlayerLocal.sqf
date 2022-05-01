@@ -83,6 +83,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["helm", "1"];
+				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
 			}
 		];
 
@@ -93,6 +94,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["helm", "2"];
+				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
 			}
 		];
 
@@ -103,6 +105,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["helm", "3"];
+				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
 			}
 		];
 
@@ -113,6 +116,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["helm", "4"];
+				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
 			}
 		];
 
@@ -123,6 +127,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["helm", "5"];
+				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
 			}
 		];
 
@@ -133,6 +138,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["helm", "6"];
+				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
 			}
 		];
 
@@ -143,6 +149,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["helm", "7"];
+				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
 			}
 		];
 
@@ -153,6 +160,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["helm", "8"];
+				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
 			}
 		];
 
@@ -163,6 +171,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["helm", "9"];
+				hint "Neues Loadout ausrüsten um den richtigen Helm zu bekommen.";
 			}
 		];
 
@@ -173,6 +182,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["farbe", "yellow"];
+				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
 			}
 		];
 
@@ -183,6 +193,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["farbe", "gold"];
+				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
 			}
 		];
 
@@ -193,6 +204,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["farbe", "grey"];
+				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";	
 			}
 		];
 
@@ -203,6 +215,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["farbe", "green"];
+				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
 			}
 		];
 
@@ -213,6 +226,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["farbe", "orange"];
+				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
 			}
 		];
 
@@ -223,6 +237,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["farbe", "red"];
+				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
 			}
 		];
 
@@ -234,6 +249,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["farbe", "black"];
+				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
 			}
 		];
 
@@ -244,6 +260,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["farbe", "violet"];
+				hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
 			}
 		];
 
@@ -254,6 +271,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["tarn", "BW_Flecktarn"];
+				hint "Neues Loadout ausrüsten um die richtige Uniform zu bekommen.";
 			}
 		];
 
@@ -264,6 +282,7 @@ laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal
 				params ["_target", "_caller", "_actionId", "_arguments"]; // script
 
 				_caller setVariable ["tarn", "BW_Tropentarn"];
+				hint "Neues Loadout ausrüsten um die richtige Uniform zu bekommen.";
 			}
 		];
 
