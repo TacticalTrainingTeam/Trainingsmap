@@ -41,6 +41,8 @@
     // clearItemCargoGlobal (_this select 0);
     // clearBackpackCargoGlobal (_this select 0);
 
+	(_this select 0) allowDamage false;
+
 	[_this select 0]  execVM "scripts\ax_log.sqf";
 
 }, false, nil, false] call CBA_fnc_addClassEventHandler;

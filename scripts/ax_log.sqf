@@ -43,7 +43,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 
 	  ["MRAWS_HEAT_F", 20],
 	  ["MRAWS_HE_F", 10],
-	  ["ACE_launch_NLAW_ready_F", 20],
+	  ["launch_NLAW_F", 20],
 	  ["Titan_AA", 10],
 	  ["Titan_AT", 10],
 
