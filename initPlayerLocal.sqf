@@ -36,10 +36,10 @@
 ["B_Slingload_01_Cargo_F", "Init",{
 	[_this select 0] call Andx_loadouts_fnc_addActions;
 
-	clearWeaponCargoGlobal (_this select 0);
-    clearMagazineCargoGlobal (_this select 0);
-    clearItemCargoGlobal (_this select 0);
-    clearBackpackCargoGlobal (_this select 0);
+	// clearWeaponCargoGlobal (_this select 0);
+    // clearMagazineCargoGlobal (_this select 0);
+    // clearItemCargoGlobal (_this select 0);
+    // clearBackpackCargoGlobal (_this select 0);
 
 	[_this select 0]  execVM "scripts\ax_log.sqf";
 
