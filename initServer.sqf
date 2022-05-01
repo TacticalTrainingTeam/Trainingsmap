@@ -21,10 +21,12 @@ CivHQ = createCenter CIVILIAN;
 	]
 ] call acex_fortify_fnc_registerObjects;
 
+
+//Inventar der Container auf der Karte
 {
-	[_x] execVM "scripts\ax_log.sqf";
-	_x setVariable ["ace_cargo_noRename", true];
-	[_x, 0] call ace_cargo_fnc_setSpace;
+	[_x] execVM "scripts\ax_log.sqf"; //Inhalt
+	_x setVariable ["ace_cargo_noRename", true]; //Container nicht umbenennen
+	[_x, 0] call ace_cargo_fnc_setSpace; //Containercargo auf 0 setzen
 
 } forEach [container_01, container_03, container_04, container_05, container_06, container_07, container_08, container_09,
 container_10, container_11, container_12, container_13, container_14, container_15, container_16, container_17, container_18, container_19,

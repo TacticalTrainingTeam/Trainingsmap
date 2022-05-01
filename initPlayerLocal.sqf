@@ -34,20 +34,21 @@
 
 //Eventhandler der die Loadoutauswahl an Zeusplatzierte Container heftet und mit Nachschub befüllt
 ["B_Slingload_01_Cargo_F", "Init",{
-	[_this select 0] call Andx_loadouts_fnc_addActions;
+	[_this select 0] call Andx_loadouts_fnc_addActions; //Loadoutauswahl
 
-	(_this select 0) allowDamage false;
+	(_this select 0) allowDamage false; //Container nicht zerstören
 
-	[_this select 0]  execVM "scripts\ax_log.sqf";
-	[_this select 0]  execVM "scripts\ax_options.sqf";
+	[_this select 0]  execVM "scripts\ax_log.sqf"; //Inhalt
+	[_this select 0]  execVM "scripts\ax_options.sqf"; //Truppfarben etc
 
-    [(_this select 0), 0] call ace_cargo_fnc_setSpace;
+    [(_this select 0), 0] call ace_cargo_fnc_setSpace;  //Container hat kein ACE Inventar
 
-    (_this select 0) setVariable ["ace_cargo_noRename", true];
+    (_this select 0) setVariable ["ace_cargo_noRename", true]; //Container kann nicht umbenannt werden
 
 }, false, nil, false] call CBA_fnc_addClassEventHandler;
 
 
+//Truppfarbe etc für alle Conatiner auf der Karte
 {
 	nul = [_x] execvm "scripts\ax_options.sqf";
 	
