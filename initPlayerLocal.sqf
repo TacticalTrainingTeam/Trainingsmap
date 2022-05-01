@@ -29,8 +29,13 @@
     flag_pionierplatz,
     flag_luftfahrgelaende,
     flag_moerserplatz
-    
+ 
 ];
+
+//Eventhandler der die Loadoutauswahl an Zeusplatzierte Container heftet
+["B_Slingload_01_Cargo_F", "Init",{
+	[_this select 0] call Andx_loadouts_fnc_addActions;
+}, false, nil, false] call CBA_fnc_addClassEventHandler;
 
 // spec_medic
 [sign_medizinischerbereich, medic_mat_2, "Medic Dummy B"] call Spec_medic_fnc_addTrainingStation;
