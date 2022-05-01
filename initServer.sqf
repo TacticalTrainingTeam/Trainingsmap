@@ -24,9 +24,9 @@ CivHQ = createCenter CIVILIAN;
 
 //Inventar der Container auf der Karte
 {
-	[_x] execVM "scripts\ax_log.sqf"; //Inhalt
+	//_x setVariable ["ace_cargo_noRename", false]; //Container nicht umbenennen
 
-	// _x setVariable ["ace_cargo_noRename", false]; //Container nicht umbenennen
+	[_x] execVM "scripts\ax_log.sqf"; //Inhalt
 
 	[_x, 0] call ace_cargo_fnc_setSpace; //Containercargo auf 0 setzen
 
