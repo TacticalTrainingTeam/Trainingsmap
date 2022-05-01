@@ -1,13 +1,16 @@
 _object = _this select 0; 
 
+private _hauptmenu = ["ax_Menu4","Ausrüstung anpassen","",{},{true}] call ACE_interact_menu_fnc_createAction;
+[_object, 0, ["ACE_MainActions"], _hauptmenu] call ACE_interact_menu_fnc_addActionToObject;
+
 private _farbmenu = ["ax_Menu1","Truppfarbe ändern","",{},{true}] call ACE_interact_menu_fnc_createAction;
-[_object, 0, ["ACE_MainActions"], _farbmenu] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4"], _farbmenu] call ACE_interact_menu_fnc_addActionToObject;
 
 private _tarnmenu = ["ax_Menu2","Tarnfarbe ändern","",{},{true}] call ACE_interact_menu_fnc_createAction;
-[_object, 0, ["ACE_MainActions"], _tarnmenu] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4"], _tarnmenu] call ACE_interact_menu_fnc_addActionToObject;
 
 private _helmmenu = ["ax_Menu3","Helmnummer ändern","",{},{true}] call ACE_interact_menu_fnc_createAction;
-[_object, 0, ["ACE_MainActions"], _helmmenu] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4"], _helmmenu] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// Blau //////
 _blau = [
@@ -26,7 +29,7 @@ _blau = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu1"], _blau] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu1"], _blau] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// Gelb //////
 _yellow = [
@@ -45,7 +48,7 @@ _yellow = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu1"], _yellow] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4","ax_Menu1"], _yellow] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// Gold //////
 _gold = [
@@ -64,7 +67,7 @@ _gold = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu1"], _gold] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions","ax_Menu4", "ax_Menu1"], _gold] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// Grün //////
 _green = [
@@ -83,7 +86,7 @@ _green = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu1"], _green] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu1"], _green] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// Grau //////
 _grey = [
@@ -102,7 +105,7 @@ _grey = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu1"], _grey] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu1"], _grey] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// Rot //////
 _red = [
@@ -121,8 +124,8 @@ _red = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu1"], _red] call ACE_interact_menu_fnc_addActionToObject;
-
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu1"], _red] call ACE_interact_menu_fnc_addActionToObject;
+ 
 ////// Schwarz //////
 _black = [
 	"Rot1",
@@ -140,7 +143,7 @@ _black = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu1"], _black] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu1"], _black] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// Orange //////
 _orange = [
@@ -159,7 +162,7 @@ _orange = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu1"], _orange] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu1"], _orange] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// Violett //////
 _violet = [
@@ -178,7 +181,7 @@ _violet = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu1"], _violet] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu1"], _violet] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Flecktarn //////
 _flecktarn= [
@@ -197,7 +200,7 @@ _flecktarn= [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu2"], _flecktarn] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu2"], _flecktarn] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Tropentarn //////
 _tropentarn= [
@@ -216,7 +219,7 @@ _tropentarn= [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu2"], _tropentarn] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu2"], _tropentarn] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Helm 1 //////
 _eins= [
@@ -235,7 +238,7 @@ _eins= [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu3"], _eins] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu3"], _eins] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Helm 2 //////
 _zwei= [
@@ -254,7 +257,7 @@ _zwei= [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu3"], _zwei] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4","ax_Menu3"], _zwei] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Helm 3 //////
 _drei= [
@@ -273,7 +276,7 @@ _drei= [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu3"], _drei] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu3"], _drei] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Helm 4 //////
 _vier= [
@@ -292,7 +295,7 @@ _vier= [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu3"], _vier] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu3"], _vier] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Helm 5 //////
 _funf= [
@@ -311,7 +314,7 @@ _funf= [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu3"], _funf] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu3"], _funf] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Helm 6 //////
 _sechs = [
@@ -330,7 +333,7 @@ _sechs = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu3"], _sechs] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4", "ax_Menu3"], _sechs] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Helm 7 //////
 _sieben= [
@@ -349,7 +352,7 @@ _sieben= [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu3"], _sieben] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions","ax_Menu4", "ax_Menu3"], _sieben] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Helm 8 //////
 _acht= [
@@ -368,7 +371,7 @@ _acht= [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu3"], _acht] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions","ax_Menu4", "ax_Menu3"], _acht] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// TTT Helm 9 //////
 _neun = [
@@ -387,7 +390,7 @@ _neun = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions", "ax_Menu3"], _neun] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions","ax_Menu4", "ax_Menu3"], _neun] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// Fallschirm //////
 _para = [
@@ -406,11 +409,11 @@ _para = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions"], _para] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4"], _para] call ACE_interact_menu_fnc_addActionToObject;
 
 ////// Schalldämpfer //////
 _supp = [
-	"para1",
+	"supp1",
 	"Schalldämpfer ausrüsten",
 	"",
 	{
@@ -425,4 +428,4 @@ _supp = [
     [_object]
 ] call ace_interact_menu_fnc_createAction;
 
-[_object, 0, ["ACE_MainActions"], _supp] call ACE_interact_menu_fnc_addActionToObject;
+[_object, 0, ["ACE_MainActions", "ax_Menu4"], _supp] call ACE_interact_menu_fnc_addActionToObject;
