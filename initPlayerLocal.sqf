@@ -32,7 +32,7 @@
  
 ];
 
-//Eventhandler der die Loadoutauswahl an Zeusplatzierte Container heftet
+//Eventhandler der die Loadoutauswahl an Zeusplatzierte Container heftet und mit Nachschub befüllt
 ["B_Slingload_01_Cargo_F", "Init",{
 	[_this select 0] call Andx_loadouts_fnc_addActions;
 
