@@ -1,3 +1,5 @@
+//Fills given object with a list of Items
+
 params ["_containers"];
 
 //Kisten befüllen skipt laden

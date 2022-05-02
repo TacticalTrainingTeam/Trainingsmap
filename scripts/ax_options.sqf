@@ -1,3 +1,5 @@
+// Creates ACE Menu and Options to change to a different troop color, cmao and hemlet number + equipping suppressor and parachutes
+
 _object = _this select 0; 
 
 private _hauptmenu = ["ax_Menu4","Ausrüstung anpassen","",{},{true}] call ACE_interact_menu_fnc_createAction;
@@ -399,7 +401,7 @@ _para = [
 	"",
 	{
 		[_player] spawn compile preprocessFileLineNumbers "loadouts\Parachute.sqf";
-		hint "Fallschirm und Höhenmesser ausgerüstet.";
+		//hint "Fallschirm und Höhenmesser ausgerüstet."; //hint wird bereits in der sqf ausgegeben
 	},
 	{ 
 		//Leer

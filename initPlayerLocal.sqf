@@ -34,7 +34,7 @@
 
 //Truppfarbe etc für alle Container auf der Karte
 {
-	nul = [_x] execvm "scripts\ax_options.sqf";
+	nul = [_x] execVM "scripts\ax_options.sqf";
 	
 } forEach [container_01, container_03, container_04, container_05, container_06, container_07, container_08, container_09,
 container_10, container_11, container_12, container_13, container_14, container_15, container_16, container_17, container_18, container_19,
