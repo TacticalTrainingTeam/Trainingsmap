@@ -29,8 +29,16 @@
     flag_pionierplatz,
     flag_luftfahrgelaende,
     flag_moerserplatz
-    
+ 
 ];
+
+//Truppfarbe etc für alle Container auf der Karte
+{
+	nul = [_x] execVM "scripts\ax_options.sqf";
+	
+} forEach [container_01, container_03, container_04, container_05, container_06, container_07, container_08, container_09,
+container_10, container_11, container_12, container_13, container_14, container_15, container_16, container_17, container_18, container_19,
+container_20, container_21, container_22, container_23, container_24, container_25, container_26, container_27];
 
 // spec_medic
 [sign_medizinischerbereich, medic_mat_2, "Medic Dummy B"] call Spec_medic_fnc_addTrainingStation;
@@ -62,227 +70,9 @@ laptopHangar_1 addAction ["Trupp - Stack",{boardHangar_1 setObjectTextureGlobal 
 laptopHangar_1 addAction ["Trupp - Keil",{boardHangar_1 setObjectTextureGlobal [0, "formationen\04_trupp_keil.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Trupp - Kette",{boardHangar_1 setObjectTextureGlobal [0, "formationen\05_trupp_schutzenkette.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Trupp - Sicherung 180",{boardHangar_1 setObjectTextureGlobal [0, "formationen\05_trupp_180_sicherung.paa"];},[],1,false,true,"","",5];
-laptopHangar_1 addAction ["Trupp - Sicherung 360",{boardHangar_1 setObjectTextureGlobal [0, "formationen\05_trupp_360_sicherung.paa"];},[],1,false,true,"","",5];
+//laptopHangar_1 addAction ["Trupp - Sicherung 360",{boardHangar_1 setObjectTextureGlobal [0, "formationen\05_trupp_360_sicherung.paa"];},[],1,false,true,"","",5];
+laptopHangar_1 addAction ["Gruppe - Sicherung 360",{boardHangar_1 setObjectTextureGlobal [0, "formationen\10_gruppe_360_sicherung.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Stack",{boardHangar_1 setObjectTextureGlobal [0, "formationen\06_gruppe_stack.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Keil",{boardHangar_1 setObjectTextureGlobal [0, "formationen\07_gruppe_keil.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Kette",{boardHangar_1 setObjectTextureGlobal [0, "formationen\08_gruppe_Schutzenkette.paa"];},[],1,false,true,"","",5];
 laptopHangar_1 addAction ["Gruppe - Reihe",{boardHangar_1 setObjectTextureGlobal [0, "formationen\09_gruppe_schutzenreihe.paa"];},[],1,false,true,"","",5];
-
-//Nummern/Tarn/Farbe wechseln an TTT Schild
-{
-		_x addAction
-		[
-			"Werde Nummer 1",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "1"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 2",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "2"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 3",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "3"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 4",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "4"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 5",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "5"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 6",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "6"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 7",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "7"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 8",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "8"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Nummer 9",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["helm", "9"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Gelb",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "yellow"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Gold",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "gold"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Grau",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "grey"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Grün",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "green"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Orange",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "orange"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Rot",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "red"];
-			}
-		];
-
-
-		_x addAction
-		[
-			"Werde Schwarz",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "black"];
-			}
-		];
-
-		_x addAction
-		[
-			"Werde Violett",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["farbe", "violet"];
-			}
-		];
-
-		_x addAction
-		[
-			"TTT Flecktarn",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["tarn", "BW_Flecktarn"];
-			}
-		];
-
-		_x addAction
-		[
-			"TTT Tropentarn",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				_caller setVariable ["tarn", "BW_Tropentarn"];
-			}
-		];
-
-		_x addAction
-		[
-			"Schalldämpfer ausrüsten",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				[_caller] spawn compile preprocessFileLineNumbers "loadouts\Suppressor.sqf";
-				hint "Schalldämpfer ausgerüstet.";
-			}
-		];
-		
-		_x addAction
-		[
-			"Fallschirm ausrüsten",	// title
-			{
-				params ["_target", "_caller", "_actionId", "_arguments"]; // script
-
-				[_caller] spawn compile preprocessFileLineNumbers "loadouts\Parachute.sqf";
-				hint "Fallschirm und Höhenmesser ausgerüstet.";
-			}
-		];
-
-} forEach [nummer_01, nummer_02, nummer_03, nummer_04, nummer_05, nummer_06, nummer_07, nummer_08, nummer_09,
-nummer_10, nummer_11, nummer_12, nummer_13, nummer_14, nummer_15, nummer_16, nummer_17, nummer_18, nummer_19,
-nummer_20, nummer_21, nummer_22, nummer_23, nummer_24, nummer_25, nummer_26, nummer_27];
