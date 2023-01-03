@@ -1,0 +1,68 @@
+/*
+	author = Reimchen
+	edit = Redd, Andx
+	description = n.a.
+*/
+
+#include "reim_teleporter\dialog.hpp"
+#include "andx_loadouts\dialog.hpp"
+#include "reim_text\dialog.hpp"
+#include "W_Teleporter\dialog.hpp"
+#include "VVS\menu.h"
+
+class CfgFunctions 
+{
+	#include "redd_actions\CfgFunctions.hpp"
+	#include "reddZugSB\CfgFunctions.hpp"
+	#include "reddCasSB\CfgFunctions.hpp"
+	#include "reddAtG\CfgFunctions.hpp"
+
+	#include "reim_explosive\CfgFunctions.hpp"
+	#include "reim_parcour\CfgFunctions.hpp"
+	#include "reim_teleporter\CfgFunctions.hpp"
+
+	#include "andx_loadouts\CfgFunctions.hpp"
+
+	#include "reim_text\CfgFunctions.hpp"
+
+	#include "spec_fullheal\CfgFunctions.hpp"
+	#include "spec_medic\CfgFunctions.hpp"
+	#include "spec_mortar\CfgFunctions.hpp"
+
+	#include "target_range\CfgFunctions.hpp"
+
+	#include "W_Teleporter\CfgFunctions.hpp"
+	
+	#include "VVS\Functions.h"
+
+};
+
+class CfgSounds
+{
+	sounds[] = {};
+	#include "spec_fullheal\CfgSounds.hpp"
+};
+
+class Header
+{
+
+	gameType = "coop";
+	minPlayers = "1";
+	maxPlayers = "92";
+
+};
+
+respawn = 3;
+respawnDelay = 5;
+respawnDialog = false;
+
+corpseLimit = 0;
+corpseRemovalMinTime = 0;
+corpseRemovalMaxTime = 1;
+
+onLoadMission = "Train hard, Play smart!";
+OnLoadMissionTime = true;
+author="Tactical Training Team";
+OnLoadName = "Trainingsmission";
+loadScreen = "pictures\onLoad_mission.jpg";
+disabledAI = 1;
