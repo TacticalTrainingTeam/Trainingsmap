@@ -41,7 +41,7 @@ for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_CableTie";};
 _unit addItemToUniform "ACE_IR_Strobe_Item";
 _unit addItemToUniform "ACE_Flashlight_XL50";
 _unit addItemToUniform "ACE_MapTools";
-_unit addItemToUniform "ACE_morphine";
+_unit addItemToUniform "ACE_Painkiller";
 for "_i" from 1 to 2 do {_unit addItemToUniform "ACE_tourniquet";};
 for "_i" from 1 to 2 do {_unit addItemToUniform "16Rnd_9x21_Mag";};
 _unit addItemToUniform "ACRE_PRC343";
