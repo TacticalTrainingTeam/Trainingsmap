@@ -26,11 +26,11 @@ if(hasInterface) then
         flag_spz_gesch_zug,
         flag_trpPlz,
         flag_cas,
-        flag_sammelplatz,
         flag_medizinischerbereich,
         flag_pionierplatz,
         flag_luftfahrgelaende,
-        flag_moerserplatz
+        flag_moerserplatz,
+        ttt_teleporter
     ];
 
 };

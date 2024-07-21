@@ -24,7 +24,6 @@
     flag_spz_gesch_zug,
     flag_trpPlz,
     flag_cas,
-    flag_sammelplatz,
     flag_medizinischerbereich,
     flag_pionierplatz,
     flag_luftfahrgelaende,
@@ -43,16 +42,6 @@ container_20, container_21, container_22, container_23, container_24, container_
 // spec_medic
 [sign_medizinischerbereich, medic_mat_2, "Medic Dummy B"] call Spec_medic_fnc_addTrainingStation;
 [sign_medizinischerbereich, medic_mat_1, "Medic Dummy A"] call Spec_medic_fnc_addTrainingStation;
-
-// spectator cam and clean up near base
-flag_sammelplatz addAction ["Zuschauermodus", {
-    params ["_target","_caller"];
-
-    ["Initialize", [_caller, [], true]] call BIS_fnc_EGSpectator;
-	},
-	[],1,false,true,"","",5
-	
-	];
 
 player addEventHandler ["Respawn",{
     params ["","_corpse"];
