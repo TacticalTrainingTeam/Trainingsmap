@@ -3,8 +3,6 @@
         "exclude": [
         ],
         "include": [
-            "\\.sqf$",
-            "\\.txt$"
         ]
     },
     "headers": [
