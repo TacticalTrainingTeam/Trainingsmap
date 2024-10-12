@@ -77,4 +77,4 @@ _unit setVariable ["ace_medical_medicClass", 2, true];
 _unit setVariable ["ACE_isEOD", false, true];
 _unit setVariable ["ACE_isEngineer", 0, true];
 
-[ACE_player, currentWeapon ACE_player, currentMuzzle ACE_player] call ace_safemode_fnc_lockSafety;
+[ACE_player, currentWeapon ACE_player, true] call ace_safemode_fnc_setWeaponSafety;
