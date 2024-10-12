@@ -9,7 +9,7 @@ if (isNull _backpack) then {
 } else {
 
 	if (_boc == "") then {
-		[_unit, "B_Parachute", [], []] call bocr_main_fnc_addChestpack;
+		[_unit, "B_Parachute", [], [], []] call bocr_main_fnc_addChestpack;
 		hint "Fallschirm auf Bauch ausgerüstet!";
 	} else {
 		hint "Kein Platz für Fallschirm!";
