@@ -13,6 +13,7 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 	  ["ACE_quikclot", 90],
 	  ["ACE_packingBandage", 90],
 	  ["ACE_morphine", 27],
+	  ["ACE_painkillers", 27],
 	  ["ACE_tourniquet", 54],
 
 	  ["HandGrenade", 60],
@@ -50,11 +51,10 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 	  ["Titan_AT", 10],
 
 	  ["DemoCharge_Remote_Mag", 30],
-	  ["SatchelCharge_Remote_Mag", 10],
 	  ["AMP_Breaching_Charge_Mag", 30],
 
 	  ["ACRE_PRC343", 30],
-	  ["ACRE_PRC152", 20],
+	  ["ACRE_PRC152", 30],
 	  ["ACRE_PRC117F", 10],
 
 	  ["ItemMicroDAGR", 30],
