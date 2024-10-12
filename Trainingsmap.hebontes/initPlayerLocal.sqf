@@ -8,7 +8,6 @@
 {
 	_x call FETT_fnc_W_addTeleport;
 	} forEach [
-
 		flag_Infanterie_Gefechtsschiessbahn,
 		flag_Infanterie_Schulschiessbahn,
 		flag_Scharfschuetzen_Schulschiessbahn,
@@ -28,7 +27,6 @@
 		flag_pionierplatz,
 		flag_luftfahrgelaende,
 		flag_moerserplatz
-
 	];
 
 	// Heilen an Flagge

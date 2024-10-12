@@ -7,7 +7,6 @@
 #include "reim_teleporter\dialog.hpp"
 #include "andx_loadouts\dialog.hpp"
 #include "reim_text\dialog.hpp"
-#include "W_Teleporter\dialog.hpp"
 #include "VVS\menu.h"
 
 class CfgFunctions 
@@ -30,8 +29,6 @@ class CfgFunctions
 	#include "spec_mortar\CfgFunctions.hpp"
 
 	#include "target_range\CfgFunctions.hpp"
-
-	#include "W_Teleporter\CfgFunctions.hpp"
 	
 	#include "VVS\Functions.h"
 
