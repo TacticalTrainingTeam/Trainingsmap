@@ -44,3 +44,8 @@ Trainingsmap of the Tactical Training Team
 - fix Heal-Flag
 - Nachschub in Kisten
 - alte Spec-Scripte entfernt
+
+## 3.1.0
+
+- Pioniertrainingskarte Integriert
+- an TTT-Mod 3.0.0 angepasst
