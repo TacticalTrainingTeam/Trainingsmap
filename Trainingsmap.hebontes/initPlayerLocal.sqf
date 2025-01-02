@@ -53,7 +53,7 @@
 		healFlag_14,
 		healFlag_15,
 		healFlag_16,
-		healFlag_17,
+		healFlag_17
 	];
 
 // Truppfarbe etc für alle Container auf der Karte
@@ -143,3 +143,7 @@ laptopHangar_1 addAction ["Gruppe - Kette", {
 laptopHangar_1 addAction ["Gruppe - Reihe", {
 	boardHangar_1 setObjectTextureGlobal [0, "formationen\09_gruppe_schutzenreihe.paa"];
 }, [], 1, false, true, "", "", 5];
+
+
+//deconstruct czeh hedgehog
+[] call compile preprocessFileLineNumbers "scripts\ax_deconstruct.sqf";

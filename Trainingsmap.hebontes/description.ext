@@ -9,8 +9,12 @@
 #include "reim_text\dialog.hpp"
 #include "VVS\menu.h"
 
+/*------Functions------*/	
+#include "modules\grad-fortifications\grad_fortifications.hpp"
+
 class CfgFunctions 
 {
+	#include "modules\grad-fortifications\cfgFunctions.hpp"
 	#include "redd_actions\CfgFunctions.hpp"
 	#include "reddZugSB\CfgFunctions.hpp"
 	#include "reddCasSB\CfgFunctions.hpp"
@@ -32,6 +36,11 @@ class CfgFunctions
 	
 	#include "VVS\Functions.h"
 
+};
+
+class RscTitles 
+{
+    #include "modules\grad-fortifications\dialog\hint\title.hpp"
 };
 
 class CfgSounds
@@ -63,3 +72,31 @@ author="Tactical Training Team";
 OnLoadName = "Trainingsmission";
 loadScreen = "pictures\onLoad_mission.jpg";
 disabledAI = 1;
+
+//GRAD Fortification Config
+class CfgGradFortifications {
+	fortificationOwnerType = "SIDE";
+
+    class Fortifications {
+        class Land_Plank_01_4m_F {
+			canFloat = 1;
+        };
+
+		class Land_Net_Fence_4m_F {
+			canFloat = 1;
+			canCollide = 1;
+        };
+
+		class EFM_wood_wall_2m_single {
+			canFloat = 1;
+			canCollide = 1;
+        };
+    };
+
+    class Vehicles {
+        class Land_Cargo10_military_green_F {
+            isStorage = 1;
+            vehicleInventorySize = 30;
+        };
+    };
+};
