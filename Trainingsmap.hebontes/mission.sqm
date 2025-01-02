@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1268;
+		nextID=1287;
 	};
 	class Camera
 	{
-		pos[]={5654.5332,27.452566,1334.3901};
-		dir[]={-0.35532892,-0.40075758,0.8444795};
-		up[]={-0.15542847,0.91618353,0.36939216};
-		aside[]={0.92173362,-5.0466042e-08,0.38783577};
+		pos[]={3934.0542,44.960098,16875.168};
+		dir[]={-0.72577053,-0.62713784,-0.28277639};
+		up[]={-0.58435315,0.77890414,-0.22767735};
+		aside[]={-0.36304119,-3.4815457e-08,0.93177855};
 	};
 };
 binarizationWanted=0;
@@ -37,7 +37,7 @@ addons[]=
 	"A3_Ui_F",
 	"A3_Structures_F_Civ_InfoBoards",
 	"hebontes_assets",
-	"TTT_Signs",
+	"ttt_signs",
 	"A3_Structures_F_Walls",
 	"A3_Structures_F_Mil_Helipads",
 	"A3_Structures_F_System",
@@ -98,8 +98,10 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="TTT_Signs";
-			name="TTT_Signs";
+			className="ttt_signs";
+			name="TTT - Signs";
+			author="Tactical Training Team";
+			url="https://tacticalteam.de";
 		};
 		class Item4
 		{
@@ -1018,7 +1020,7 @@ class Mission
 						name="flag_cqb";
 					};
 					id=5590;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -10184,7 +10186,7 @@ class Mission
 						name="flag_AT_Schiessbahn";
 					};
 					id=4323;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11279,7 +11281,7 @@ class Mission
 						name="flag_Handgranaten";
 					};
 					id=5589;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -12075,7 +12077,7 @@ class Mission
 						name="flag_spz_gesch_zug";
 					};
 					id=5667;
-					type="TTT_Flag_Bronze";
+					type="ttt_Flag_Bronze";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -13072,7 +13074,7 @@ class Mission
 						name="flag_pionierplatz";
 					};
 					id=3574;
-					type="TTT_Flag_Blue";
+					type="ttt_Flag_Blue";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16131,7 +16133,7 @@ class Mission
 						name="flag_Infanterie_Gefechtsschiessbahn";
 					};
 					id=1844;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -25357,7 +25359,7 @@ class Mission
 						name="flag_Scharfschuetzen_Schulschiessbahn";
 					};
 					id=4039;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -29573,7 +29575,7 @@ class Mission
 						name="flag_Infanterie_Schulschiessbahn";
 					};
 					id=4163;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -33563,7 +33565,7 @@ class Mission
 						name="flag_moerserplatz";
 					};
 					id=3302;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 					atlOffset=-2.3841858e-07;
 					class CustomAttributes
 					{
@@ -35142,7 +35144,7 @@ class Mission
 						name="flag_medizinischerbereich";
 					};
 					id=5621;
-					type="TTT_Flag_White";
+					type="ttt_Flag_White";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -36501,7 +36503,7 @@ class Mission
 						name="flag_aa_Schiessbahn";
 					};
 					id=5664;
-					type="TTT_Flag_Bronze";
+					type="ttt_Flag_Bronze";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -36758,7 +36760,7 @@ class Mission
 						name="flag_kpz_gsch_zug";
 					};
 					id=5663;
-					type="TTT_Flag_Bronze";
+					type="ttt_Flag_Bronze";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -37901,7 +37903,7 @@ class Mission
 						name="flag_fzg";
 					};
 					id=5662;
-					type="TTT_Flag_Bronze";
+					type="ttt_Flag_Bronze";
 					atlOffset=1.1920929e-07;
 					class CustomAttributes
 					{
@@ -38489,7 +38491,7 @@ class Mission
 						name="flag_Kpz_Spz_Gefechtsschiessbahn";
 					};
 					id=4601;
-					type="TTT_Flag_Bronze";
+					type="ttt_Flag_Bronze";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -40334,7 +40336,7 @@ class Mission
 						name="flag_Kpz_Spz_Schulschiessbahn";
 					};
 					id=4184;
-					type="TTT_Flag_Bronze";
+					type="ttt_Flag_Bronze";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -42329,7 +42331,7 @@ class Mission
 						name="flag_luftfahrgelaende";
 					};
 					id=806;
-					type="TTT_Flag_Platinum";
+					type="ttt_Flag_Platinum";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -43113,7 +43115,7 @@ class Mission
 						name="flag_trpPlz";
 					};
 					id=5594;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -43160,7 +43162,7 @@ class Mission
 						name="flag_cas";
 					};
 					id=5595;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -45931,7 +45933,7 @@ class Mission
 						name="flag_uebungsplatz";
 					};
 					id=3746;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 				};
 				class Item8
 				{
@@ -51538,10 +51540,10 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						name="ttt_teleporter";
+						name="ttt_teleport_teleporter";
 					};
 					id=800;
-					type="TTT_Flag_Logo";
+					type="ttt_Flag_Logo";
 					class CustomAttributes
 					{
 						class Attribute0
@@ -51588,7 +51590,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7080;
-					type="TTT_Sign_Small_Blue";
+					type="ttt_Sign_Small_Blue";
 					atlOffset=2.3841858e-07;
 				};
 				class Item46
@@ -51606,7 +51608,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7079;
-					type="TTT_Sign_Small_Brown";
+					type="ttt_Sign_Small_Brown";
 					atlOffset=2.3841858e-07;
 				};
 				class Item47
@@ -51624,7 +51626,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7081;
-					type="TTT_Sign_Small_Bronze";
+					type="ttt_Sign_Small_Bronze";
 					atlOffset=2.3841858e-07;
 				};
 				class Item48
@@ -51642,7 +51644,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7082;
-					type="TTT_Sign_Small_Bronze";
+					type="ttt_Sign_Small_Bronze";
 					atlOffset=2.3841858e-07;
 				};
 				class Item49
@@ -51660,7 +51662,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7083;
-					type="TTT_Sign_Small_Bronze";
+					type="ttt_Sign_Small_Bronze";
 					atlOffset=2.3841858e-07;
 				};
 				class Item50
@@ -51678,7 +51680,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7084;
-					type="TTT_Sign_Small_Bronze";
+					type="ttt_Sign_Small_Bronze";
 					atlOffset=2.3841858e-07;
 				};
 				class Item51
@@ -51696,7 +51698,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7085;
-					type="TTT_Sign_Small_Gold";
+					type="ttt_Sign_Small_Gold";
 					atlOffset=2.3841858e-07;
 				};
 				class Item52
@@ -51714,7 +51716,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7103;
-					type="TTT_Sign_Small_Gold";
+					type="ttt_Sign_Small_Gold";
 					atlOffset=2.3841858e-07;
 				};
 				class Item53
@@ -51732,7 +51734,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=813;
-					type="TTT_Sign_Small_Grey";
+					type="ttt_Sign_Small_Grey";
 					atlOffset=-0.10813713;
 					class CustomAttributes
 					{
@@ -51780,7 +51782,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7086;
-					type="TTT_Sign_Small_Green";
+					type="ttt_Sign_Small_Green";
 					atlOffset=2.3841858e-07;
 				};
 				class Item55
@@ -51798,7 +51800,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7087;
-					type="TTT_Sign_Small_Green";
+					type="ttt_Sign_Small_Green";
 					atlOffset=2.3841858e-07;
 				};
 				class Item56
@@ -51816,7 +51818,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7088;
-					type="TTT_Sign_Small_Green";
+					type="ttt_Sign_Small_Green";
 					atlOffset=2.3841858e-07;
 				};
 				class Item57
@@ -51834,7 +51836,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7089;
-					type="TTT_Sign_Small_Green";
+					type="ttt_Sign_Small_Green";
 					atlOffset=2.3841858e-07;
 				};
 				class Item58
@@ -51852,7 +51854,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7090;
-					type="TTT_Sign_Small_Green";
+					type="ttt_Sign_Small_Green";
 					atlOffset=2.3841858e-07;
 				};
 				class Item59
@@ -51870,7 +51872,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7092;
-					type="TTT_Sign_Small_Platinum";
+					type="ttt_Sign_Small_Platinum";
 					atlOffset=2.3841858e-07;
 				};
 				class Item60
@@ -51888,7 +51890,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7093;
-					type="TTT_Sign_Small_Platinum";
+					type="ttt_Sign_Small_Platinum";
 					atlOffset=2.3841858e-07;
 				};
 				class Item61
@@ -51906,7 +51908,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7094;
-					type="TTT_Sign_Small_Silver";
+					type="ttt_Sign_Small_Silver";
 					atlOffset=2.3841858e-07;
 				};
 				class Item62
@@ -51924,7 +51926,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7095;
-					type="TTT_Sign_Small_Silver";
+					type="ttt_Sign_Small_Silver";
 					atlOffset=2.3841858e-07;
 				};
 				class Item63
@@ -51942,7 +51944,7 @@ class Mission
 						disableSimulation=1;
 					};
 					id=7091;
-					type="TTT_Sign_Small_White";
+					type="ttt_Sign_Small_White";
 					atlOffset=2.3841858e-07;
 				};
 				class Item64

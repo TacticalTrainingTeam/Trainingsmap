@@ -63,7 +63,7 @@ _unit addItemToBackpack "ACE_SpraypaintGreen";
 _unit addItemToBackpack "ACE_SpraypaintBlack";
 _unit addItemToBackpack "ACE_Fortify";
 _unit addItemToBackpack "ACE_NVG_Wide_Black";
-for "_i" from 1 to 3 do {_unit addItemToBackpack "AMP_Breaching_Charge_Mag";};
+for "_i" from 1 to 3 do {_unit addItemToBackpack "tsp_frameCharge_mag";};
 _unit addItemToBackpack "ACE_DefusalKit";
 _unit addItemToBackpack "ACE_Clacker";
 

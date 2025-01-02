@@ -30,7 +30,7 @@ if(hasInterface) then
         flag_pionierplatz,
         flag_luftfahrgelaende,
         flag_moerserplatz,
-        ttt_teleporter
+        ttt_teleport_teleporter
     ];
 
 };

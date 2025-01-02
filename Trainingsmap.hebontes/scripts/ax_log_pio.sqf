@@ -11,6 +11,6 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
     [
 	  ["DemoCharge_Remote_Mag", 30],
 	  ["SatchelCharge_Remote_Mag", 10],
-	  ["AMP_Breaching_Charge_Mag", 30]
+	  ["tsp_frameCharge_mag", 30]
     ]
 ] call reim_fnc_crateFiller;
