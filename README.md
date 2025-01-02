@@ -45,7 +45,7 @@ Trainingsmap of the Tactical Training Team
 - Nachschub in Kisten
 - alte Spec-Scripte entfernt
 
-## 3.1.0
+## 3.1.0 - 02.01.2024
 
 - Pioniertrainingskarte Integriert
 - an TTT-Mod 3.0.0 angepasst
