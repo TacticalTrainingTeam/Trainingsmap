@@ -51,7 +51,6 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 	  ["Titan_AT", 10],
 
 	  ["DemoCharge_Remote_Mag", 30],
-	  ["tsp_frameCharge_mag", 30],
 
 	  ["ACRE_PRC343", 30],
 	  ["ACRE_PRC152", 30],
