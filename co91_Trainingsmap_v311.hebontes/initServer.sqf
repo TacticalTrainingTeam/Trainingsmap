@@ -125,9 +125,6 @@ reim_fnc_crateFiller = compile preProcessFileLineNumbers "scripts\r_crate.sqf";
 [
 	[crate_m112],
 	[
-		["tsp_frameCharge_mag", 50],
-		["tsp_stickCharge_mag", 50],
-		["tsp_popperCharge_mag", 50],
 		["ACE_Clacker", 16],
 		["rhs_weap_M590_5RD", 16],
 		["rhsusf_5Rnd_00Buck", 50]
