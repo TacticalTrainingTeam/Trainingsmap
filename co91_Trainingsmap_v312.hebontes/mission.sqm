@@ -20,7 +20,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1405;
+		nextID=1440;
 	};
 	class Camera
 	{
@@ -31,7 +31,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="co91_Trainingsmap_v311";
+sourceName="co91_Trainingsmap_v312";
 addons[]=
 {
 	"A3_Ui_F",
@@ -106,13 +106,11 @@ addons[]=
 	"A3_Structures_F_Civ_Camping",
 	"A3_Structures_F_Items_Electronics",
 	"A3_Structures_F_Mil_TentHangar",
-	"USAF_ServiceMenu",
 	"A3_Characters_F_Tank",
 	"A3_Characters_F_Mark",
 	"FIR_PilotCrewPack_US",
 	"ace_gforces",
 	"ace_parachute",
-	"cfp_uniforms",
 	"A3_Structures_F_EPB_Items_Military",
 	"A3_Structures_F_Items_Documents",
 	"A3_Structures_F_Items_Stationery",
@@ -122,7 +120,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=62;
+		items=60;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -506,41 +504,29 @@ class AddonsMetaData
 		};
 		class Item56
 		{
-			className="USAF_ServiceMenu";
-			name="USAF_ServiceMenu";
-			author="USAF Mod Team";
-		};
-		class Item57
-		{
 			className="A3_Characters_F_Tank";
 			name="Arma 3 Tank - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item58
+		class Item57
 		{
 			className="A3_Characters_F_Mark";
 			name="Arma 3 Marksmen - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item59
+		class Item58
 		{
 			className="FIR_PilotCrewPack_US";
 			name="FIR_PilotCrewPack_US";
 		};
-		class Item60
+		class Item59
 		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
-		};
-		class Item61
-		{
-			className="cfp_uniforms";
-			name="cfp_uniforms";
-			author="CFP Team";
 		};
 	};
 };
@@ -562,7 +548,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Scenario";
 		class Attribute0
