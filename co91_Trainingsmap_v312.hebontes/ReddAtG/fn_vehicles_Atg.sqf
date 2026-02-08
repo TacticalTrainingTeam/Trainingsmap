@@ -12,41 +12,41 @@ _veh = 0;
 
 switch (_type) do {
 
-	case 0:
-	{
-		_veh = (selectRandom _softArray) createVehicle position (selectRandom _targetArray);
-		_veh setDir 45;
-		_veh engineOn true;
-	};
+    case 0:
+    {
+        _veh = (selectRandom _softArray) createVehicle position (selectRandom _targetArray);
+        _veh setDir 45;
+        _veh engineOn true;
+    };
 
-	case 1:
-	{
-		_veh = (selectRandom _mediumArray) createVehicle position (selectRandom _targetArray);
-		_veh setDir 45;
-		_veh engineOn true;
-	};
+    case 1:
+    {
+        _veh = (selectRandom _mediumArray) createVehicle position (selectRandom _targetArray);
+        _veh setDir 45;
+        _veh engineOn true;
+    };
 
-	case 2:
-	{
-		_veh = (selectRandom _hardArray) createVehicle position (selectRandom _targetArray);
-		_veh setDir 45;
-		_veh engineOn true;
-	};
+    case 2:
+    {
+        _veh = (selectRandom _hardArray) createVehicle position (selectRandom _targetArray);
+        _veh setDir 45;
+        _veh engineOn true;
+    };
 };
 
 [_player,_veh] spawn
 {
-	params ["_player","_veh"];
+    params ["_player","_veh"];
 
-	waituntil 
-	{
-		sleep 1;
-		!alive _veh;
-	};
+    waituntil 
+    {
+        sleep 1;
+        !alive _veh;
+    };
 
-	if !(missionNamespace getVariable ["atgAbort",false]) then {hint "Ziel vernichtet";};
-	missionNamespace setVariable ["actionNumber", 1];
+    if !(missionNamespace getVariable ["atgAbort",false]) then {hint "Ziel vernichtet";};
+    missionNamespace setVariable ["actionNumber", 1];
 
-	sleep 10;
-	deleteVehicle _veh;
+    sleep 10;
+    deleteVehicle _veh;
 };

@@ -16,17 +16,17 @@ private _helmmenu = ["ax_Menu3","Helmnummer ändern","",{},{true}] call ACE_inte
 
 ////// Blau //////
 _blau = [
-	"Blau1",
-	"Werde Blau",
-	"",
-	{
-		_player setVariable ["farbe", "blue"];
-		hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Blau1",
+    "Werde Blau",
+    "",
+    {
+        _player setVariable ["farbe", "blue"];
+        hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -35,17 +35,17 @@ _blau = [
 
 ////// Gelb //////
 _yellow = [
-	"Gelb1",
-	"Werde Gelb",
-	"",
-	{
-		_player setVariable ["farbe", "yellow"];
-		hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Gelb1",
+    "Werde Gelb",
+    "",
+    {
+        _player setVariable ["farbe", "yellow"];
+        hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -54,17 +54,17 @@ _yellow = [
 
 ////// Gold //////
 _gold = [
-	"Gold1",
-	"Werde Gold",
-	"",
-	{
-		_player setVariable ["farbe", "gold"];
-		hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Gold1",
+    "Werde Gold",
+    "",
+    {
+        _player setVariable ["farbe", "gold"];
+        hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -73,17 +73,17 @@ _gold = [
 
 ////// Grün //////
 _green = [
-	"Green1",
-	"Werde Grün",
-	"",
-	{
-		_player setVariable ["farbe", "green"];
-		hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Green1",
+    "Werde Grün",
+    "",
+    {
+        _player setVariable ["farbe", "green"];
+        hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -92,17 +92,17 @@ _green = [
 
 ////// Grau //////
 _grey = [
-	"Grey1",
-	"Werde Grau",
-	"",
-	{
-		_player setVariable ["farbe", "grey"];
-		hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Grey1",
+    "Werde Grau",
+    "",
+    {
+        _player setVariable ["farbe", "grey"];
+        hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -111,17 +111,17 @@ _grey = [
 
 ////// Rot //////
 _red = [
-	"Rot1",
-	"Werde Rot",
-	"",
-	{
-		_player setVariable ["farbe", "red"];
-		hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Rot1",
+    "Werde Rot",
+    "",
+    {
+        _player setVariable ["farbe", "red"];
+        hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -130,17 +130,17 @@ _red = [
  
 ////// Schwarz //////
 _black = [
-	"Rot1",
-	"Werde Schwarz",
-	"",
-	{
-		_player setVariable ["farbe", "black"];
-		hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Rot1",
+    "Werde Schwarz",
+    "",
+    {
+        _player setVariable ["farbe", "black"];
+        hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -149,17 +149,17 @@ _black = [
 
 ////// Orange //////
 _orange = [
-	"Orange1",
-	"Werde Orange",
-	"",
-	{
-		_player setVariable ["farbe", "orange"];
-		hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Orange1",
+    "Werde Orange",
+    "",
+    {
+        _player setVariable ["farbe", "orange"];
+        hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -168,17 +168,17 @@ _orange = [
 
 ////// Violett //////
 _violet = [
-	"Violet1",
-	"Werde Violet",
-	"",
-	{
-		_player setVariable ["farbe", "violet"];
-		hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Violet1",
+    "Werde Violet",
+    "",
+    {
+        _player setVariable ["farbe", "violet"];
+        hint "Neues Loadout ausrüsten um die richtige Farbe zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -187,17 +187,17 @@ _violet = [
 
 ////// TTT Flecktarn //////
 _flecktarn= [
-	"Flecktarn1",
-	"Wähle Flecktarn",
-	"",
-	{
-		_player setVariable ["tarn", "BW_Flecktarn"];
-		hint "Neues Loadout ausrüsten um die richtige Tarnung zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Flecktarn1",
+    "Wähle Flecktarn",
+    "",
+    {
+        _player setVariable ["tarn", "BW_Flecktarn"];
+        hint "Neues Loadout ausrüsten um die richtige Tarnung zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -206,17 +206,17 @@ _flecktarn= [
 
 ////// TTT Tropentarn //////
 _tropentarn= [
-	"Tropentarn1",
-	"Wähle Tropentarn",
-	"",
-	{
-		_player setVariable ["tarn", "BW_Tropentarn"];
-		hint "Neues Loadout ausrüsten um die richtige Tarnung zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Tropentarn1",
+    "Wähle Tropentarn",
+    "",
+    {
+        _player setVariable ["tarn", "BW_Tropentarn"];
+        hint "Neues Loadout ausrüsten um die richtige Tarnung zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -225,17 +225,17 @@ _tropentarn= [
 
 ////// TTT Helm 1 //////
 _eins= [
-	"Helm1",
-	"Wähle Helm 1",
-	"",
-	{
-		_player setVariable ["helm", "1"];
-		hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Helm1",
+    "Wähle Helm 1",
+    "",
+    {
+        _player setVariable ["helm", "1"];
+        hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -244,17 +244,17 @@ _eins= [
 
 ////// TTT Helm 2 //////
 _zwei= [
-	"Helm2",
-	"Wähle Helm 2",
-	"",
-	{
-		_player setVariable ["helm", "2"];
-		hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Helm2",
+    "Wähle Helm 2",
+    "",
+    {
+        _player setVariable ["helm", "2"];
+        hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -263,17 +263,17 @@ _zwei= [
 
 ////// TTT Helm 3 //////
 _drei= [
-	"Helm3",
-	"Wähle Helm 3",
-	"",
-	{
-		_player setVariable ["helm", "3"];
-		hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Helm3",
+    "Wähle Helm 3",
+    "",
+    {
+        _player setVariable ["helm", "3"];
+        hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -282,17 +282,17 @@ _drei= [
 
 ////// TTT Helm 4 //////
 _vier= [
-	"Helm4",
-	"Wähle Helm 4",
-	"",
-	{
-		_player setVariable ["helm", "4"];
-		hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Helm4",
+    "Wähle Helm 4",
+    "",
+    {
+        _player setVariable ["helm", "4"];
+        hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -301,17 +301,17 @@ _vier= [
 
 ////// TTT Helm 5 //////
 _funf= [
-	"Helm5",
-	"Wähle Helm 5",
-	"",
-	{
-		_player setVariable ["helm", "5"];
-		hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Helm5",
+    "Wähle Helm 5",
+    "",
+    {
+        _player setVariable ["helm", "5"];
+        hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -320,17 +320,17 @@ _funf= [
 
 ////// TTT Helm 6 //////
 _sechs = [
-	"Helm6",
-	"Wähle Helm 6",
-	"",
-	{
-		_player setVariable ["helm", "6"];
-		hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Helm6",
+    "Wähle Helm 6",
+    "",
+    {
+        _player setVariable ["helm", "6"];
+        hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -339,17 +339,17 @@ _sechs = [
 
 ////// TTT Helm 7 //////
 _sieben= [
-	"Helm7",
-	"Wähle Helm 7",
-	"",
-	{
-		_player setVariable ["helm", "7"];
-		hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Helm7",
+    "Wähle Helm 7",
+    "",
+    {
+        _player setVariable ["helm", "7"];
+        hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -358,17 +358,17 @@ _sieben= [
 
 ////// TTT Helm 8 //////
 _acht= [
-	"Helm8",
-	"Wähle Helm 8",
-	"",
-	{
-		_player setVariable ["helm", "8"];
-		hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Helm8",
+    "Wähle Helm 8",
+    "",
+    {
+        _player setVariable ["helm", "8"];
+        hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -377,17 +377,17 @@ _acht= [
 
 ////// TTT Helm 9 //////
 _neun = [
-	"Helm1",
-	"Wähle Helm 9",
-	"",
-	{
-		_player setVariable ["helm", "9"];
-		hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "Helm1",
+    "Wähle Helm 9",
+    "",
+    {
+        _player setVariable ["helm", "9"];
+        hint "Neues Loadout ausrüsten um die richtige Helmnummer zu bekommen.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -396,17 +396,17 @@ _neun = [
 
 ////// Fallschirm //////
 _para = [
-	"para1",
-	"Fallschirm ausrüsten",
-	"",
-	{
-		[_player] spawn compile preprocessFileLineNumbers "loadouts\Parachute.sqf";
-		//hint "Fallschirm und Höhenmesser ausgerüstet."; //hint wird bereits in der sqf ausgegeben
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "para1",
+    "Fallschirm ausrüsten",
+    "",
+    {
+        [_player] spawn compile preprocessFileLineNumbers "loadouts\Parachute.sqf";
+        //hint "Fallschirm und Höhenmesser ausgerüstet."; //hint wird bereits in der sqf ausgegeben
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;
@@ -415,17 +415,17 @@ _para = [
 
 ////// Schalldämpfer //////
 _supp = [
-	"supp1",
-	"Schalldämpfer ausrüsten",
-	"",
-	{
-		[_player] spawn compile preprocessFileLineNumbers "loadouts\Suppressor.sqf";
-		hint "Schalldämpfer ausgerüstet.";
-	},
-	{ 
-		//Leer
-		params ["_target", "_player", "_params"];
-	},
+    "supp1",
+    "Schalldämpfer ausrüsten",
+    "",
+    {
+        [_player] spawn compile preprocessFileLineNumbers "loadouts\Suppressor.sqf";
+        hint "Schalldämpfer ausgerüstet.";
+    },
+    { 
+        //Leer
+        params ["_target", "_player", "_params"];
+    },
     {},
     [_object]
 ] call ace_interact_menu_fnc_createAction;

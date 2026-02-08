@@ -1,9 +1,9 @@
-	#include "const.hpp"
+    #include "const.hpp"
 
-	params ["_caller","_radius","_spawn_point_array"];
+    params ["_caller","_radius","_spawn_point_array"];
 
     _aa_marker = selectRandom ["aa_marker_1","aa_marker_2","aa_marker_3"];
-	_pos = getMarkerPos _aa_marker;
+    _pos = getMarkerPos _aa_marker;
 
     _grp = createGroup east;
     _new_spawn_point = selectRandom _spawn_point_array;

@@ -2,9 +2,9 @@
 
 if (isServer) then 
 {
-	missionNamespace setVariable ["reddCasSB_enable", true, true];
+    missionNamespace setVariable ["reddCasSB_enable", true, true];
 
-	{
+    {
         _x enableSimulationGlobal false;
     } 
     forEach 

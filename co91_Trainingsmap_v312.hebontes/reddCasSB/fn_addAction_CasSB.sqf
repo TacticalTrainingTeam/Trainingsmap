@@ -3,7 +3,7 @@ if (hasInterface) then
 {
     params ["_object"];
 
-	private _reddCasSB_Start =
+    private _reddCasSB_Start =
     [
         "reddCasSB_Start",
         "Übungsbeginn",

@@ -1,7 +1,7 @@
 /*
-	author = Reimchen
-	edit = Redd, Andx
-	description = n.a.
+    author = Reimchen
+    edit = Redd, Andx
+    description = n.a.
 */
 
 #include "reim_teleporter\dialog.hpp"
@@ -9,52 +9,43 @@
 #include "reim_text\dialog.hpp"
 #include "VVS\menu.h"
 
-/*------Functions------*/	
-#include "modules\grad-fortifications\grad_fortifications.hpp"
+class CfgFunctions {
+    #include "redd_actions\CfgFunctions.hpp"
+    #include "reddZugSB\CfgFunctions.hpp"
+    #include "reddCasSB\CfgFunctions.hpp"
+    #include "reddAtG\CfgFunctions.hpp"
 
-class CfgFunctions 
-{
-	#include "modules\grad-fortifications\cfgFunctions.hpp"
-	#include "redd_actions\CfgFunctions.hpp"
-	#include "reddZugSB\CfgFunctions.hpp"
-	#include "reddCasSB\CfgFunctions.hpp"
-	#include "reddAtG\CfgFunctions.hpp"
+    #include "reim_explosive\CfgFunctions.hpp"
+    #include "reim_parcour\CfgFunctions.hpp"
+    #include "reim_teleporter\CfgFunctions.hpp"
 
-	#include "reim_explosive\CfgFunctions.hpp"
-	#include "reim_parcour\CfgFunctions.hpp"
-	#include "reim_teleporter\CfgFunctions.hpp"
+    #include "andx_loadouts\CfgFunctions.hpp"
 
-	#include "andx_loadouts\CfgFunctions.hpp"
+    #include "reim_text\CfgFunctions.hpp"
 
-	#include "reim_text\CfgFunctions.hpp"
+    #include "spec_fullheal\CfgFunctions.hpp"
+    #include "spec_medic\CfgFunctions.hpp"
+    #include "spec_mortar\CfgFunctions.hpp"
 
-	#include "spec_fullheal\CfgFunctions.hpp"
-	#include "spec_medic\CfgFunctions.hpp"
-	#include "spec_mortar\CfgFunctions.hpp"
-
-	#include "target_range\CfgFunctions.hpp"
-	
-	#include "VVS\Functions.h"
+    #include "target_range\CfgFunctions.hpp"
+    
+    #include "VVS\Functions.h"
 
 };
 
-class RscTitles 
-{
+class RscTitles {
     #include "modules\grad-fortifications\dialog\hint\title.hpp"
 };
 
-class CfgSounds
-{
-	sounds[] = {};
-	#include "spec_fullheal\CfgSounds.hpp"
+class CfgSounds {
+    sounds[] = {};
+    #include "spec_fullheal\CfgSounds.hpp"
 };
 
-class Header
-{
-
-	gameType = "coop";
-	minPlayers = "1";
-	maxPlayers = "92";
+class Header {
+    gameType = "coop";
+    minPlayers = "1";
+    maxPlayers = "92";
 
 };
 
@@ -75,21 +66,21 @@ disabledAI = 1;
 
 //GRAD Fortification Config
 class CfgGradFortifications {
-	fortificationOwnerType = "SIDE";
+    fortificationOwnerType = "SIDE";
 
     class Fortifications {
         class Land_Plank_01_4m_F {
-			canFloat = 1;
+            canFloat = 1;
         };
 
-		class Land_Net_Fence_4m_F {
-			canFloat = 1;
-			canCollide = 1;
+        class Land_Net_Fence_4m_F {
+            canFloat = 1;
+            canCollide = 1;
         };
 
-		class EFM_wood_wall_2m_single {
-			canFloat = 1;
-			canCollide = 1;
+        class EFM_wood_wall_2m_single {
+            canFloat = 1;
+            canCollide = 1;
         };
     };
 
@@ -98,5 +89,14 @@ class CfgGradFortifications {
             isStorage = 1;
             vehicleInventorySize = 30;
         };
+    };
+};
+
+class Params {
+    class ttt_main_medicalSettings {
+        title = "TTT Medic Settings";
+        values[] = {0, 1, 2};
+        texts[] = {"KAM Standard", "KAM Einfach", "KAM Training"};
+        default = 0;
     };
 };

@@ -1,7 +1,7 @@
 /*
-	author = Reimchen
+    author = Reimchen
     edit: Andx
-	description = n.a.
+    description = n.a.
 */
 
 if( hasInterface ) then 

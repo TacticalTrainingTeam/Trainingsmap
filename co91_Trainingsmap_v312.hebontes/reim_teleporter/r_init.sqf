@@ -1,7 +1,7 @@
 /*
-	author = Reimchen
-	edit: Redd
-	description = Auswahl in der Liste
+    author = Reimchen
+    edit: Redd
+    description = Auswahl in der Liste
 */
 
 disableSerialization;

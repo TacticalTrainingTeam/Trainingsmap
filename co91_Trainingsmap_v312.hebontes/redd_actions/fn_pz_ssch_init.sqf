@@ -1,8 +1,8 @@
 
 
 /*
-	author = Redd
-	description = n.a.
+    author = Redd
+    description = n.a.
 */
 
 if(!isServer) exitWith {};
@@ -14,7 +14,7 @@ private _targetArray = nearestObjects [center_target_panzer_schulschiessen, ["Ta
 // filter targets by wave (variable set in editor) and move down
 {
 
-	_x animate ["terc",1];
+    _x animate ["terc",1];
 
 } foreach _targetArray;
 
@@ -23,6 +23,6 @@ private _targetArray_2 = nearestObjects [center_target_at_schulschiessen, ["Targ
 // filter targets by wave (variable set in editor) and move down
 {
 
-	_x animate ["terc",1];
+    _x animate ["terc",1];
 
 } foreach _targetArray_2;

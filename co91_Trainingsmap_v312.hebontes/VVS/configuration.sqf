@@ -1,4 +1,4 @@
-//	edited by [TF]def 2015 09 20 (0.4.1)
+//    edited by [TF]def 2015 09 20 (0.4.1)
 /**/
 //Only display vehicles for that players side, if true Opfor can only spawn Opfor vehicles and so on.
 VVS_SideOnly = false;
@@ -7,13 +7,13 @@ VVS_SideOnly = false;
 VVS_Premade_List = false;
 
 /*
-									Pre-set VVS Vehicles
-		This is similar to VAS's functionality, using these variables will only make those vehicles available.
-		Leave them the way they are if you want to auto-fetch the entire vehicle config and list every vehicle.
-		
-		Example:
-		VVS_Car = ["C_Offroad_01_F","C_Quadbike_01_F"];
-		VVS_Air = ["B_Heli_Light_01_armed_F"];
+                                    Pre-set VVS Vehicles
+        This is similar to VAS's functionality, using these variables will only make those vehicles available.
+        Leave them the way they are if you want to auto-fetch the entire vehicle config and list every vehicle.
+        
+        Example:
+        VVS_Car = ["C_Offroad_01_F","C_Quadbike_01_F"];
+        VVS_Air = ["B_Heli_Light_01_armed_F"];
 */
 
 VVS_Car = [];
@@ -39,13 +39,13 @@ VVS_Support = ["rhs_btr_base","rhs_btr70_vmf","rhs_btr70_vdv","rhs_btr70_vv","rh
 
 
 /*
-									Vehicle restriction
-		Again, similar to VAS's functionality. If you want to restrict a specific vehicle you can do it or
-		you can restrict an entire vehicle set by using its base class.
-		
-		Example:
-		VVS_Car = ["Quadbike_01_base_F"]; //Completely removes all quadbikes for all sides
-		VVS_Air = ["B_Heli_Light_01_armed_F"]; //Removes the Pawnee
+                                    Vehicle restriction
+        Again, similar to VAS's functionality. If you want to restrict a specific vehicle you can do it or
+        you can restrict an entire vehicle set by using its base class.
+        
+        Example:
+        VVS_Car = ["Quadbike_01_base_F"]; //Completely removes all quadbikes for all sides
+        VVS_Air = ["B_Heli_Light_01_armed_F"]; //Removes the Pawnee
 */
 VVS_R_Car = [];
 VVS_R_Air = [];

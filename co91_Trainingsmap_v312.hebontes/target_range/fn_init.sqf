@@ -8,20 +8,20 @@ private _targetArraySSCH = nearestObjects [(getMarkerPos "target_range"), ["Targ
 
 {
 
-	if ((_x getVariable "target_range_cqb") == 1 OR (_x getVariable "target_range_cqb") == 2)  then 
-	{
-		_x animate ["terc",1];
-		[_x,true] remoteExecCall ["hideObjectGlobal", 2];
-	}
-	else 
-	{
-		_x animate ["terc",1];
-	};
-	
+    if ((_x getVariable "target_range_cqb") == 1 OR (_x getVariable "target_range_cqb") == 2)  then 
+    {
+        _x animate ["terc",1];
+        [_x,true] remoteExecCall ["hideObjectGlobal", 2];
+    }
+    else 
+    {
+        _x animate ["terc",1];
+    };
+    
 
 } foreach _targetArrayCQB;
 
 {
-	_x animate ["terc",1];
-	
+    _x animate ["terc",1];
+    
 } foreach _targetArraySSCH;

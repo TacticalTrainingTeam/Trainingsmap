@@ -3,7 +3,7 @@ if (hasInterface) then
 {
     params ["_object"];
 
-	private _ZugSB_Spz_Start =
+    private _ZugSB_Spz_Start =
     [
         "ZugSB_Spz_Start",
         "Übungsbeginn",

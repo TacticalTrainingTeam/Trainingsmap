@@ -1,7 +1,7 @@
 /*
-	author = Reimchen
+    author = Reimchen
     edit = Redd
-	description = n.a.
+    description = n.a.
 */
 
 if (!isServer) exitWith {};

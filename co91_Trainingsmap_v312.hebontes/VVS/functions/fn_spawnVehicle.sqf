@@ -1,10 +1,10 @@
 /*
-	File: fn_spawnVehicle.sqf
-	Author: Bryan "Tonic" Boardwine
-	
-	Description:
-	Spawns the selected vehicle, if a vehicle is already on the spawn point
-	then it deletes the vehicle from the spawn point.
+    File: fn_spawnVehicle.sqf
+    Author: Bryan "Tonic" Boardwine
+    
+    Description:
+    Spawns the selected vehicle, if a vehicle is already on the spawn point
+    then it deletes the vehicle from the spawn point.
 */
 disableSerialization;
 private["_position","_direction","_className","_displayName","_spCheck","_cfgInfo"];
@@ -28,20 +28,20 @@ _vehicle = _className createVehicle _position;
 _vehicle allowDamage false;
 if(!isNil "_spCheck") then 
 {
-	_vehicle setPos _position; //Make sure it gets set onto the position.
+    _vehicle setPos _position; //Make sure it gets set onto the position.
 };
 _vehicle setDir _direction; //Set the vehicles direction the same as the marker.
 
 if((_cfgInfo select 4) == "Autonomous") then
 {
-	createVehicleCrew _vehicle;
+    createVehicleCrew _vehicle;
 };
 
 if(VVS_Checkbox) then
 {
-	clearWeaponCargoGlobal _vehicle;
-	clearMagazineCargoGlobal _vehicle;
-	clearItemCargoGlobal _vehicle;
+    clearWeaponCargoGlobal _vehicle;
+    clearMagazineCargoGlobal _vehicle;
+    clearItemCargoGlobal _vehicle;
 };
 
 _vehicle allowDamage true;

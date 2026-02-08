@@ -1,6 +1,6 @@
 /*
-	author = Reimchen
-	description = n.a.
+    author = Reimchen
+    description = n.a.
 */
 
 disableSerialization;
@@ -26,18 +26,18 @@ Vorne weg, was bietet dir dieses Tutorial?<br />
 <br />
 <t underline='true'><t size='1.5'>Inhaltsverzeichnis</t></t><br />
 - Funktionen<br />
-			- Allgemeines<br />
-			- Reim_Arsenal<br />
-			- Reim_Teleporter<br />
+            - Allgemeines<br />
+            - Reim_Arsenal<br />
+            - Reim_Teleporter<br />
 - Orte<br />
-			- Sammelplatz<br />
-			- Übungsplatz<br />
-			- Panzerplatz<br />
-			- Pionierplatz<br />
-			- CQB-Gelände<br />
-			- Mörserplatz<br />
-			- Luftfahrtgelände<br />
-			- Tribüne<br />
+            - Sammelplatz<br />
+            - Übungsplatz<br />
+            - Panzerplatz<br />
+            - Pionierplatz<br />
+            - CQB-Gelände<br />
+            - Mörserplatz<br />
+            - Luftfahrtgelände<br />
+            - Tribüne<br />
 - Schlusswort<br />
 <br />
 <br />
