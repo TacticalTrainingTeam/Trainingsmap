@@ -60,37 +60,9 @@ corpseRemovalMaxTime = 1;
 onLoadMission = "Train hard, Play smart!";
 OnLoadMissionTime = true;
 author="Tactical Training Team";
-OnLoadName = "Trainingsmission";
+OnLoadName = "Trainingsmission v400";
 loadScreen = "pictures\onLoad_mission.jpg";
 disabledAI = 1;
-
-//GRAD Fortification Config
-class CfgGradFortifications {
-    fortificationOwnerType = "SIDE";
-
-    class Fortifications {
-        class Land_Plank_01_4m_F {
-            canFloat = 1;
-        };
-
-        class Land_Net_Fence_4m_F {
-            canFloat = 1;
-            canCollide = 1;
-        };
-
-        class EFM_wood_wall_2m_single {
-            canFloat = 1;
-            canCollide = 1;
-        };
-    };
-
-    class Vehicles {
-        class Land_Cargo10_military_green_F {
-            isStorage = 1;
-            vehicleInventorySize = 30;
-        };
-    };
-};
 
 class Params {
     class ttt_main_medicalSettings {
