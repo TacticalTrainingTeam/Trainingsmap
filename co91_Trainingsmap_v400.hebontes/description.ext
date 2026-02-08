@@ -33,10 +33,6 @@ class CfgFunctions {
 
 };
 
-class RscTitles {
-    #include "modules\grad-fortifications\dialog\hint\title.hpp"
-};
-
 class CfgSounds {
     sounds[] = {};
     #include "spec_fullheal\CfgSounds.hpp"
