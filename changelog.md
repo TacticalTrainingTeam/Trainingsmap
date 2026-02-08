@@ -1,5 +1,9 @@
 # Changelog
 
+## Verison 4
+- Update Crates, Loadouts for KAM
+- Add Params for Training
+
 ## Version 3.1.0 – 02.01.2024
 - Pioniertrainingskarte integriert.  
 - An TTT-Mod 3.0.0 angepasst.  
