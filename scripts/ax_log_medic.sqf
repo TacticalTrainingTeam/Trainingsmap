@@ -8,7 +8,7 @@ params ["_containers"];
         ["ACE_fieldDressing", 270],
         ["ACE_elasticBandage", 90],
         ["ACE_packingBandage", 90],
-        ["ACE_quickClot", 90],
+        ["ACE_quikclot", 90],
 
         ["ACE_Painkillers", 27],
         ["kat_Painkiller", 27],
