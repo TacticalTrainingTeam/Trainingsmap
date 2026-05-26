@@ -58,7 +58,7 @@ for "_i" from 1 to 2 do {_unit addItemToVest "ACE_M84";};
 for "_i" from 1 to 8 do {_unit addItemToVest "ACE_20Rnd_762x51_Mag_SD";};
 
 _unit addItemToBackpack (["TTT_Helmet", _helm, _tarn] joinString "_");
-_unit addItemToBackpack "ITC_Land_B_AR2e_Packed";
+_unit addItemToBackpack "ITC_Land_B_AR2i_Packed";
 _unit addItemToBackpack "ACE_RangeCard";
 _unit addItemToBackpack "ACE_NVG_Wide_Black";
 
