@@ -4,10 +4,6 @@
     description = n.a.
 */
 
-// create center to spawn enemies or civilian in other scripts
-EastHQ = createCenter EAST;
-CivHQ = createCenter CIVILIAN;
-
 //Setup ACEX Fortify
 [
     west, 
